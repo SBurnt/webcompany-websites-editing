@@ -1,0 +1,5079 @@
+/* Общие стили */
+/*
+.banner h1,.banner .h1 {
+ text-align: center;
+ color: #fff;
+ font-size: 2.2em;
+ margin: 0 0 1em;
+}
+
+
+@font-face {
+    font-family: "Arial";
+    src: url("https://centrpol.by/template/fonts/arial-regular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: normal;
+}
+*/
+.nenuzh_lin {
+  display: none;
+}
+.main .installment {
+  display: none;
+}
+.container .content .inner .lining .main .catalog ul li a.image img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  margin: auto;
+}
+.container .content .inner .lining .main .catalog ul li a.image {
+  position: relative;
+}
+
+.first_level li .second_level {
+  display: none;
+}
+.left-menu .first_level li span {
+  float: right;
+
+  font-size: 24px;
+}
+.container .header .main-menu .fa-smile-o {
+  font-size: 30px !important;
+  color: #ffffff00 !important;
+
+  background: rgba(134, 39, 39, 0) url(/template/img/rassrochka.png) no-repeat left center;
+  background-size: 25px 25px;
+}
+.container .header .main-menu a:hover .fa-smile-o {
+  color: #ffffff00 !important;
+
+  background: rgba(134, 39, 39, 0) url(/template/img/rassrochka2.png) no-repeat left center;
+  background-size: 25px 25px;
+}
+.container .header .main-menu .fa-percent {
+  font-size: 30px !important;
+  color: #ffffff00 !important;
+
+  background: rgba(134, 39, 39, 0) url(/template/img/akc.png) no-repeat left center;
+  background-size: 25px 25px;
+}
+.container .header .main-menu a:hover .fa-percent {
+  color: #ffffff00 !important;
+
+  background: rgba(134, 39, 39, 0) url(/template/img/akc2.png) no-repeat left center;
+  background-size: 25px 25px;
+}
+.container .header .main-menu .fa-briefcase {
+  color: #ffffff00 !important;
+
+  background: rgba(134, 39, 39, 0) url(/template/img/screenshot.png) no-repeat left center;
+  background-size: 25px 25px;
+}
+.container .header .main-menu a:hover .fa-briefcase {
+  background: rgba(134, 39, 39, 0) url(/template/img/screenshot2.png) no-repeat left center;
+  background-size: 25px 25px;
+}
+.main .slider {
+  float: left;
+  margin-bottom: 30px;
+  box-shadow: -1px 1px 2px #c8cacb;
+}
+
+.flex-control-nav li {
+  display: inline-block;
+  margin: 5px 6px 5px 0;
+
+  vertical-align: middle;
+
+  zoom: 1;
+}
+.flex-direction-nav .flex-next {
+  right: 10px;
+
+  text-align: right;
+
+  background: transparent url(/template/img/sg_arr_r.png) no-repeat scroll 0 center;
+}
+.flex-nav-prev,
+.flex-nav-next {
+  color: #ff000000;
+}
+.flex-direction-nav a {
+  position: absolute;
+  top: 50%;
+  z-index: 10;
+
+  display: block;
+  width: 20px;
+  height: 40px;
+  margin: -20px 0 0;
+  overflow: hidden;
+
+  font-size: 0;
+  color: rgba(0, 0, 0, 0);
+  text-decoration: none;
+  text-shadow: 1px 1px 0 rgba(255, 255, 255, 0.3);
+
+  cursor: pointer;
+
+  -webkit-transition: all 0.3s ease-in-out;
+  -moz-transition: all 0.3s ease-in-out;
+  -ms-transition: all 0.3s ease-in-out;
+  -o-transition: all 0.3s ease-in-out;
+  transition: all 0.3s ease-in-out;
+}
+.flex-direction-nav .flex-prev {
+  left: 10px;
+
+  background: transparent url(/template/img/sg_arr_l.png) no-repeat scroll 0 center;
+}
+.flex-direction-nav {
+  margin: 0;
+
+  list-style-type: none;
+}
+.flexslider {
+  position: relative;
+
+  margin-top: 0 !important;
+  /* margin-bottom: 46px; */
+
+  border: 0;
+  border-radius: 2px;
+  /* box-shadow: -1px 1px 2px #c8cacb; */
+}
+.banner-info1 img {
+  display: inline-block;
+  max-width: 100%;
+  max-height: 456px;
+
+  vertical-align: top;
+
+  border-bottom: 0 solid;
+}
+.flex-control-nav {
+  z-index: 2;
+
+  width: 100%;
+  padding: 0;
+
+  text-align: center;
+}
+.flexslider .slides {
+  zoom: 1;
+}
+.slides,
+.slides > li,
+.flex-control-nav,
+.flex-direction-nav {
+  margin: 0;
+  padding: 0;
+
+  list-style: none;
+}
+.flex-viewport {
+  max-height: 2000px;
+
+  -webkit-transition: all 1s ease;
+  -moz-transition: all 1s ease;
+  -ms-transition: all 1s ease;
+  -o-transition: all 1s ease;
+  transition: all 1s ease;
+}
+.flex-control-nav li a {
+  display: block;
+  width: 15px;
+  height: 15px;
+
+  color: transparent;
+  text-indent: -9999px;
+
+  background: #6bb2d2;
+  border-radius: 15px;
+  box-shadow: 0 1px 1px #979ea1 inset;
+  cursor: pointer;
+}
+.nashi_rab .col-md-12 .image img {
+  width: 100%;
+  height: 165px;
+}
+.nashi_rab .col-md-12 .title {
+  padding: 5px;
+
+  text-align: center;
+
+  background: #ebebeb;
+}
+.nashi_rab .col-md-12 .title a {
+  color: black;
+}
+.nashi_rab .col-md-12 {
+  float: LEFT;
+  width: 32%;
+  margin-right: 10px;
+}
+.socseti_min {
+  margin: 0 0 0 30px;
+}
+.socseti_min img {
+  width: 24px;
+}
+.socseti_min img:hover {
+  opacity: 0.9;
+}
+.img_kart {
+  float: left;
+  margin: 10px 0 0 46px;
+}
+.img_kart p {
+  height: 30px;
+  margin: 0;
+
+  color: white;
+}
+.img_kart p b {
+  font-weight: 100;
+  line-height: 30px;
+}
+.img_kart img {
+  float: left;
+  width: 45px;
+  margin-right: 7px;
+}
+.container .header .inner .contacts .img_kart {
+  width: 140px;
+}
+body {
+  margin: 0;
+
+  background: #6b5f53 url(https://centrpol.by/template/img/bg1_mini.jpg) no-repeat left top;
+}
+h1,
+h2,
+h3,
+h6 {
+  float: left;
+  width: 100%;
+  margin: 0;
+
+  font-weight: normal;
+  font-size: 20px;
+  line-height: 26px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+tr,
+td {
+  line-height: auto;
+  font-family: Arial, Helvetica, sans-serif;
+}
+p,
+span,
+a {
+  font-size: 16px;
+  line-height: 21px;
+  font-family: Arial, Helvetica, sans-serif;
+}
+a {
+  text-decoration: none;
+}
+
+/* Хэдер */
+.container {
+  width: 100%;
+}
+.container .header {
+  float: left;
+  width: 100%;
+  margin: 0 0 20px;
+
+  background: rgba(0, 0, 0, 0) url("https://centrpol.by/template/img/top_bg.png") repeat-x scroll 0 0;
+}
+.container .header .inner {
+  display: table;
+  width: 1060px;
+  margin: 0 auto;
+}
+.container .header .inner a.logo {
+  float: left;
+  width: 226px;
+  margin: 20px 0 0;
+}
+.container .header .inner a.logo img {
+  float: left;
+  width: 100%;
+}
+.container .header .inner .contacts {
+  float: right;
+  box-sizing: border-box;
+  margin: 15px 0 0;
+  padding: 0;
+}
+.container .header .inner .contacts li {
+  float: left;
+  width: 200px;
+
+  list-style: outside none none;
+}
+.container .header .inner .contacts li span {
+  float: left;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 3px 0 3px 30px;
+
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 23px;
+  color: #ffffff;
+}
+.container .header .inner .contacts li span a {
+  color: #399ec9;
+  text-decoration: none;
+}
+.container .header .inner .contacts li span a.phone {
+  color: #ffffff;
+}
+
+.container .header .inner .contacts li:nth-child(1) span:nth-child(1) {
+  background: rgba(0, 0, 0, 0) url("https://centrpol.by/template/img/velcom.png") no-repeat scroll left center;
+}
+.container .header .inner .contacts li:nth-child(1) span:nth-child(2) {
+  background: rgba(0, 0, 0, 0) url("https://centrpol.by/template/img/mts.png") no-repeat scroll left center;
+}
+.container .header .inner .contacts li:nth-child(2) span:nth-child(1) {
+  background: rgba(0, 0, 0, 0) url("https://centrpol.by/template/img/viber.png") no-repeat scroll left center;
+}
+.container .header .inner .contacts li:nth-child(2) span:nth-child(2) {
+  background: rgba(0, 0, 0, 0) url("https://centrpol.by/template/img/sheet.png") no-repeat scroll left center;
+}
+.container .header .inner .contacts li:nth-child(3) {
+  width: 245px;
+}
+.container .header .inner .contacts li:nth-child(3) span:nth-child(1) {
+  background: rgba(0, 0, 0, 0) url("https://centrpol.by/template/img/time.png") no-repeat scroll left center;
+}
+.container .header .inner .contacts li:nth-child(3) span:nth-child(2) {
+  background: rgba(0, 0, 0, 0) url("https://centrpol.by/template/img/email.png") no-repeat scroll left center;
+}
+.container .header .inner .contacts li a:hover,
+.contacts li a:active {
+  text-decoration: underline;
+}
+.lowmani {
+  float: right;
+  height: 20px;
+  margin-top: 9px;
+  padding: 5px;
+
+  background: white;
+  border-radius: 3px;
+  box-shadow: 0 0 5px rgba(0, 0, 0, 0.5);
+}
+.lowmani:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+}
+.lowmani a {
+  font-weight: 600;
+  color: black;
+}
+.container .header .inner .main-menu {
+  display: block;
+  float: left;
+  width: 100%;
+  min-height: 32px;
+  margin-top: 17px;
+}
+.container .header .inner .main-menu ul {
+  display: table;
+  float: left;
+  margin: 0 auto;
+  padding: 0;
+}
+.container .header .inner .main-menu ul li {
+  display: inline-block;
+  float: left;
+
+  list-style: outside none none;
+}
+
+.container .header .inner .main-menu ul li:hover a i {
+  color: #27677c;
+}
+.container .header .inner .main-menu ul li:hover a span {
+  color: #27677c;
+}
+
+.container .header .inner .main-menu ul li.active a i {
+  color: #ffd600;
+}
+/*
+.container .header .inner .main-menu ul li.active a span {
+    color: #27677c;
+}
+*/
+.container .header .inner .main-menu ul li.active a span {
+  color: #ffd600;
+}
+.container .header .inner .main-menu ul li a {
+  display: block;
+  float: left;
+  height: 49px;
+  padding: 0 4px;
+
+  font-size: 15px;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+.container .header .inner .main-menu ul li a i {
+  float: left;
+  margin: 0 6px 0 0;
+
+  font-size: 25px;
+  line-height: 49px;
+  color: #ffffff;
+}
+.container .header .inner .main-menu ul li a span {
+  float: left;
+
+  line-height: 49px;
+  color: #ffffff;
+}
+.container .submenu {
+  float: left;
+  width: 100%;
+  height: 23px;
+
+  background: rgba(23, 20, 17, 0.79) none repeat scroll 0 0;
+}
+.container .submenu ul {
+  display: table;
+  width: 1060px;
+  margin: 0 auto;
+  padding: 0;
+}
+.container .submenu ul li {
+  float: left;
+  margin: 0 15px 0 0;
+
+  list-style: outside none none;
+}
+/*
+.container .submenu ul li:last-child,
+.container .submenu ul li:nth-last-child(2) {
+    float: right;
+    margin: 0 0 0 15px;
+}
+*/
+.container .submenu ul li:last-child {
+  float: right;
+  margin: 0;
+}
+.container .submenu ul li:last-child a {
+  color: white;
+}
+/*
+.container .submenu ul li:nth-last-child(2) a {
+    color: #ffd600;
+}
+*/
+.container .submenu ul li:nth-last-child:hover a {
+  text-decoration: underline;
+}
+.container .submenu ul li a {
+  float: left;
+
+  font-size: 15px;
+  line-height: 30px;
+  color: #ffffff;
+}
+.container .submenu ul li a:hover,
+.container .submenu ul li.active a {
+  color: #ffd600;
+}
+
+/* Боковое меню */
+.container .content .inner .left-menu {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: inline-block;
+  float: left;
+  width: 275px;
+  height: 100%;
+}
+.container .content .inner .left-menu h3.title {
+  height: 40px;
+  margin: 0;
+
+  font-weight: normal;
+  font-size: 17px;
+  line-height: 40px;
+  text-transform: uppercase;
+
+  background-color: #399ec9;
+}
+.container .content .inner .left-menu h3.title a {
+  display: block;
+
+  line-height: 40px;
+  color: #ffffff;
+  text-decoration: none;
+}
+.container .content .inner .left-menu h3.title i {
+  float: left;
+  margin: 0 10px 0 15px;
+
+  font-size: 25px;
+  line-height: 40px;
+  color: #ffffff;
+}
+.container .content .inner .left-menu h3.title a:hover,
+h3.title a:active {
+  text-decoration: underline;
+}
+.container .content .inner .left-menu ul.menu {
+  float: left;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.container .content .inner .left-menu ul.menu li {
+  position: relative;
+
+  display: block;
+  float: left;
+  width: 265px;
+  padding: 0 0 0 10px;
+
+  list-style: outside none none;
+
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border-top: 1px solid transparent;
+  border-bottom: 1px dotted #c0c5bf;
+}
+
+/*
+
+.container .content .inner .left-menu > ul.menu > li:hover > a.link ~ ul {
+	display: none;
+}
+.container .content .inner .left-menu > ul.menu > li:hover > a.link ~ ul {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #dadada;
+    box-sizing: border-box;
+    display: block;
+    left: 265px;
+    margin: 0;
+    padding: 5px 0;
+    position: absolute;
+    top: 0;
+    width: 220px;
+    z-index: 5;
+}
+.container .content .inner .left-menu > ul.menu > li:hover > a.link ~ ul {
+    display: block;
+}
+.container .content .inner .left-menu > ul.menu > li:hover > a.link ~ ul > li {
+    border-bottom: medium none;
+    border-left: medium none;
+    border-top: medium none;
+    box-sizing: border-box;
+    padding: 0 !important;
+    width: 100%;
+}
+.container .content .inner .left-menu > ul.menu > li:hover > a.link ~ ul > li > a {
+    box-sizing: border-box;
+    line-height: 23px;
+    margin: 0;
+    padding: 0 10px;
+    width: 100%;
+}
+*/
+
+/*
+.container .content .inner .left-menu > ul.menu > li:hover > a.link ~ ul {
+    background: #ffffff none repeat scroll 0 0;
+    border: 1px solid #dadada;
+    box-shadow: 0 0 6px 0 #399ec9;
+    box-sizing: border-box;
+    display: block;
+    left: 265px;
+    margin: 0;
+    padding: 2px 5px;
+    position: absolute;
+    top: 0;
+    width: 780px;
+    z-index: 5;
+}
+.container .content .inner .left-menu > ul.menu > li:hover > a.link ~ ul {
+    display: block;
+}
+.container .content .inner .left-menu > ul.menu > li:nth-child(3):hover > a.link ~ ul,
+.container .content .inner .left-menu > ul.menu > li:nth-child(4):hover > a.link ~ ul,
+.container .content .inner .left-menu > ul.menu > li:nth-child(5):hover > a.link ~ ul,
+.container .content .inner .left-menu > ul.menu > li:nth-child(6):hover > a.link ~ ul {
+	display: none;
+}
+.container .content .inner .left-menu > ul.menu > li:hover > a.link ~ ul > li {
+    border: 1px solid #dddddd;
+    box-sizing: border-box;
+    margin: 3px 1% 3px 0;
+    padding: 0;
+    width: 32.3%;
+}
+.container .content .inner .left-menu > ul.menu > li:hover > a.link ~ ul > li:hover {
+    border: 1px solid #399ec9;
+}
+.container .content .inner .left-menu > ul.menu > li:hover > a.link ~ ul > li:nth-child(3n) {
+    margin: 3px 0;
+}
+.container .content .inner .left-menu > ul.menu > li:hover > a.link ~ ul > li > a {
+    box-sizing: border-box;
+    line-height: 23px;
+    margin: 0;
+    padding: 0 10px;
+    width: 100%;
+}
+.container .content .inner .left-menu > ul.menu > li:hover > a.link ~ ul > li a img.pic {
+    display: block;
+    float: left;
+    margin: 0;
+    width: 100%;
+}
+.container .content .inner .left-menu > ul.menu > li:hover > a.link ~ ul > li a i.fa {
+    display: none;
+}
+.container .content .inner .left-menu > ul.menu > li:hover > a.link ~ ul > li a span {
+    float: left;
+    line-height: 28px;
+    width: 100%;
+	font-size: 16px;
+}
+.container .content .inner .left-menu > ul.menu > li:hover > a.link ~ ul > li a span i {
+    line-height: 28px;
+	font-size: 16px;
+}
+*/
+
+/*
+.container .content .inner .left-menu > ul.menu > li.active:hover > ul {
+    margin: -8px 0 15px 6px;
+    padding: 0;
+	position: static;
+}
+.container .content .inner .left-menu > ul.menu > li.active:hover > ul > li {
+    border-bottom: 1px dotted #195b8f;
+    border-left: 1px dotted #195b8f;
+    float: left;
+    line-height: 21px;
+    padding: 1px 0 0 10px;
+    width: 230px;
+}
+.container .content .inner .left-menu > ul.menu > li.active:hover > ul > li > a {
+    box-sizing: border-box;
+    line-height: 23px;
+    width: 100%;
+    padding: 0 0 0 5px;
+    margin: 10px 0 -10px;
+}
+.container .content .inner .left-menu > ul.menu > li.active > ul > li:first-child {
+    padding: 0 0 0 10px;
+}
+
+
+*/
+
+.container .content .inner .left-menu ul.menu li a {
+  display: block;
+  float: left;
+  padding: 7px 5px;
+
+  font-size: 14px;
+  color: #27677c;
+  text-decoration: none;
+}
+/*
+.container .content .inner .left-menu ul.menu li u {
+    float: left;
+    padding: 7px 0;
+}
+.container .content .inner .left-menu ul.menu li u i {
+    border: 1px solid #dddddd;
+    border-radius: 50%;
+    box-sizing: border-box;
+    color: #bebebe;
+    float: left;
+    font-size: 10px;
+    line-height: 13px;
+    margin: 4px 0 0;
+    padding: 0 0 0 1px;
+    text-align: center;
+    width: 15px;
+}
+.container .content .inner .left-menu ul.menu li u i:hover {
+}
+*/
+/*
+.container .content .inner .left-menu ul.menu li a i {
+    font-size: 14px;
+}
+.container .content .inner .left-menu > ul.menu > li > a > span {
+    font-size: 14px;
+}
+*/
+.container .content .inner .left-menu ul.menu li.active a {
+  position: relative;
+  z-index: 1;
+
+  padding: 7px 5px 3px;
+
+  font-weight: bold;
+  color: #000000;
+
+  background: #ffffff none repeat scroll 0 0;
+}
+.container .content .inner .left-menu ul.menu li a:hover {
+  text-decoration: underline;
+}
+.container .content .inner .left-menu ul.menu ul {
+  display: none;
+  float: left;
+  margin: -8px 0 15px 6px;
+  padding: 0;
+}
+.container .content .inner .left-menu ul.menu li.active ul {
+  display: block;
+}
+.container .content .inner .left-menu ul.menu li.active ul li ul {
+  display: none;
+}
+.container .content .inner .left-menu ul.menu li.active ul li a {
+  width: 225px;
+  /* width: max-content; */
+  padding: 0 0 0 5px;
+}
+
+.container .content .inner .left-menu ul.menu li.active ul li.active ul {
+  display: block;
+}
+/*
+.container .content .inner .left-menu ul.menu li.active ul li.active {
+    border-bottom: medium none;
+    margin: 0 0 -12px;
+}
+*/
+.container .content .inner .left-menu ul.menu li.active ul li.active ul li.active a {
+  font-weight: bold !important;
+}
+.container .content .inner .left-menu ul.menu li.active ul li.active ul li a {
+  width: 225px;
+  margin: 10px 0 -10px;
+
+  font-weight: normal !important;
+}
+.container .content .inner .left-menu ul.menu li.active ul li.active ul li a u {
+  color: #ff6a00;
+}
+.container .content .inner .left-menu ul.menu li.active ul li.active ul li a:hover {
+  color: #27677c !important;
+  text-decoration: none;
+}
+.container .content .inner .left-menu ul.menu li ul li {
+  float: left;
+  width: 230px;
+  margin: 0;
+  padding: 1px 0 0 10px;
+
+  line-height: 21px;
+
+  border-bottom: 1px dotted #195b8f;
+  border-left: 1px dotted #195b8f;
+}
+.container .content .inner .left-menu ul.menu li ul li:first-child {
+  padding: 0 0 0 10px;
+}
+/*
+.container .content .inner .left-menu > ul.menu > li > ul > li > a > span {
+    font-size: 14px;
+}
+*/
+.container .content .inner .left-menu ul.menu li ul li a i {
+  font-style: normal;
+  color: #666666;
+}
+.container .content .inner .left-menu ul.menu li a i.mark {
+  color: #399ec9;
+}
+.container .content .inner .left-menu ul.menu li ul li a i.mark {
+  color: #399ec9;
+}
+.container .content .inner .left-menu ul.menu li ul li a i.mark {
+  color: #399ec9;
+}
+.container .content .inner .left-menu ul.menu li ul li a {
+  position: relative;
+  z-index: 1;
+
+  float: left;
+  width: 225px;
+  margin: 10px 0 -10px;
+  padding: 0 0 0 5px;
+
+  font-weight: normal !important;
+  color: #000000 !important;
+
+  background: #ffffff none repeat scroll 0 0;
+}
+.container .content .inner .left-menu ul.menu li ul li.active a {
+  margin: 10px 0 0;
+
+  font-weight: bold !important;
+}
+.container .content .inner .left-menu ul.menu li ul li a img.pic {
+  display: none;
+}
+
+/*
+.container .content .inner .left-menu .flow {
+    box-sizing: border-box;
+    float: left;
+    padding: 10px;
+    width: 100%;
+}
+.container .content .inner .left-menu .flow .search {
+    float: left;
+    margin: 0 0 10px;
+    width: 100%;
+}
+*/
+.container .content .inner .left-menu .flow {
+  float: left;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px 0 10px 10px;
+}
+.container .content .inner .left-menu .flow .search {
+  float: left;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 0 10px;
+  padding: 10px 5px 5px;
+
+  background: rgba(0, 0, 0, 0.08) none repeat scroll 0 0;
+  border: 1px solid #dddddd;
+}
+.container .content .inner .left-menu .flow .search span {
+  float: left;
+  margin: -3px 0 7px 5px;
+
+  font-weight: bold;
+  font-size: 14px;
+}
+
+.container .content .inner .left-menu .flow .search input[type="text"] {
+  float: left;
+  box-sizing: border-box;
+  width: 75%;
+  padding: 3px 5px;
+
+  font-size: 14px;
+  line-height: 20px;
+  font-family: Arial, helvetica, sans-serif;
+
+  border: 1px solid #cac9c9;
+  border-radius: 2px;
+}
+.container .content .inner .left-menu .flow .search input[type="submit"] {
+  float: right;
+  width: 22%;
+  height: 28px;
+  padding: 0;
+
+  font-size: 14px;
+  line-height: 27px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.75);
+
+  background: #ff6a00 none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.container .content .inner .left-menu .flow .search input[type="submit"]:hover {
+  text-decoration: underline;
+}
+.container .content .inner .left-menu .flow .looked {
+  float: left;
+  width: 100%;
+  margin: 15px 0 0;
+}
+.container .content .inner .left-menu .flow .looked h2 {
+  margin: 0 0 5px;
+}
+.container .content .inner .left-menu .flow .looked ul {
+  float: left;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.container .content .inner .left-menu .flow .looked ul li {
+  position: relative;
+
+  float: left;
+  width: 100%;
+
+  list-style: outside none none;
+}
+.container .content .inner .left-menu .flow .looked ul li i {
+  float: left;
+  margin: 0 5px 0 0;
+
+  font-size: 18px;
+  line-height: 25px;
+  color: #ff6a00;
+}
+.container .content .inner .left-menu .flow .looked ul li a {
+  float: left;
+
+  font-size: 15px;
+  line-height: 25px;
+  color: #399ec9;
+}
+.container .content .inner .left-menu .flow .looked ul li a:hover {
+  text-decoration: underline;
+}
+
+.container .content .inner .left-menu .flow .looked ul li.blank span {
+  float: left;
+  width: 100%;
+
+  font-size: 15px;
+  line-height: 25px;
+  color: #000000;
+}
+.container .content .inner .left-menu .flow .looked ul li span.price {
+  position: absolute;
+  top: 0;
+  right: 0;
+
+  font-size: 15px;
+  line-height: 25px;
+  color: #ff6a00;
+
+  background: #ffffff none repeat scroll 0 0;
+}
+
+.container .content .inner .lining .main .article .results {
+  float: left;
+  width: 100%;
+  margin: 0 0 10px;
+
+  font-size: 16px;
+  line-height: 25px;
+  font-family: Arial, sans-serif;
+}
+.container .content .inner .lining .main .article .results .sisea-result {
+  float: left;
+  width: 100%;
+  margin: 10px 0 0;
+}
+.container .content .inner .lining .main .article .results .sisea-result .extract p {
+  margin: 0;
+}
+.container .content .inner .lining .main .article .results .sisea-result h3 {
+  margin: 0;
+
+  font-weight: normal;
+  font-size: 16px;
+}
+.container .content .inner .lining .main .article .results .sisea-result h3 a {
+  font-size: 16px;
+  color: #399ec9;
+  text-decoration: none;
+}
+.container .content .inner .lining .main .article .results .sisea-result h3 a:hover {
+  text-decoration: underline;
+}
+
+.container .content .inner .lining .main .article .results .sisea-page a {
+  color: #399ec9;
+}
+.container .content .inner .lining .main .article .results .sisea-page a:hover {
+  text-decoration: underline;
+}
+.container .content .inner .lining .main .article .results .sisea-paging {
+  float: left;
+  width: 100%;
+  margin: 10px 0 0;
+}
+.container .content .inner .lining .main .article .results p.sisea-results {
+  margin: 0;
+
+  font-weight: bold;
+}
+.container .content .inner .lining .main .article .results .sisea-results-list {
+  float: left;
+  width: 100%;
+}
+.container .content .inner .left-menu .flow .ad {
+  float: left;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 0 10px 10px;
+
+  background: rgba(0, 0, 0, 0) url("https://centrpol.by/template/img/slides/installment-left.jpg") repeat scroll 0 0 /
+    cover;
+  border-radius: 3px;
+}
+.container .content .inner .left-menu .flow .ad h3 {
+  margin: 5px 0;
+
+  text-align: center;
+  color: #399ec9;
+  text-shadow: 1px 0 #ffffff, 1px 1px #ffffff, 0 1px #ffffff, -1px 1px #ffffff, -1px 0 #ffffff, -1px -1px #ffffff,
+    0 -1px #ffffff, 1px -1px #ffffff;
+}
+.container .content .inner .left-menu .flow .ad span {
+  float: left;
+  margin: 0 0 10px;
+
+  font-size: 16px;
+  color: #ffffff;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.75);
+}
+.container .content .inner .left-menu .flow .ad a {
+  float: left !important;
+  width: 100% !important;
+}
+
+/* Контент */
+.container .content {
+  width: 100%;
+}
+.container .content .inner {
+  position: relative;
+
+  display: table;
+  width: 1060px;
+  margin: 0 auto;
+
+  background: #ffffff none repeat scroll 0 0;
+}
+.container .content .inner .lining {
+  float: right;
+  box-sizing: border-box;
+  width: 785px;
+  padding: 15px;
+
+  background: #ffffff none repeat scroll 0 0;
+}
+.container .content .inner .lining .main .brands {
+  float: left;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 0 10px;
+}
+.container .content .inner .lining .main .brands.narrow {
+  margin: 5px 0 15px;
+  padding: 5px 15px 0;
+
+  background: rgba(0, 0, 0, 0.08) none repeat scroll 0 0;
+  border: 1px solid #dddddd;
+}
+.container .content .inner .lining .main .brands.narrow > ul {
+  margin: 0 0 10px;
+}
+
+.container .content .inner .lining .main .brands.narrow > ul > li > a {
+  float: left;
+  width: 100%;
+
+  font-weight: bold;
+}
+
+.container .content .inner .lining .main .brands.narrow > ul > ul > li {
+  width: 241px;
+}
+
+.container .content .inner .lining .main .brands ul {
+  float: left;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.container .content .inner .lining .main .brands ul li {
+  float: left;
+  width: 250px;
+
+  list-style: outside none none;
+}
+.container .content .inner .lining .main .brands ul li a {
+  font-size: 15px;
+  line-height: 27px;
+  color: #000000;
+}
+.container .content .inner .lining .main .brands ul li a:hover {
+  text-decoration: underline;
+}
+.container .content .inner .lining .main .brands ul li.active a {
+  font-weight: bold;
+}
+.container .content .inner .lining .main .brands ul li.active a:hover {
+  text-decoration: none;
+}
+.container .content .inner .lining .main .brands ul li a i {
+  font-style: normal;
+  color: #399ec9;
+}
+.container .content .inner .lining .main .brands ul li a i.mark {
+  display: block;
+  float: left;
+  margin: -1px 5px 0 0;
+}
+
+/*
+.container .content .inner .lining .intro .more {
+    background: rgba(57, 158, 201, 0.8) none repeat scroll 0 0;
+    border-radius: 50%;
+    height: 175px;
+    position: absolute;
+    right: 20px;
+    top: 35px;
+    width: 175px;
+}
+.container .content .inner .lining .intro .more span.here {
+    color: yellow;
+    float: left;
+    font-size: 14px;
+    margin: 35px 0 0;
+    text-align: center;
+    width: 100%;
+}
+.container .content .inner .lining .intro .more h1 {
+    color: #ffffff;
+    float: left;
+    font-size: 29px;
+    line-height: 30px;
+    text-align: center;
+    width: 100%;
+}
+.container .content .inner .lining .intro .more ul {
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 100%;
+}
+.container .content .inner .lining .intro .more ul li {
+    float: left;
+    list-style: outside none none;
+    position: relative;
+    width: 50%;
+}
+.container .content .inner .lining .intro .more ul li:nth-child(1) a {
+    text-align: right;
+}
+.container .content .inner .lining .intro .more ul li:nth-child(2) a {
+    text-align: left;
+}
+.container .content .inner .lining .intro .more ul li:nth-child(1) a i {
+    margin: 0 30px 0 0;
+}
+.container .content .inner .lining .intro .more ul li:nth-child(2) a i {
+    margin: 0 0 0 30px;
+}
+.container .content .inner .lining .intro .more ul li a {
+    float: left;
+    text-align: right;
+    width: 100%;
+}
+.container .content .inner .lining .intro .more ul li a i {
+    color: #333333;
+    font-size: 30px;
+    line-height: 40px;
+    margin: 0 30px 0 0;
+}
+.container .content .inner .lining .intro .more ul li:hover a span {
+    display: block;
+}
+.container .content .inner .lining .intro .more ul li a span {
+    background: #465e00 none repeat scroll 0 0;
+    border-radius: 3px;
+    color: #ffffff;
+    display: none;
+    height: 24px;
+    line-height: 24px;
+    padding: 2px 3px;
+    position: absolute;
+    right: 0;
+    text-align: center;
+    top: -20px;
+    width: 250px;
+    z-index: 100;
+}
+.container .content .inner .lining .intro .more ul li a span::after {
+    border-left: 5px solid transparent;
+    border-right: 5px solid transparent;
+    border-top: 5px solid #465e00;
+    bottom: -5px;
+    content: "";
+    height: 0;
+    left: 86%;
+    margin-left: -5px;
+    position: absolute;
+    width: 0;
+}
+*/
+
+/*
+.container .content .inner .lining .intro h1.main {
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    color: #000000;
+    margin: -5px 0 10px;
+    padding: 0;
+    position: static;
+    font-size: 20px;
+}
+*/
+.container .content .inner .lining .main {
+  float: left;
+  width: 100%;
+}
+.container .content .inner .lining .main h1 {
+  margin: 0 0 10px;
+
+  font-size: 22px;
+}
+.container .content .inner .lining .main h2 {
+  margin: 0 0 10px;
+}
+.container .content .inner .lining .main h2.parameters {
+  margin: 0 0 10px;
+}
+.container .content .inner .lining .main p {
+  float: left;
+  margin: 0 0 10px;
+
+  font-size: 16px;
+  line-height: 24px;
+  text-align: justify;
+}
+.container .content .inner .lining .main p i.mark {
+  float: left;
+  margin: 0 5px 0 0;
+
+  font-style: normal;
+  font-size: 26px;
+  color: #399ec9;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.2);
+}
+.container .content .inner .lining .main p a {
+  color: #399ec9;
+}
+.container .content .inner .lining .main p a:hover {
+  text-decoration: underline;
+}
+.container .content .inner .lining .main p img.card {
+  float: left;
+  width: 300px;
+  margin: 0 15px 0 0;
+}
+
+.container .content .inner .lining .main .article {
+  float: left;
+  width: 100%;
+}
+.container .content .inner .lining .main .article .line {
+  float: left;
+  width: 100%;
+  height: 3px;
+  margin: 0 0 10px;
+
+  background: #399ec9 none repeat scroll 0 0;
+}
+.container .content .inner .lining .main .article ul.reviews {
+  float: left;
+  width: 100%;
+  margin: 0 0 15px;
+  padding: 0;
+}
+.container .content .inner .lining .main .article ul.reviews li {
+  float: left;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 15px 0 0;
+
+  list-style: outside none none;
+
+  border: 1px solid #dadada;
+}
+.container .content .inner .lining .main .article ul.reviews li:first-child {
+  margin: 0;
+}
+.container .content .inner .lining .main .article ul.reviews li .feedback {
+  float: left;
+  width: 100%;
+
+  background: #399ec9 none repeat scroll 0 0;
+  border-bottom: 1px solid #dadada;
+}
+.container .content .inner .lining .main .article ul.reviews li .feedback span.name {
+  float: left;
+  margin: 0 0 0 15px;
+
+  line-height: 30px;
+  color: #ffffff;
+}
+.container .content .inner .lining .main .article ul.reviews li .feedback span.name i,
+.container .content .inner .lining .main .article ul.reviews li .feedback span.date i {
+  float: left;
+  margin: 0 5px 0 0;
+
+  font-size: 21px;
+  line-height: 30px;
+  color: #ffd600;
+}
+.container .content .inner .lining .main .article ul.reviews li .feedback span.date {
+  float: right;
+  margin: 0 15px 0 0;
+
+  line-height: 30px;
+  color: #ffffff;
+}
+.container .content .inner .lining .main .article ul.reviews li p {
+  box-sizing: border-box;
+  width: 100%;
+  margin: 5px 0;
+  padding: 0 15px;
+}
+.container .content .inner .lining .main .article ul.questions {
+  float: left;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.container .content .inner .lining .main .article ul.questions li {
+  float: left;
+  width: 100%;
+  margin: 0 0 15px;
+  padding: 0 0 15px;
+
+  list-style: outside none none;
+
+  border-bottom: 1px solid #399ec9;
+}
+.container .content .inner .lining .main .article ul.questions li:last-child {
+  border-bottom: medium none;
+}
+.container .content .inner .lining .main .article ul.questions li span.title {
+  float: left;
+  width: 100%;
+  margin: 0 0 5px;
+
+  font-weight: bold;
+  color: #399ec9;
+}
+.container .content .inner .lining .main .article ul.questions li span.title a {
+  float: right;
+}
+.container .content .inner .lining .main .article ul.questions li span.title a i {
+  float: left;
+  box-sizing: border-box;
+  width: 23px;
+  padding: 0 0 0 1px;
+
+  line-height: 21px;
+  text-align: center;
+  color: #ff6a00;
+
+  border: 1px solid #dddddd;
+}
+.container .content .inner .lining .main .article ul.questions li span.title a i:hover {
+  border: 1px solid #399ec9;
+}
+
+.container .content .inner .lining .main .article ul.questions li span.text {
+  float: left;
+  width: 100%;
+}
+.container .content .inner .lining .main .article ul.questions li span.text i {
+  font-style: normal;
+  font-weight: bold;
+}
+.container .content .inner .lining .main .article ul.links {
+  float: left;
+  width: 100%;
+  margin: 0 0 15px;
+  padding: 0;
+}
+.container .content .inner .lining .main .article ul.links li {
+  float: left;
+  width: 100%;
+
+  list-style: outside none none;
+}
+.container .content .inner .lining .main .article ul.links li span {
+  float: left;
+  width: 100%;
+
+  color: #399ec9;
+}
+.container .content .inner .lining .main .article ul.links li span a {
+  line-height: 25px;
+  color: #399ec9;
+}
+.container .content .inner .lining .main .article ul.links li:hover a {
+  text-decoration: underline;
+}
+
+.container .content .inner .lining .main .article .text {
+  float: left;
+  width: 63%;
+}
+
+.container .content .inner .lining .main .article form.review {
+  float: right;
+  width: 35%;
+}
+.container .content .inner .lining .main .article form.review input[name="name"],
+.container .content .inner .lining .main .article form.review input[name="email"] {
+  float: left;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 15px 0 0;
+  padding: 3px 5px;
+
+  font-size: 15px;
+  line-height: 20px;
+  font-family: Arial, helvetica, sans-serif;
+
+  border: 1px solid #dadada;
+}
+.container .content .inner .lining .main .article form.review input[name="name"] {
+  margin: 0;
+}
+.container .content .inner .lining .main .article form.review textarea {
+  float: left;
+  box-sizing: border-box;
+  width: 100%;
+  height: 55px;
+  min-height: 55px;
+  margin: 15px 0 0;
+  padding: 4px 5px;
+
+  font-size: 15px;
+  line-height: 20px;
+  font-family: Arial, helvetica, sans-serif;
+
+  border: 1px solid #dadada;
+
+  resize: vertical;
+}
+.container .content .inner .lining .main .article form.review span.error,
+.container .content .inner .lining .main .article form.review span.success {
+  float: left;
+  margin: 0;
+
+  font-size: 14px;
+  color: #ff6a00;
+}
+.container .content .inner .lining .main .article form.review input[type="submit"] {
+  display: block;
+  float: left;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 15px 0;
+  padding: 3px 9px;
+
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.75);
+
+  background: #399ec9 none repeat scroll 0 0;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 3px 0 #555555;
+  cursor: pointer;
+}
+
+.container .content .inner .lining .main .article ul.styles {
+  float: left;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.container .content .inner .lining .main .article ul.styles li {
+  float: left;
+  width: 241px;
+  margin: 0 10px 10px 0;
+
+  list-style: outside none none;
+}
+.container .content .inner .lining .main .article ul.styles li:nth-child(3n) {
+  margin: 0 10px 10px 0;
+}
+.container .content .inner .lining .main .article ul.styles li a {
+  float: left;
+  width: 100%;
+}
+.container .content .inner .lining .main .article ul.styles li a img {
+  float: left;
+  box-sizing: border-box;
+  width: 100%;
+  max-height: 164px;
+  padding: 4px;
+
+  border: 1px solid #399ec9;
+}
+.container .content .inner .lining .main .article ul.styles li a span {
+  float: left;
+  width: 100%;
+
+  font-weight: bold;
+  line-height: 25px;
+  text-align: center;
+  color: #000000;
+}
+.container .content .inner .lining .main .article ul.list {
+  float: left;
+  width: 100%;
+  margin: 0 0 10px;
+  padding: 0;
+}
+.container .content .inner .lining .main .article ul.list li {
+  float: left;
+  width: 240px;
+  margin: 0 17px 0 0;
+
+  list-style: outside none none;
+}
+.container .content .inner .lining .main .article ul.list li:nth-child(3) {
+  margin: 0;
+}
+.container .content .inner .lining .main .article ul.list li a {
+  float: left;
+  width: 100%;
+}
+.container .content .inner .lining .main .article ul.list li a img {
+  float: left;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 3px;
+
+  border: 1px solid #399ec9;
+}
+.container .content .inner .lining .main .article ul.listing {
+  float: left;
+  margin: 0 0 10px;
+  padding: 0;
+}
+.container .content .inner .lining .main .article ul.listing li {
+  float: left;
+  width: 100%;
+
+  list-style: outside none none;
+}
+.container .content .inner .lining .main .article ul.listing li a {
+  float: left;
+
+  line-height: 25px;
+  color: #399ec9;
+}
+.container .content .inner .lining .main .article ul.listing li:hover a {
+  text-decoration: underline;
+}
+
+/* Фильтр товаров */
+.container .content .inner .lining .main .article h2.parameters,
+.container .content .inner .lining .intro h2 {
+  margin: 0 0 10px;
+}
+.container .content .inner .lining .main .article form.filter {
+  position: relative;
+
+  float: left;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 0 15px;
+  padding: 5px 5px 15px;
+
+  background: rgba(0, 0, 0, 0.1) none repeat scroll 0 0;
+  border: 1px solid #dddddd;
+}
+.container .content .inner .lining .main .article form.filter label {
+  float: left;
+  width: 227px;
+  margin: 0 10px;
+}
+.container .content .inner .lining .main .article form.filter label span {
+  position: relative;
+
+  float: left;
+  width: 100%;
+  margin: 10px 0 2px;
+
+  font-size: 15px;
+  line-height: 21px;
+}
+.container .content .inner .lining .main .article form.filter label span p {
+  margin: 0;
+
+  font-weight: bold;
+  font-size: 15px;
+}
+.container .content .inner .lining .main .article form.filter label span u {
+  float: right;
+  box-sizing: border-box;
+  width: 18px;
+  height: 18px;
+  margin: 1px 0 0;
+
+  font-weight: bold;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+
+  background: #399ec9 none repeat scroll 0 0;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 0 3px 0 #999999;
+  cursor: help;
+  opacity: 0.5;
+}
+.container .content .inner .lining .main .article form.filter label span u:hover {
+  opacity: 1;
+}
+.container .content .inner .lining .main .article form.filter label span i {
+  position: absolute;
+  top: 20px;
+  left: 100%;
+  z-index: 2;
+
+  display: none;
+  width: 350px;
+  padding: 5px 10px;
+
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+  color: #000000;
+
+  background: #f6f2e6 none repeat scroll 0 0;
+  border: 1px solid #d6d3c9;
+  opacity: 1;
+}
+
+.container .content .inner .lining .main .article form.filter label span i.last {
+  right: 20px;
+  left: auto;
+}
+.container .content .inner .lining .main .article form.filter label span u:hover ~ i {
+  display: block;
+}
+.container .content .inner .lining .main .article form.filter label select {
+  display: block;
+  float: left;
+  box-sizing: border-box;
+  width: 100%;
+  height: 30px;
+  padding: 2px;
+
+  font-size: 14px;
+  line-height: 30px;
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+
+  border: 1px solid #dddddd;
+}
+.container .content .inner .lining .main .article form.filter button {
+  position: absolute;
+  right: 18px;
+  bottom: 15px;
+
+  box-sizing: border-box;
+  width: 225px;
+  padding: 0;
+
+  font-size: 16px;
+  line-height: 32px;
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  color: #ffffff;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.75);
+
+  background: #399ec9 none repeat scroll 0 0;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  box-shadow: 0 0 3px 0 #555555;
+  cursor: pointer;
+}
+
+.container .content .inner .lining .main .article form.filter button:hover {
+  background: #febc00 none repeat scroll 0 0;
+}
+
+/* Навигация */
+.container .content .inner .lining .main .article ul.navigation {
+  float: left;
+  width: 100%;
+  margin: 5px 0 0;
+  padding: 0;
+}
+.container .content .inner .lining .main .article ul.navigation li {
+  float: left;
+  margin: 0 0 15px;
+
+  list-style: outside none none;
+}
+.container .content .inner .lining .main .article ul.navigation li:nth-child(4) a {
+  margin: 0;
+}
+.container .content .inner .lining .main .article ul.navigation li a {
+  float: left;
+  margin: 0 10px 0 0;
+  padding: 5px 10px;
+
+  font-size: 16px;
+  line-height: 21px;
+  color: #ffffff;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.75);
+
+  background: #399ec9 none repeat scroll 0 0;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 3px 0 #555555;
+  opacity: 0.8;
+}
+.container .content .inner .lining .main .article ul.navigation li a:hover {
+  text-decoration: underline;
+}
+.container .content .inner .lining .main .article ul.navigation li.active a {
+  opacity: 1;
+}
+
+/* Каталог товаров */
+.container .content .inner .lining .main .action {
+  float: left;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 0 15px;
+  padding: 6px 10px;
+
+  background: beige none repeat scroll 0 0;
+  border: 1px solid #bebebe;
+}
+.container .content .inner .lining .main .action span {
+  float: left;
+  width: 100%;
+
+  font-size: 15px;
+}
+.container .content .inner .lining .main .action span i {
+  font-style: normal;
+  font-weight: bold;
+  color: #ff6a00;
+}
+.container .content .inner .lining .main .action span i.fa {
+  float: left;
+  width: 42px;
+  height: 42px;
+  margin: 0 10px 0 0;
+
+  font-size: 42px;
+  text-align: center;
+  color: #399ec9;
+}
+.container .content .inner .lining .main .action span u {
+  font-weight: bold;
+  text-decoration: none;
+}
+.container .content .inner .lining .main .article .product {
+  float: left;
+  margin: 0 0 15px;
+}
+.container .content .inner .lining .main .catalog {
+  z-index: 1;
+
+  float: left;
+  width: 100%;
+}
+.container .content .inner .lining .main .catalog > ul {
+  float: left;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+/*
+.container .content .inner .lining .main .catalog ul li.item {
+    border: 1px dotted #c0c5bf;
+    box-sizing: border-box;
+    float: left;
+    list-style: outside none none;
+    margin: 0 13px 15px 0;
+    padding: 0 5px 7px;
+    position: relative;
+    width: 243px;
+}
+*/
+.container .content .inner .lining .main .catalog ul li.item {
+  position: relative;
+
+  float: left;
+  box-sizing: border-box;
+  width: 243px;
+  margin: 0 13px 15px 0;
+  padding: 0 5px 7px;
+
+  list-style: outside none none;
+
+  border: 1px solid #dddddd;
+}
+.container .content .inner .lining .main .catalog > ul > li:nth-child(3n) {
+  margin: 0 0 15px;
+}
+.container .content .inner .lining .main .catalog ul li a {
+  position: relative;
+
+  float: left;
+}
+.container .content .inner .lining .main .catalog ul li a span.category-price {
+  position: absolute;
+  bottom: 6px;
+  left: 6px;
+
+  width: 135px !important;
+
+  color: #ffffff;
+
+  background: rgba(57, 158, 201, 0.7) none repeat scroll 0 0;
+}
+.container .content .inner .lining .main .catalog ul li a span.category-price i {
+  font-style: normal;
+  font-weight: bold;
+  font-size: 15px;
+}
+.container .content .inner .lining .main .catalog ul li a span {
+  width: 230px;
+
+  font-size: 15px;
+  line-height: 18px;
+  vertical-align: middle;
+  text-align: center;
+}
+.container .content .inner .lining .main .catalog ul li a span.heading {
+  display: table-cell;
+  height: 40px;
+
+  color: #399ec9;
+}
+.container .content .inner .lining .main .catalog ul li a span.heading i {
+  transform: scale(-1, 1);
+}
+.container .content .inner .lining .main .catalog ul li a span.heading:hover,
+.catalog ul li a span.heading:active {
+  text-decoration: underline;
+}
+.container .content .inner .lining .main .catalog ul li a.image {
+  position: relative;
+
+  float: left;
+  width: 100%;
+  min-height: 194px;
+  overflow: hidden;
+}
+.container .content .inner .lining .main .catalog ul li a img.category {
+  position: relative;
+
+  float: left;
+  width: 100%;
+}
+.container .content .inner .lining .main .catalog ul li a.resize {
+  position: absolute;
+  top: 60px;
+  right: 25px;
+
+  box-sizing: border-box;
+  width: 35px;
+  height: 35px;
+
+  font-size: 19px;
+  text-align: center;
+
+  background: rgba(255, 255, 255, 1) none repeat scroll 0 0;
+  border: 2px solid #399ec9;
+  border-radius: 5px;
+  cursor: zoom-in;
+  opacity: 0;
+
+  transition: all 0s ease 0s;
+}
+.container .content .inner .lining .main .catalog ul li:hover a.resize {
+  opacity: 0.5;
+}
+.container .content .inner .lining .main .catalog ul li a.resize i {
+  float: left;
+  width: 31px;
+
+  font-size: 24px;
+  line-height: 31px;
+  color: #399ec9;
+}
+.container .content .inner .lining .main .catalog ul li a.resize:hover,
+.catalog ul li a.resize:active {
+  opacity: 1;
+}
+.container .content .inner .lining .main .catalog ul li a.image img {
+  float: left;
+  box-sizing: border-box;
+  width: 100%;
+
+  border: 1px solid #dddddd;
+}
+.container .content .inner .lining .main .catalog ul li a.image .features {
+  position: absolute;
+  bottom: 0;
+
+  width: 100%;
+  height: 100%;
+
+  line-height: 21px;
+  font-family: cursive;
+  color: #ffffff;
+}
+.container .content .inner .lining .main .catalog ul li a.image .features span.new {
+  position: absolute;
+  right: 132px;
+  bottom: -13px;
+
+  float: left;
+  width: 155px;
+  height: 70px;
+  padding: 3px 0 0;
+
+  font-family: cursive;
+
+  background: #ff0000 none repeat scroll 0 0;
+  transform: rotate(45deg);
+}
+.container .content .inner .lining .main .catalog ul li a.image .features span.hit {
+  position: absolute;
+  top: -19px;
+  left: 131px;
+
+  float: left;
+  width: 155px;
+  padding: 55px 0 4px;
+
+  font-family: cursive;
+
+  background: #399ec9 none repeat scroll 0 0;
+  transform: rotate(45deg);
+}
+.container .content .inner .lining .main .catalog ul li a.image .features span.discount {
+  position: absolute;
+  top: -19px;
+  left: 131px;
+
+  float: left;
+  width: 155px;
+  padding: 55px 0 4px;
+
+  font-family: cursive;
+
+  background: #ff6a00 none repeat scroll 0 0;
+  transform: rotate(45deg);
+}
+.container .content .inner .lining .main .catalog ul li ul {
+  position: absolute;
+  top: 180px;
+  left: 47px;
+
+  margin: 0;
+  padding: 0;
+}
+.container .content .inner .lining .main .catalog ul li ul li {
+  position: relative;
+
+  float: left;
+  width: 35px;
+  height: 35px;
+  margin: 0 15px 0 0;
+
+  list-style: outside none none;
+
+  background: rgba(255, 255, 255, 1) none repeat scroll 0 0;
+  border: 2px solid #399ec9;
+  border-radius: 50%;
+  opacity: 0.5;
+}
+.container .content .inner .lining .main .catalog ul li:hover ul li {
+  opacity: 0.5;
+}
+.container .content .inner .lining .main .catalog ul li ul li:hover {
+  opacity: 1;
+}
+.container .content .inner .lining .main .catalog ul li ul li:nth-child(3) {
+  margin: 0;
+}
+.container .content .inner .lining .main .catalog ul li ul li span {
+  float: left;
+  width: 100%;
+  height: 100%;
+
+  font-weight: bold;
+  line-height: 37px;
+  text-align: center;
+  color: #000000;
+  text-transform: capitalize;
+
+  cursor: help;
+}
+.container .content .inner .lining .main .catalog ul li ul li u {
+  position: absolute;
+  top: -35px;
+  z-index: 100;
+
+  display: none;
+  width: 73px;
+  height: 24px;
+  padding: 2px 3px;
+
+  line-height: 24px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+
+  background: #399ec9 none repeat scroll 0 0;
+  border-radius: 3px;
+}
+.container .content .inner .lining .main .catalog ul li ul li:hover u {
+  display: block;
+}
+.container .content .inner .lining .main .catalog ul li ul li u::after {
+  content: "";
+  position: absolute;
+  bottom: -5px;
+  left: 50%;
+
+  width: 0;
+  height: 0;
+  margin-left: -5px;
+
+  border-top: 5px solid #399ec9;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+}
+.container .content .inner .lining .main .catalog ul li ul li u i {
+  color: #ffd600;
+}
+.container .content .inner .lining .main .catalog ul li ul li.laminate:nth-child(1) u {
+  left: -122px;
+
+  width: 275px;
+}
+.container .content .inner .lining .main .catalog ul li ul li.laminate:nth-child(2) u {
+  left: -109px;
+
+  width: 249px;
+}
+.container .content .inner .lining .main .catalog ul li ul li.laminate:nth-child(3) u {
+  left: -86px;
+
+  width: 203px;
+}
+.container .content .inner .lining .main .catalog ul li ul li.linoleum:nth-child(1) u {
+  left: -128px;
+
+  width: 285px;
+}
+.container .content .inner .lining .main .catalog ul li ul li.linoleum:nth-child(2) u {
+  left: -118px;
+
+  width: 265px;
+}
+.container .content .inner .lining .main .catalog ul li ul li.linoleum:nth-child(3) u {
+  left: -131px;
+
+  width: 290px;
+}
+
+.container .content .inner .lining .main .catalog ul li p {
+  float: left;
+  width: 100%;
+  margin: 10px 0 15px;
+
+  font-size: 15px;
+  line-height: 16px;
+  text-align: center;
+}
+.container .content .inner .lining .main .catalog ul li p i {
+  position: relative;
+
+  font-style: normal;
+  color: #666666;
+}
+.container .content .inner .lining .main .catalog ul li p i.narrow {
+  position: relative;
+  bottom: -5px;
+}
+.container .content .inner .lining .main .catalog ul li p i span.sale {
+  position: absolute;
+  top: -17px;
+  right: 0;
+
+  width: 100%;
+
+  font-size: 13px;
+  color: #399ec9;
+  text-decoration: line-through;
+}
+.container .content .inner .lining .main .catalog ul li a.info,
+.container .content .inner .lining .main .description a.info {
+  float: left;
+  box-sizing: border-box;
+  width: 105px;
+  padding: 3px 0;
+
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: #399ec9;
+
+  border: 1px solid #cac9c9;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.container .content .inner .lining .main .catalog ul li a.info.narrow {
+  float: right;
+  width: 32px;
+}
+.container .content .inner .lining .main .catalog ul li a.order,
+.container .content .inner .lining .main .description a.order {
+  float: right;
+  box-sizing: border-box;
+  width: 105px;
+  padding: 3px 0;
+
+  font-size: 15px;
+  line-height: 22px;
+  text-align: center;
+  color: #ffffff;
+
+  background: #399ec9 none repeat scroll 0 0;
+  border: 1px solid #399ec9;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.container .content .inner .lining .main .catalog ul li a.order.wide {
+  float: left;
+  width: 185px;
+
+  font-size: 15px;
+}
+.container .content .inner .lining .main .catalog ul li a.info:hover,
+.container .content .inner .lining .main .catalog ul li a.order:hover,
+.container .content .inner .lining .main .catalog ul li a.info:active,
+.container .content .inner .lining .main .catalog ul li a.order:active {
+  text-decoration: underline;
+
+  box-shadow: 0 0 3px 0 #999999;
+}
+.container .content .inner .lining .main .lead {
+  float: left;
+  width: 100%;
+  margin: 0 0 15px;
+  padding: 5px 0;
+
+  border: 1px solid #dddddd;
+}
+.container .content .inner .lining .main .lead .left,
+.container .content .inner .lining .main .lead .right {
+  width: 18%;
+  padding: 5px 0;
+
+  font-size: 15px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+
+  border-radius: 4px;
+}
+.container .content .inner .lining .main .lead .left:hover,
+.container .content .inner .lining .main .lead .right:hover {
+  text-decoration: underline;
+}
+.container .content .inner .lining .main .lead .left {
+  float: left;
+  margin: 0 0 0 5px;
+
+  background: #399ec9 none repeat scroll 0 0;
+}
+.container .content .inner .lining .main .lead .left:hover {
+  text-decoration: underline;
+}
+.container .content .inner .lining .main .lead .right {
+  float: right;
+  margin: 0 5px 0 0;
+
+  background: #ff6a00 none repeat scroll 0 0;
+  cursor: pointer;
+}
+.container .content .inner .lining .main .lead .right:hover {
+  text-decoration: underline;
+}
+
+.container .content .inner .lining .main .article .paging {
+  float: left;
+  width: 100%;
+  padding: 0;
+
+  text-align: center;
+}
+.container .content .inner .lining .main .article .paging ul.pages {
+  display: table;
+  margin: 0 auto 15px;
+  padding: 0;
+}
+.container .content .inner .lining .main .article .paging ul.pages li {
+  float: left;
+
+  list-style: outside none none;
+}
+.container .content .inner .lining .main .article .paging ul.pages li {
+  margin: 0 5px 0 0;
+}
+.container .content .inner .lining .main .article .paging ul.pages li:last-child {
+  margin: 0;
+}
+.container .content .inner .lining .main .article .paging ul.pages li a {
+  padding: 0 5px;
+
+  font-size: 17px;
+  line-height: 20px;
+  color: #399ec9;
+}
+.container .content .inner .lining .main .article .paging ul.pages li a:hover {
+  text-decoration: underline;
+}
+.container .content .inner .lining .main .article .paging ul.pages li a.active {
+  color: #ffffff;
+  text-decoration: none;
+
+  background: #399ec9 none repeat scroll 0 0;
+  border-radius: 50%;
+}
+
+/* Блок Брендов */
+.container .content .inner .lining .main .items {
+  float: left;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.container .content .inner .lining .main .items li {
+  float: left;
+  box-sizing: border-box;
+  width: 241px;
+  margin: 0 16px 15px 0;
+
+  list-style: outside none none;
+
+  border: 1px dotted #c0c5bf;
+}
+.container .content .inner .lining .main .items li:nth-child(3n) {
+  margin: 0 0 15px;
+}
+.container .content .inner .lining .main .items li a {
+  float: left;
+  width: 100%;
+}
+.container .content .inner .lining .main .items li a:hover span,
+.items li a:active span {
+  text-decoration: underline;
+}
+.container .content .inner .lining .main .items li a span {
+  display: block;
+  width: 100%;
+  padding: 5px 0;
+
+  font-size: 17px;
+  line-height: 25px;
+  text-align: center;
+  color: #ffffff;
+
+  background: #399ec9 none repeat scroll 0 0;
+}
+.container .content .inner .lining .main .items li a img {
+  float: left;
+  width: 100%;
+}
+.container .content .inner .lining .main .items li.brand img {
+  margin: 30px 0;
+}
+
+/* Блок рассрочки */
+.container .content .inner .lining .main .payment {
+  float: left;
+  box-sizing: border-box;
+  width: 100%;
+  height: 330px;
+  padding: 15px;
+
+  background: rgba(0, 0, 0, 0) url("https://centrpol.by/template/img/slides/installment-bottom.jpg") repeat scroll 0 0 /
+    cover;
+  border-radius: 3px;
+}
+.container .content .inner .lining .main .payment h2 {
+  margin: 0 0 10px;
+
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.75);
+}
+.container .content .inner .lining .main .payment span {
+  font-size: 16px;
+  color: #ffffff;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.75);
+}
+.container .content .inner .lining .main .payment span i {
+  font-style: normal;
+  font-weight: bold;
+  color: #399ec9;
+  text-shadow: 1px 0 #ffffff, 1px 1px #ffffff, 0 1px #ffffff, -1px 1px #ffffff, -1px 0 #ffffff, -1px -1px #ffffff,
+    0 -1px #ffffff, 1px -1px #ffffff;
+}
+.container .content .inner .lining .main .payment ul {
+  float: left;
+  width: 70%;
+  margin: 0;
+  padding: 0;
+}
+.container .content .inner .lining .main .payment ul li:nth-child(1) {
+  width: 100%;
+  margin: 0;
+}
+.container .content .inner .lining .main .payment ul li:nth-child(1) span {
+  width: 100%;
+
+  font-weight: bold;
+  text-align: center;
+}
+.container .content .inner .lining .main .payment ul li:last-child {
+  width: 100%;
+}
+.container .content .inner .lining .main .payment ul li:last-child a,
+.ad a {
+  display: block;
+  float: none;
+  box-sizing: border-box;
+  width: 200px;
+  margin: 0 auto;
+  padding: 3px 9px;
+
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.75);
+
+  background: #399ec9 none repeat scroll 0 0;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 3px 0 #555555;
+  cursor: pointer;
+}
+.container .content .inner .lining .main .payment ul li:last-child a:hover,
+.ad a:hover {
+  text-decoration: underline;
+}
+
+.container .content .inner .lining .main .payment ul li {
+  float: left;
+  width: 50%;
+  margin: 0 0 8px;
+
+  list-style: outside none none;
+}
+.container .content .inner .lining .main .payment ul > li > i {
+  float: left;
+  box-sizing: border-box;
+  width: 37px;
+  height: 37px;
+  margin: 0 7px 0 0;
+
+  font-size: 25px;
+  line-height: 34px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.75);
+
+  background: #399ec9 none repeat scroll 0 0;
+  border: 2px solid #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 0 3px 0 #555555;
+}
+.container .content .inner .lining .main .payment ul li span {
+  float: left;
+
+  line-height: 35px;
+}
+.container .content .inner .lining .main .payment img {
+  float: right;
+  width: 30%;
+}
+.container .content .inner .lining .main .installment {
+  position: relative;
+  z-index: 2;
+
+  float: right;
+  box-sizing: border-box;
+  width: 30%;
+  margin: 0;
+}
+.container .content .inner .lining .main .installment span {
+  float: right;
+  width: 85%;
+}
+.container .content .inner .lining .main .installment i {
+  float: left;
+  width: 12%;
+
+  font-size: 22px;
+  line-height: 21px;
+  color: #399ec9;
+}
+.container .content .inner .lining .main .installment span a {
+  float: left;
+
+  font-size: 15px;
+  color: #399ec9;
+}
+.container .content .inner .lining .main .installment span a:hover {
+  text-decoration: underline;
+}
+
+/* Всплывающие формы */
+.container .content .inner .lining .main .fade {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 2;
+
+  display: none;
+  width: 100%;
+  height: 100%;
+
+  background: rgba(0, 0, 0, 0.55) none repeat scroll 0 0;
+}
+.container .content .inner .lining .main .fade .send {
+  position: absolute;
+  top: 10%;
+  left: 50%;
+
+  width: 470px;
+  margin: 0 0 0 -235px;
+
+  background: #ffffff none repeat scroll 0 0;
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.5);
+}
+.container .content .inner .lining .main .fade .send .head {
+  float: left;
+  width: 100%;
+  padding: 6px 0;
+
+  background: #399ec9 none repeat scroll 0 0;
+}
+.container .content .inner .lining .main .fade .send .head h3 {
+  float: left;
+  width: 405px;
+  height: 26px;
+  margin: 0 0 0 15px;
+  overflow: hidden;
+
+  font-size: 17px;
+  color: #ffffff;
+}
+.container .content .inner .lining .main .fade .send .head .close {
+  float: right;
+  box-sizing: border-box;
+  width: 27px;
+  height: 27px;
+  margin: 0 15px 0 0;
+
+  font-weight: bold;
+  line-height: 25px;
+  font-family: Arial, Helvetica, sans-serif, Helvetica, sans-serif;
+  text-align: center;
+  color: #ffffff;
+
+  border: 2px solid #ffffff;
+  border-radius: 14px;
+  cursor: pointer;
+}
+.container .content .inner .lining .main .fade .send .head .close i {
+  float: left;
+  width: 100%;
+  height: 100%;
+
+  font-size: 18px;
+  line-height: 24px;
+  text-align: center;
+
+  transform: rotate(45deg);
+}
+.container .content .inner .lining .main .fade .send .head .close:hover i {
+  color: #ffd600;
+}
+.container .content .inner .lining .main .fade .send form {
+  float: left;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 287px;
+  padding: 15px;
+}
+.container .content .inner .lining .main .fade .send form label {
+  float: left;
+  width: 100%;
+}
+.container .content .inner .lining .main .fade .send form label.right {
+  float: right;
+  width: 49%;
+}
+.container .content .inner .lining .main .fade .send form label.left {
+  width: 49%;
+}
+.container .content .inner .lining .main .fade .send form label.wide {
+  width: 75%;
+}
+.container .content .inner .lining .main .fade .send form label.narrow {
+  float: right;
+  width: 20%;
+}
+.container .content .inner .lining .main .fade .send form label.narrow span sup {
+  display: inline;
+
+  line-height: 10px;
+}
+.container .content .inner .lining .main .fade .send form label span {
+  float: left;
+  width: 100%;
+}
+.container .content .inner .lining .main .fade .send form label span.about {
+  float: left;
+  width: 100%;
+  margin: 0 0 5px;
+
+  font-weight: bold;
+  text-align: center;
+}
+.container .content .inner .lining .main .fade .send form label input[type="text"] {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 3px 0 10px;
+  padding: 5px 9px;
+
+  font-size: 17px;
+  line-height: 17px;
+  font-family: Arial, Helvetica, sans-serif, Tahoma, sans-serif;
+  color: #676767;
+
+  border: 1px dotted #cccccc;
+}
+.container .content .inner .lining .main .fade .send form label a.message {
+  float: left;
+  width: 100%;
+  margin: 0 0 10px;
+
+  color: #399ec9;
+  text-decoration: underline;
+
+  cursor: pointer;
+}
+.container .content .inner .lining .main .fade .send form label a.message:hover {
+  text-decoration: none;
+}
+.container .content .inner .lining .main .fade .send form label .plinth {
+  float: left;
+  box-sizing: border-box;
+  margin: 0 0 10px;
+  padding: 10px 15px 5px;
+
+  background: rgba(0, 0, 0, 0.08) none repeat scroll 0 0;
+  border: 1px solid #dddddd;
+}
+.container .content .inner .lining .main .fade .send form label .plinth .row {
+  float: left;
+  width: 100%;
+  margin: 0 0 5px;
+}
+.container .content .inner .lining .main .fade .send form label .plinth .row input[name="plinth01"] {
+  float: right;
+  width: 10%;
+  margin: 0;
+
+  border: 1px solid #399ec9;
+}
+.container .content .inner .lining .main .fade .send form label .plinth .row span {
+  width: auto;
+
+  font-size: 15px;
+}
+.container .content .inner .lining .main .fade .send form label .plinth .row span.wide {
+  float: left;
+  width: 90%;
+
+  line-height: 29px;
+}
+.container .content .inner .lining .main .fade .send form label .plinth .row span.narrow {
+  float: left;
+
+  line-height: 29px;
+}
+.container .content .inner .lining .main .fade .send form label .plinth .row .left {
+  float: left;
+  width: 49%;
+}
+
+.container .content .inner .lining .main .fade .send form label .plinth .row .right {
+  float: right;
+  width: 49%;
+}
+
+.container .content .inner .lining .main .fade .send form label .plinth .row .left input,
+.container .content .inner .lining .main .fade .send form label .plinth .row .right input {
+  float: right;
+  width: 20%;
+  margin: 0;
+
+  border: 1px solid #399ec9;
+}
+.container .content .inner .lining .main .fade .send form input[type="button"] {
+  display: block;
+  width: 135px;
+  margin-top: 10px;
+
+  font-size: 13pt;
+  line-height: 35px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+
+  background: #399ec9 none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+.container .content .inner .lining .main .fade .send form input[type="button"]:hover,
+.container .content .inner .lining .main .fade .send form input[type="button"]:active {
+  background: rgba(0, 0, 0, 0) linear-gradient(to bottom, #293b41 0%, #3a5057 30%, #445d64 71%, #4e6971 100%) repeat
+    scroll 0 0;
+}
+.container .content .inner .lining .main .fade .send form label textarea {
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+  min-height: 65px;
+  max-height: 120px;
+  margin: 3px 0 10px;
+  padding: 5px 9px;
+
+  font-size: 17px;
+  line-height: 17px;
+  font-family: Arial, Helvetica, sans-serif, Tahoma, sans-serif;
+  color: #676767;
+
+  border: 1px dotted #cccccc;
+
+  resize: vertical;
+}
+.container .content .inner .lining .main .fade .send form label input:focus,
+.container .content .inner .lining .main .fade .send form label textarea:focus {
+  color: #444444;
+
+  border-style: solid;
+  border-color: #bababa;
+}
+.container .content .inner .lining .main .fade .send form p {
+  float: left;
+  width: 100%;
+  margin: 90px 0 0;
+
+  font-size: 26px;
+  line-height: 38px;
+  text-align: center;
+  color: #399ec9;
+}
+.gager {
+  float: left;
+  width: 700px;
+}
+.enterprise {
+  float: left;
+  width: 760px;
+}
+.gager span.heading,
+.enterprise form span.heading {
+  float: left;
+  width: 100%;
+  margin: 0 0 5px;
+
+  font-size: 22px;
+  line-height: 35px;
+  text-align: center;
+  color: #000000;
+}
+.gager p {
+  float: left;
+  width: 100%;
+  margin: 0 0 15px;
+
+  line-height: 27px;
+  color: #000000;
+}
+.gager p i,
+.enterprise p i {
+  font-style: normal;
+  font-weight: bold;
+}
+.enterprise form {
+  float: left;
+  width: 100%;
+  min-height: 250px;
+  margin: 0 0 5px;
+}
+.enterprise form ul {
+  float: left;
+  width: 100%;
+  margin: 0 0 5px;
+  padding: 0;
+}
+.enterprise form ul li {
+  float: left;
+  width: 100%;
+  margin: 0 0 10px;
+}
+.enterprise form ul li span {
+  float: left;
+  width: 30%;
+
+  line-height: 28px;
+  text-align: right;
+  color: #000000;
+}
+.enterprise form ul li span.narrow {
+  width: auto;
+  margin: 0 0 0 1%;
+}
+.enterprise form ul li span.narrow sup {
+  line-height: 10px;
+}
+.enterprise form ul li input[type="text"] {
+  float: left;
+  box-sizing: border-box;
+  margin: 0 0 0 1%;
+  padding: 3px 5px;
+
+  font-size: 16px;
+  line-height: 20px;
+  font-family: Arial, helvetica, sans-serif;
+
+  border: 1px solid #cac9c9;
+}
+
+.enterprise form ul li:nth-child(2) input,
+.enterprise form ul li:nth-child(4) input {
+  width: 69%;
+  margin: 0 0 0 1%;
+}
+.enterprise form ul li:nth-child(1) input[name="product"] {
+  width: 42%;
+}
+.enterprise form ul li:nth-child(1) input[name="amount"] {
+  float: right;
+  width: 13%;
+  margin: 0;
+}
+.enterprise form ul li:nth-child(3) input[name="unp"] {
+  width: 32%;
+}
+.enterprise form ul li:nth-child(5) input[name="account"] {
+  width: 24%;
+}
+.enterprise form ul li:nth-child(5) input[name="bank"] {
+  width: 18%;
+}
+.enterprise form ul li:nth-child(5) input[name="code"] {
+  float: right;
+  width: 13%;
+  margin: 0;
+}
+.enterprise form ul li:nth-child(6) input[name="base"] {
+  float: right;
+  width: 21%;
+  margin: 0;
+}
+.enterprise form ul li:nth-child(6) input[name="director"] {
+  width: 32%;
+}
+.enterprise form ul li:nth-child(7) input[name="phone"] {
+  width: 24%;
+}
+.enterprise form ul li:nth-child(7) input[name="email"] {
+  float: right;
+  width: 33%;
+  margin: 0;
+}
+.enterprise form ul li textarea {
+  float: left;
+  box-sizing: border-box;
+  width: 69%;
+  min-height: 70px;
+  max-height: 100px;
+  margin: 0 0 0 1%;
+  padding: 3px 5px;
+
+  font-size: 16px;
+  line-height: 20px;
+  font-family: Arial, helvetica, sans-serif;
+
+  border: 1px solid #cac9c9;
+
+  resize: vertical;
+}
+.enterprise form input[type="button"] {
+  display: block;
+  float: none;
+  box-sizing: border-box;
+  width: 200px;
+  margin: 0 auto;
+  padding: 3px 9px;
+
+  font-size: 16px;
+  line-height: 27px;
+  text-align: center;
+  color: #ffffff;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.75);
+
+  background: #399ec9 none repeat scroll 0 0;
+  border: 1px solid #ffffff;
+  border-radius: 5px;
+  box-shadow: 0 0 3px 0 #555555;
+  cursor: pointer;
+}
+
+/*
+.gager img {
+    float: left;
+    margin: 0 0 15px;
+    width: 100%;
+}
+*/
+.gager form {
+  position: relative;
+
+  float: left;
+  box-sizing: border-box;
+  width: 100%;
+  padding: 10px;
+
+  background: rgba(0, 0, 0, 0.08) none repeat scroll 0 0;
+  border: 1px solid #dddddd;
+}
+.gager form label {
+  float: left;
+  width: 33%;
+  margin: 0 3% 0 0;
+}
+
+.gager form label input[type="text"] {
+  display: inline-block;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 5px 0 0;
+  padding: 5px 9px;
+
+  font-size: 17px;
+  line-height: 17px;
+  font-family: Arial, Helvetica, sans-serif, Tahoma, sans-serif;
+  color: #676767;
+
+  border: 1px dotted #cccccc;
+}
+.gager form input[type="button"] {
+  position: absolute;
+  right: 10px;
+  bottom: 10px;
+
+  display: block;
+  width: 26%;
+  height: 28px;
+
+  font-size: 16px;
+  line-height: 28px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+
+  background: #ff6a00 none repeat scroll 0 0;
+  border: medium none;
+  border-radius: 2px;
+  cursor: pointer;
+}
+.gager form input[type="button"]:hover,
+.gager form input[type="button"]:active {
+  text-decoration: underline;
+}
+
+.gager form p,
+.enterprise form p {
+  float: left;
+  width: 100%;
+  margin: 0;
+
+  font-size: 22px;
+  line-height: 55px;
+  text-align: center;
+  color: #399ec9;
+}
+
+/* Верхний блок страницы товара и подкатегории */
+.container .content .inner .lining .top {
+  float: left;
+  width: 100%;
+  margin: 0 0 10px;
+}
+.container .content .inner .lining .top h2,
+.container .content .inner .lining .top h1 {
+  margin: -5px 0 10px;
+
+  line-height: 19px;
+}
+.container .content .inner .lining .top h2,
+.container .content .inner .lining .top h1 {
+  width: 70%;
+}
+.container .content .inner .lining .top .social-likes {
+  float: right;
+  min-height: 19px;
+  margin: -7px 0 0;
+}
+.container .content .inner .lining .top .social-likes .social-likes__widget {
+  margin: 0;
+}
+.container .content .inner .lining .top h2 i,
+.container .content .inner .lining .top h1 i,
+.container .content .inner .lining .intro h1.main i {
+  width: 30px;
+
+  text-align: center;
+  color: #399ec9;
+}
+.container .content .inner .lining .top h1 i.scale {
+  transform: scale(-1, 1);
+}
+.container .content .inner .lining ul.how {
+  float: left;
+  box-sizing: border-box;
+  width: 100%;
+  margin: -10px 0 15px;
+  padding: 10px;
+
+  background: rgba(0, 0, 0, 0.08) none repeat scroll 0 0;
+  border-right: 1px solid #dddddd;
+  border-bottom: 1px solid #dddddd;
+  border-left: 1px solid #dddddd;
+}
+.container .content .inner .lining ul.how li {
+  position: relative;
+
+  float: left;
+
+  list-style: outside none none;
+}
+.container .content .inner .lining ul.how li:last-child span {
+  margin: 0;
+}
+.container .content .inner .lining ul.how li span {
+  float: left;
+  box-sizing: border-box;
+  height: 21px;
+  margin: 0 17px 0 0;
+
+  color: #000000;
+
+  border-bottom: 1px dashed #399ec9;
+}
+.container .content .inner .lining ul.how li span:hover ~ u {
+  display: block;
+}
+.container .content .inner .lining ul.how li u {
+  position: absolute;
+  top: -42px;
+  left: 0;
+  z-index: 2;
+
+  display: none;
+  width: 350px;
+  padding: 5px 10px;
+
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  color: #000000;
+  text-decoration: none;
+
+  background: #f6f2e6 none repeat scroll 0 0;
+  border: 1px solid #d6d3c9;
+  opacity: 1;
+}
+.container .content .inner .lining ul.how li u.last {
+  right: 0;
+  left: auto;
+}
+/*
+.container .content .inner .lining ul.how li:hover span {
+    border-bottom: medium none;
+}
+*/
+.container .content .inner .lining ul.how li i {
+  float: left;
+  margin: 0 16px 0 0;
+
+  font-size: 21px;
+  line-height: 21px;
+  color: #ff6a00;
+}
+
+/*
+.container .content .inner .lining .top a.export {
+    color: #999999;
+    float: right;
+    font-size: 16px;
+    line-height: 26px;
+}
+.container .content .inner .lining .top a.export:hover {
+    color: #666666;
+}
+.container .content .inner .lining .top .advertising {
+    border: 1px dotted #c0c5bf;
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+    width: 100%;
+}
+*/
+/*
+.container .content .inner .lining .top .advertising {
+    border: 1px dotted #999999;
+    box-sizing: border-box;
+    float: left;
+    position: relative;
+    width: 100%;
+}
+*/
+.container .content .inner .lining .top .advertising {
+  position: relative;
+
+  float: left;
+  box-sizing: border-box;
+  width: 100%;
+
+  border: 1px solid #dddddd;
+}
+.container .content .inner .lining .top .advertising form {
+  position: relative;
+  top: 5px;
+  right: 20px;
+
+  float: right;
+  width: 240px;
+}
+.container .content .inner .lining .top .advertising form span {
+  float: left;
+
+  font-size: 12px;
+  line-height: 18px;
+}
+
+.container .content .inner .lining .top .advertising form span.success {
+  position: relative;
+  z-index: 3;
+
+  float: left;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 3px 0 -8px;
+
+  text-align: center;
+  color: #ff0000;
+
+  background: #ffffff none repeat scroll 0 0;
+  border-radius: 3px;
+  box-shadow: 0 0 3px 0 #555555;
+}
+.container .content .inner .lining .top .advertising form input[type="text"],
+.container .content .inner .lining .top .advertising form select {
+  display: inline-block;
+  float: left;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 5px 0;
+  padding: 3px 5px;
+
+  font-size: 15px;
+  line-height: 23px;
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  color: #111111;
+
+  border: 1px dashed #399ec9;
+}
+.container .content .inner .lining .top .advertising form button {
+  box-sizing: border-box;
+  width: 100%;
+  height: 30px;
+  margin: 5px 0 0;
+  padding: 5px;
+
+  font-size: 14px;
+  line-height: 16px;
+  text-align: center;
+  color: #ffffff;
+
+  background: #ff6a00 none repeat scroll 0 0;
+  border: 1px solid #ffffff;
+  border-radius: 2px;
+  box-shadow: 0 0 3px 0 #555555;
+  cursor: pointer;
+}
+.container .content .inner .lining .top .advertising form button:hover,
+.container .content .inner .lining .top .advertising form button:active {
+  text-decoration: underline;
+
+  box-shadow: 0 0 3px 0 #999999;
+}
+.container .content .inner .lining .top .advertising form button i {
+  font-size: 16px;
+  line-height: 16px;
+}
+.container .content .inner .lining .top .advertising a.call {
+  position: absolute;
+  top: 17px;
+  left: 17px;
+
+  display: block;
+  box-sizing: border-box;
+  width: 130px;
+  height: 130px;
+  padding: 20px 3px;
+
+  line-height: 21px;
+  text-align: center;
+  color: #ffffff;
+
+  background: rgba(57, 158, 201, 0.8) none repeat scroll 0 0;
+  border: 3px solid #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 0 3px 0 #555555;
+  cursor: pointer;
+}
+.container .content .inner .lining .top .advertising a.call i {
+  font-style: normal;
+  color: yellow;
+}
+.container .content .inner .lining .top a.action-link {
+  float: left;
+  width: 100%;
+  height: 257px;
+}
+
+/* Наши работы */
+.container .content .inner .lining .main .article ul.works {
+  float: left;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.container .content .inner .lining .main .article ul.works li {
+  float: left;
+  width: 241px;
+  margin: 0 16px 15px 0;
+  padding: 0;
+  overflow: hidden;
+
+  background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+  border-radius: 2px;
+  box-shadow: 0 6px 10px -4px rgba(0, 0, 0, 0.5);
+
+  transition: all 0.2s ease 0s;
+}
+.container .content .inner .lining .main .article ul.works li:hover {
+  opacity: 0.8;
+}
+.container .content .inner .lining .main .article ul.works li:nth-child(3n) {
+  float: left;
+  margin: 0 0 15px;
+}
+
+.container .content .inner .lining .main .article ul.works li a {
+  float: left;
+  width: 100%;
+}
+.container .content .inner .lining .main .article ul.works li a img {
+  float: left;
+  width: 100%;
+}
+
+/* Хлебные крошки */
+.container .content .inner .lining .main .breadcrumbs {
+  display: inline-block;
+  float: left;
+  width: 70%;
+  margin: 0 0 10px;
+}
+.container .content .inner .lining .main .breadcrumbs a {
+  font-size: 15px;
+  color: #3d3d3d;
+  text-decoration: none;
+}
+.container .content .inner .lining .main .breadcrumbs a:hover,
+.container .content .inner .lining .main .breadcrumbs a:active {
+  color: #399ec9;
+}
+.container .content .inner .lining .main .breadcrumbs ul {
+  float: left;
+  margin: 0;
+  padding: 0;
+}
+.container .content .inner .lining .main .breadcrumbs ul li {
+  float: left;
+
+  list-style-type: none;
+  color: #399ec9;
+}
+.container .content .inner .lining .main .breadcrumbs ul li:last-child {
+  font-size: 15px;
+  line-height: 21px;
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+}
+.container .content .inner .lining .main .breadcrumbs li + li::before {
+  content: "»";
+
+  margin: 0 2px;
+
+  font-size: 15px;
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+}
+
+/* Список статей */
+.container .content .inner .lining .main ul.list {
+  float: left;
+  margin: 0 0 10px;
+  padding: 0;
+}
+.container .content .inner .lining .main ul.list li {
+  float: left;
+  width: 100%;
+
+  list-style: outside none none;
+}
+.container .content .inner .lining .main ul.list li a {
+  font-size: 17px;
+  line-height: 25px;
+  color: #399ec9;
+}
+
+/* Описание страницы товаров */
+.container .content .inner .lining .main .product {
+  float: left;
+  width: 100%;
+  margin: 0 0 10px;
+}
+/*
+.container .content .inner .lining .main .product .gallery {
+    border: 1px dotted #c0c5bf;
+    box-sizing: border-box;
+    float: left;
+    padding: 10px;
+    position: relative;
+    width: 380px;
+}
+*/
+.container .content .inner .lining .main .product .gallery {
+  position: relative;
+
+  float: left;
+  box-sizing: border-box;
+  width: 380px;
+  padding: 10px;
+
+  background: rgba(0, 0, 0, 0.08) none repeat scroll 0 0;
+  border: 1px solid #dddddd;
+}
+.container .content .inner .lining .main .product .gallery > a.image {
+  position: relative;
+
+  float: left;
+  width: 100%;
+  min-height: 358px;
+
+  background: #fdfdfd;
+}
+.container .content .inner .lining .main .product .gallery > a.image > img {
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+
+  float: left;
+  width: 100%;
+  margin: auto;
+}
+.container .content .inner .lining .main .product .gallery > a.image > span.resize {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: none;
+  width: 0;
+  height: 100%;
+}
+.container .content .inner .lining .main .product .gallery > a.image > span.resize > i {
+  display: inline-block;
+  float: left;
+  width: 380px;
+  height: 380px;
+
+  font-size: 140px;
+  line-height: 285px;
+  text-align: center;
+  color: #ffffff;
+
+  opacity: 0.5;
+}
+.container .content .inner .lining .main .product .gallery a.image:hover span.resize {
+  display: block;
+}
+.container .content .inner .lining .main .product .gallery ul {
+  position: absolute;
+  top: 248px;
+
+  margin: 0;
+  padding: 2px 2px 0 0;
+
+  background: #ffffff none repeat scroll 0 0;
+}
+.container .content .inner .lining .main .product .gallery ul li {
+  float: left;
+  width: 118px;
+  margin: 0 2px 0 0;
+
+  list-style: outside none none;
+}
+.container .content .inner .lining .main .product .gallery > ul > li:last-child {
+  margin: 0;
+}
+.container .content .inner .lining .main .product .gallery > ul > li > a {
+  position: relative;
+
+  float: left;
+}
+.container .content .inner .lining .main .product .gallery > ul > li > a > img {
+  float: left;
+  width: 100%;
+}
+.container .content .inner .lining .main .product .gallery > ul > li > a > span.resize {
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  display: none;
+  width: 0;
+  height: 100%;
+}
+.container .content .inner .lining .main .product .gallery > ul > li > a > span.resize > i {
+  display: inline-block;
+  float: left;
+  width: 118px;
+  height: 118px;
+
+  font-size: 75px;
+  line-height: 118px;
+  text-align: center;
+  color: #ffffff;
+
+  opacity: 0.5;
+}
+.container .content .inner .lining .main .product .gallery ul li a:hover > span.resize {
+  display: block;
+}
+
+.container .content .inner .lining .main .product .gallery .near {
+  float: left;
+  width: 100%;
+  margin: 10px 0 0;
+}
+.container .content .inner .lining .main .product .gallery .near a {
+  float: left;
+  box-sizing: border-box;
+  width: 50%;
+}
+.container .content .inner .lining .main .product .gallery .near a.next {
+  float: right;
+}
+.container .content .inner .lining .main .product .gallery .near a.next span {
+  float: right;
+}
+.container .content .inner .lining .main .product .gallery .near a.next i {
+  float: right;
+  margin: 0 0 0 5px;
+}
+.container .content .inner .lining .main .product .gallery .near a span {
+  float: left;
+
+  font-size: 16px;
+  line-height: 22px;
+  color: #000000;
+}
+.container .content .inner .lining .main .product .gallery .near a:hover span {
+  text-decoration: underline;
+}
+.container .content .inner .lining .main .product .gallery .near a i {
+  float: left;
+  margin: 0 5px 0 0;
+
+  font-size: 22px;
+  line-height: 22px;
+  color: #399ec9;
+}
+.container .content .inner .lining .main .product .description {
+  float: left;
+  width: 360px;
+  margin: 0 0 0 15px;
+}
+.container .content .inner .lining .main .product .description > span {
+  float: left;
+  width: 100%;
+
+  font-size: 15px;
+  line-height: 25px;
+}
+.container .content .inner .lining .main .product .description span i {
+  font-style: normal;
+  color: #ff6a00;
+}
+.container .content .inner .lining .main .product .description span b {
+  font-style: normal;
+  font-weight: normal;
+  color: #ff0000;
+}
+.container .content .inner .lining .main .product .description span.sale {
+  text-decoration: line-through;
+}
+
+.container .content .inner .lining .main .product .description a.order {
+  float: left;
+  width: 150px;
+  margin: 15px 0 0;
+  padding: 6px 3px;
+
+  font-size: 16px;
+
+  border-radius: 4px;
+}
+.container .content .inner .lining .main .product .description a.info {
+  float: right;
+  width: 150px;
+  margin: 15px 0 0;
+  padding: 6px 3px;
+
+  font-size: 16px;
+
+  border-radius: 4px;
+}
+.container .content .inner .lining .main .product .description a.order:hover,
+.container .content .inner .lining .main .product .description a.info:hover,
+.container .content .inner .lining .main .product .description a.order:active,
+.container .content .inner .lining .main .product .description a.info:active {
+  text-decoration: underline;
+
+  box-shadow: 0 0 3px 0 #999999;
+}
+.container .content .inner .lining .main .product .description h6 {
+  float: left;
+  width: 100%;
+  margin: 5px 0 0;
+
+  line-height: 35px;
+}
+.container .content .inner .lining .main .product .description ul {
+  float: left;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.container .content .inner .lining .main .product .description ul li {
+  float: left;
+  width: 70%;
+
+  list-style: outside none none;
+}
+.container .content .inner .lining .main .product .description ul li:first-child,
+.container .content .inner .lining .main .product .description ul li:nth-child(2n + 1) {
+  position: relative;
+}
+.container .content .inner .lining .main .product .description ul li u {
+  float: left;
+  box-sizing: border-box;
+  width: 18px;
+  height: 18px;
+  margin: 4px 5px 0 0;
+
+  font-weight: bold;
+  font-size: 15px;
+  line-height: 18px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+
+  background: #399ec9 none repeat scroll 0 0;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 0 3px 0 #999999;
+  cursor: help;
+  opacity: 0.7;
+}
+.container .content .inner .lining .main .product .description ul li i {
+  position: absolute;
+  top: 20px;
+  left: 15px;
+  z-index: 2;
+
+  display: none;
+  width: 350px;
+  padding: 5px 10px;
+
+  font-style: normal;
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 21px;
+  font-family: Arial, Helvetica, sans-serif;
+  text-align: left;
+  color: #000000;
+
+  background: #f6f2e6 none repeat scroll 0 0;
+  border: 1px solid #d6d3c9;
+}
+.container .content .inner .lining .main .product .description ul li u:hover {
+  opacity: 1;
+}
+.container .content .inner .lining .main .product .description ul li u:hover ~ i {
+  display: block;
+}
+.container .content .inner .lining .main .product .description ul li:nth-child(2n) {
+  width: 30%;
+}
+.container .content .inner .lining .main .product .description ul li span {
+  font-size: 14px;
+  line-height: 25px;
+}
+.container .content .inner .lining .main .product .description ul li:nth-child(2n) span {
+  font-weight: bold;
+}
+
+.container .content .inner .lining .main .product .description table {
+  float: left;
+  width: 100%;
+}
+.container .content .inner .lining .main .product .description table tbody {
+  float: left;
+  width: 100%;
+}
+.container .content .inner .lining .main .product .description table tbody tr {
+  display: table;
+  width: 100%;
+}
+.container .content .inner .lining .main .product .description table tbody tr td {
+  padding: 2px 0;
+
+  font-size: 12px;
+}
+
+.container .content .inner .lining .main .product .description table tbody tr td:nth-child(2n) {
+  width: 35%;
+
+  text-align: left;
+}
+.container .content .inner .lining .main ul.recommended {
+  float: left;
+  box-sizing: border-box;
+  width: 100%;
+  margin: 0 0 10px;
+  padding: 10px;
+
+  background: rgba(0, 0, 0, 0.08) none repeat scroll 0 0;
+  border: 1px solid #dddddd;
+}
+.container .content .inner .lining .main ul.recommended li {
+  float: left;
+  width: 24%;
+  margin: 0 1.3% 0 0;
+
+  list-style: outside none none;
+}
+.container .content .inner .lining .main ul.recommended li:last-child {
+  margin: 0;
+}
+.container .content .inner .lining .main ul.recommended li a {
+  float: left;
+  width: 100%;
+}
+.container .content .inner .lining .main ul.recommended li a:hover span {
+  text-decoration: underline;
+}
+.container .content .inner .lining .main ul.recommended li a span {
+  float: left;
+  width: 100%;
+  margin: 0 0 5px;
+
+  text-align: center;
+  color: #000000;
+}
+.container .content .inner .lining .main ul.recommended li a span i {
+  font-size: 17px;
+  line-height: 20px;
+  color: #399ec9;
+}
+.container .content .inner .lining .main ul.recommended li a img {
+  float: left;
+  box-sizing: border-box;
+  width: 100%;
+
+  border: 1px solid #dddddd;
+}
+
+/* Футер */
+.container .footer {
+  position: relative;
+
+  box-sizing: border-box;
+  width: 100%;
+  padding: 20px 0;
+
+  background: #3c98bf url("https://centrpol.by/template/img/bg_bottom.jpg") no-repeat scroll left top;
+}
+.container .footer > ul {
+  display: table;
+  width: 1060px;
+  margin: 0 auto;
+  padding: 0;
+}
+.container .footer > ul > li {
+  float: left;
+  width: 24%;
+  margin: 0 1% 0 0;
+
+  list-style: outside none none;
+}
+.container .footer ul li p {
+  float: left;
+  margin: 0;
+
+  font-size: 15px;
+  line-height: 21px;
+  color: #ffffff;
+}
+.container .footer ul li:last-child {
+  margin: 0;
+}
+.container .footer ul li h3 {
+  margin: 0 0 10px;
+
+  font-weight: normal;
+  color: #ffffff;
+}
+.container .footer ul li h3 i {
+  float: left;
+  margin: 0 5px 0 0;
+
+  font-size: 24px;
+  line-height: 26px;
+  text-shadow: 1px 1px 1px #333333;
+}
+.container .footer ul li .widget {
+  float: left;
+  width: 100%;
+}
+.container .footer ul li .widget {
+  float: left;
+  width: 100%;
+}
+.container .footer ul li ul {
+  float: left;
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
+.container .footer ul li ul li {
+  float: left;
+  width: 100%;
+
+  list-style: outside none none;
+}
+.container .footer ul li a,
+.container .footer ul li ul li a {
+  display: inline;
+
+  font-size: 15px;
+  color: #ffffff;
+}
+.container .footer ul li a:hover,
+.container .footer ul li ul li a:hover {
+  text-decoration: underline;
+}
+.container .content .inner .lining .top .advertising .heading-image {
+  display: block;
+  float: left;
+  width: 470px;
+  max-height: 155px;
+  margin: 5px 0 5px 5px;
+}
+.container .content .inner .lining .top .advertising .heading-text {
+  float: left;
+  width: 100%;
+  margin: 0 0 10px 20px;
+}
+.advantages {
+  float: left;
+  width: 100%;
+  margin: 0 0 15px;
+  padding: 0;
+}
+.advantages li {
+  position: relative;
+  z-index: 1;
+
+  float: left;
+  width: 40%;
+  margin: 0 0 15px;
+}
+.advantages li img {
+  float: left;
+  box-sizing: border-box;
+  width: 25%;
+
+  border: 4px solid #399ec9;
+  border-radius: 50%;
+}
+.advantages li span {
+  position: relative;
+
+  float: left;
+  width: 60%;
+  margin: 0 10% 0 5%;
+
+  font-size: 18px;
+  line-height: 22px;
+}
+
+/*
+.social {
+    height: 272px;
+    max-width: 230px;
+    width: 100%;
+}
+.social .tabs {
+    float: left;
+    width: 100%;
+}
+.social .tabs label {
+    background: #999999 none repeat scroll 0 0;
+    color: #ffffff;
+    cursor: pointer;
+    display: block;
+    float: left;
+    font-family: Arial, Helvetica, sans-serif,sans-serif;
+    font-size: 12px;
+    line-height: 22px;
+    width: 50%;
+    text-align: center;
+}
+.social .tabs input {
+    left: -9999px;
+    position: absolute;
+}
+.unit-rubric-cont {
+    clear: both;
+}
+.unit-rubric-cont > div {
+    left: -9999px;
+    position: absolute;
+    transition: opacity 0.5s ease-in-out 0s;
+}
+#tab_1:checked ~ #tab_l1, #tab_2:checked ~ #tab_l2 {
+    background: #ff3333 none repeat scroll 0 0;
+}
+#tab_1:checked ~ .unit-rubric-cont #tab_c1, #tab_2:checked ~ .unit-rubric-cont #tab_c2 {
+    position: static;
+}
+*/
+
+/* Новые стили */
+.select {
+  position: fixed;
+  top: 30%;
+  right: 0;
+  z-index: 5;
+
+  width: 445px;
+  margin: 0;
+
+  transition: all 0.3s ease 0s;
+}
+.select a.show {
+  float: left;
+  width: 30px;
+  height: 170px;
+
+  line-height: 30px;
+  color: #ffffff;
+
+  background: #399ec9 none repeat scroll 0 0;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+
+  writing-mode: vertical-rl;
+}
+.select a.show:hover i {
+  color: #ffd600;
+}
+/*
+.select a.show:hover {
+	text-decoration: underline;
+}
+*/
+.select a.show i {
+  float: left;
+  width: 30px;
+  height: 30px;
+
+  line-height: 30px;
+  text-align: center;
+  color: #ffffff;
+
+  transform: rotate(90deg);
+}
+.select .tabs {
+  float: left;
+  width: 390px;
+  padding: 10px;
+
+  background: rgba(0, 0, 0, 0)
+    url("https://getbg.net/upload/full/412918_set_linii_izgiby_4000x2376_(www.GetBg.net).jpg") repeat scroll 0 0;
+  border-radius: 2px 0 2px 2px;
+  box-shadow: 0 0 10px 0 #000000;
+}
+.select .tabs input[type="radio"] {
+  display: none;
+}
+.select .tabs input.laminate:checked ~ label.type[for="type01"],
+.select .tabs input.linoleum:checked ~ label.type[for="type02"] {
+  color: #ffffff;
+
+  background: #ff6a00 none repeat scroll 0 0;
+}
+
+.select .tabs input.laminate:checked ~ .tab.laminate {
+  z-index: 2;
+
+  display: block;
+}
+.select .tabs input.linoleum:checked ~ .tab.linoleum {
+  z-index: 2;
+
+  display: block;
+}
+.select .tabs label.type {
+  float: left;
+  padding: 5px 15px;
+
+  background: #ffffff none repeat scroll 0 0;
+  border: 1px solid #dddddd;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.select .tabs label.type[for="type02"] {
+  float: right;
+}
+.select .tabs label.type span {
+  float: left;
+
+  font-size: 17px;
+}
+.select .tabs label.type:hover span {
+  text-decoration: underline;
+}
+.select .tabs .tab {
+  display: none;
+  float: left;
+  width: 100%;
+}
+.select .tabs .tab span.heading {
+  float: left;
+  width: 100%;
+  margin: 10px 0 0;
+
+  font-size: 20px;
+  line-height: 30px;
+}
+.select .tabs .tab > p {
+  float: left;
+  width: 100%;
+  margin: 5px 0;
+}
+.select .tabs .tab form {
+  float: left;
+  width: 100%;
+}
+.select .tabs .tab form label {
+  float: left;
+  width: 49%;
+}
+.select .tabs .tab form label:nth-child(2n) {
+  float: right;
+}
+.select .tabs .tab form label span {
+  position: relative;
+
+  float: left;
+  width: 100%;
+  margin: 10px 0 2px;
+
+  font-size: 15px;
+  line-height: 21px;
+}
+.select .tabs .tab form label span p {
+  float: left;
+  margin: 0;
+
+  font-weight: bold;
+  font-size: 15px;
+}
+.select .tabs .tab form label span u {
+  float: right;
+  box-sizing: border-box;
+  width: 18px;
+  height: 18px;
+  margin: 1px 0 0;
+
+  font-weight: bold;
+  font-size: 13px;
+  line-height: 18px;
+  text-align: center;
+  color: #ffffff;
+  text-decoration: none;
+
+  background: #ff6a00 none repeat scroll 0 0;
+  border: 1px solid #ffffff;
+  border-radius: 50%;
+  box-shadow: 0 0 3px 0 #999999;
+  cursor: help;
+  opacity: 0.5;
+}
+.select .tabs .tab form label span u:hover {
+  opacity: 1;
+}
+.select .tabs .tab form label span i {
+  position: absolute;
+  top: 20px;
+  left: 100%;
+  z-index: 2;
+
+  display: none;
+  width: 350px;
+  padding: 5px 10px;
+
+  font-style: normal;
+  font-weight: normal;
+  text-align: left;
+  color: #000000;
+
+  background: #f6f2e6 none repeat scroll 0 0;
+  border: 1px solid #d6d3c9;
+  opacity: 1;
+}
+
+/*
+.select .tabs .tab form label span i.last {
+    left: auto;
+    right: 20px;
+}
+*/
+.select .tabs .tab form label span u:hover ~ i {
+  display: block;
+}
+.select .tabs .tab form label select {
+  display: block;
+  float: left;
+  box-sizing: border-box;
+  width: 100%;
+  height: 30px;
+  padding: 2px;
+
+  font-size: 14px;
+  line-height: 30px;
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+
+  background: #eeeeee none repeat scroll 0 0;
+  border: 1px solid #dddddd;
+}
+.select .tabs .tab form button {
+  float: right;
+  width: 49%;
+  margin: 10px 0 0;
+  padding: 0;
+
+  font-size: 16px;
+  line-height: 32px;
+  font-family: Arial, Helvetica, sans-serif, sans-serif;
+  color: #ffffff;
+  text-shadow: 0 1px 4px rgba(0, 0, 0, 0.75);
+
+  background: #399ec9 none repeat scroll 0 0;
+  border: 1px solid #ffffff;
+  border-radius: 3px;
+  box-shadow: 0 0 3px 0 #555555;
+  cursor: pointer;
+}
+.select .tabs .tab form button:hover {
+  background: #febc00 none repeat scroll 0 0;
+}
+
+@media only screen and (max-width: 710px) {
+  .ad {
+    display: none;
+  }
+  /* Общие стили */
+  body {
+    width: 480px;
+
+    background: #6b5f53 url("https://centrpol.by/template/img/bg1_mini.jpg") no-repeat fixed left top !important;
+  }
+  h1,
+  h2 {
+    font-size: 20px;
+    line-height: 23px;
+  }
+
+  /* Контент */
+  .container {
+    float: left;
+    width: 96%;
+    margin: 2%;
+  }
+  .container .header {
+    margin: 0;
+
+    background: rgba(0, 0, 0, 0) url("https://centrpol.by/template/img/top_bg_mobile.png") repeat scroll 0 0;
+  }
+  .container .header .inner {
+    position: relative;
+
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 0;
+    padding: 40px 0 0;
+  }
+  .container .header .inner a.logo {
+    margin: 15px 0 0 2%;
+  }
+  .container .header .inner .contacts {
+    width: 100%;
+    margin: 10px 0 10px;
+    padding: 0 2%;
+  }
+  @media only screen and (min-width: 481px) {
+    .container {
+      width: 97%;
+    }
+  }
+
+  @media only screen and (min-width: 487px) {
+    .container {
+      width: 98%;
+    }
+  }
+
+  @media only screen and (min-width: 492px) {
+    .container {
+      width: 99%;
+    }
+  }
+
+  @media only screen and (min-width: 496px) {
+    .container {
+      width: 100%;
+      margin: 0;
+      padding: 0 20px;
+    }
+    body {
+      width: 100%;
+    }
+  }
+  .container .header .inner .contacts li {
+    width: 50%;
+  }
+  .container .header .inner .contacts li:nth-child(3) {
+    width: 100%;
+  }
+  .container .header .inner .contacts li span {
+    font-size: 17px;
+  }
+  .container .content {
+  }
+  .container .content .inner {
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 0;
+  }
+  .container .content .inner .left-menu {
+    position: static;
+    top: auto;
+    left: auto;
+
+    width: 100%;
+    height: auto;
+    min-height: auto;
+  }
+  .container .content .inner .left-menu ul.menu li {
+    width: 100%;
+    padding: 0;
+
+    border: medium none;
+  }
+  .container .content .inner .left-menu ul.menu li a {
+    padding: 10px 4% 0;
+
+    font-size: 17px;
+  }
+  .container .content .inner .left-menu > ul.menu > li > ul > li > a {
+    font-size: 17px;
+  }
+  .container .content .inner .left-menu > ul.menu > li > ul > li > a > span {
+    font-size: 17px;
+  }
+  .container .content .inner .left-menu > ul.menu > li > a > span {
+    font-size: 17px;
+  }
+  .container .content .inner .left-menu ul.menu li.active ul {
+    margin: 0;
+    padding: 0 4% 20px 5%;
+  }
+  .container .content .inner .left-menu ul.menu li.active ul li {
+  }
+  .container .content .inner .left-menu ul.menu li.active ul li a {
+    position: relative;
+    z-index: 1;
+
+    margin: 15px 0 -15px;
+
+    line-height: 28px;
+  }
+  .container .content .inner .left-menu ul.menu li a i {
+    font-size: 17px;
+  }
+  .container .content .inner .left-menu ul.menu li.active a {
+    padding: 10px 4% 0;
+
+    font-size: 17px;
+  }
+  .container .content .inner .left-menu ul.menu li.active ul li.active ul {
+    display: none;
+  }
+  .container .content .inner .left-menu h3.title {
+  }
+  .container .content .inner .left-menu h3.title i {
+    margin: 0 2% 0 2%;
+  }
+  .container .content .inner .left-menu h3.title a {
+    display: inline;
+  }
+  .container .content .inner .left-menu > ul.menu > li:hover > a.link ~ ul {
+  }
+  .container .content .inner .left-menu > ul.menu > li:hover > a.link ~ ul {
+    display: none;
+  }
+  .container .content .inner .left-menu > ul.menu > li:nth-child(3):hover > a.link ~ ul,
+  .container .content .inner .left-menu > ul.menu > li:nth-child(4):hover > a.link ~ ul,
+  .container .content .inner .left-menu > ul.menu > li:nth-child(5):hover > a.link ~ ul,
+  .container .content .inner .left-menu > ul.menu > li:nth-child(6):hover > a.link ~ ul {
+    display: none;
+  }
+  .container .content .inner .left-menu > ul.menu > li:hover > a.link ~ ul > li {
+  }
+  .container .content .inner .left-menu > ul.menu > li:hover > a.link ~ ul > li:hover {
+  }
+  .container .content .inner .left-menu > ul.menu > li:hover > a.link ~ ul > li:nth-child(3n) {
+  }
+  .container .content .inner .left-menu > ul.menu > li:hover > a.link ~ ul > li > a {
+  }
+  .container .content .inner .left-menu > ul.menu > li:hover > a.link ~ ul > li a img.pic {
+  }
+  .container .content .inner .left-menu > ul.menu > li:hover > a.link ~ ul > li a i.fa {
+  }
+  .container .content .inner .left-menu > ul.menu > li:hover > a.link ~ ul > li a span {
+  }
+  .container .content .inner .left-menu > ul.menu > li:hover > a.link ~ ul > li a span i {
+  }
+  .container .content .inner .lining {
+    width: 100%;
+    padding: 0 2% 10px;
+  }
+  .container .content .inner .lining .top .advertising .heading-image {
+    width: 100%;
+    margin: 0;
+
+    border: medium none;
+  }
+
+  /* Блоки рассрочки */
+  .container .content .inner .left-menu .flow {
+    padding: 10px 2%;
+  }
+  .container .content .inner .left-menu .flow .ad {
+    border-radius: 0;
+  }
+  .container .content .inner .lining .main .payment {
+    height: auto;
+    min-height: 195px;
+    padding: 10px 3%;
+
+    background: rgba(0, 0, 0, 0) url("https://centrpol.by/template/img/slides/installment-bottom.jpg") repeat scroll 0 0 /
+      cover;
+    border-radius: 0;
+  }
+  .container .content .inner .lining .main .payment ul {
+    width: 100%;
+  }
+  .container .content .inner .lining .main .payment ul li {
+    width: 50%;
+  }
+  .container .content .inner .lining .main .payment img {
+    display: none;
+    float: left;
+    width: 100%;
+  }
+  .container .content .inner .lining .main .payment ul li span {
+    width: auto;
+
+    font-size: 15px;
+  }
+
+  /* Список брендов/категорий */
+  .container .content .inner .lining .main .items li a span {
+    padding: 4px 0;
+
+    font-size: 16px;
+  }
+  .container .content .inner .lining .main .items li.brand img {
+    margin: 0;
+  }
+  .container .content .inner .lining .main .items li,
+  .container .content .inner .lining .main .catalog ul li.item,
+  .container .content .inner .lining .main .article ul.works li {
+    width: 49%;
+    margin: 0 2% 10px 0;
+
+    border: medium none;
+    box-shadow: 0 0 3px 0 #999999;
+  }
+  .container .content .inner .lining .main .items li:nth-child(2n),
+  .container .content .inner .lining .main .catalog ul li.item:nth-child(2n),
+  .container .content .inner .lining .main .article ul.works li:nth-child(2n) {
+    margin-right: 0;
+  }
+  .container .content .inner .lining .main .items li:nth-child(3n),
+  .container .content .inner .lining .main .catalog ul li.item:nth-child(3n),
+  .container .content .inner .lining .main .article ul.works li:nth-child(3n) {
+    margin: 0 2% 10px 0;
+  }
+  .container .content .inner .lining .main .items li:nth-child(6),
+  .container .content .inner .lining .main .catalog ul li.item:nth-child(6n),
+  .container .content .inner .lining .main .article ul.works li:nth-child(6n) {
+    margin-right: 0;
+  }
+
+  /* Главное меню */
+  .container .header .inner .main-menu {
+    position: absolute;
+    top: 0;
+    right: 0;
+
+    width: 100%;
+    margin: 0;
+    overflow: hidden;
+  }
+  .container .header .inner .main-menu ul {
+    display: block;
+    float: left;
+    width: 71%;
+    margin: 0;
+
+    background: #399ec9 none repeat scroll 0 0;
+  }
+  .lowmani {
+    width: 26%;
+    margin-top: 0;
+    padding: 0 0 20px 13px;
+
+    background: #399ec9;
+  }
+  .container .header .inner .main-menu .lowmani ul {
+    width: 94%;
+    padding: 0 0 0 6px;
+  }
+  .container .header .inner .main-menu .lowmani ul li a {
+    font-size: 13px;
+    line-height: 13px;
+  }
+  .container .header .inner .main-menu ul li {
+    display: block;
+    float: left;
+    width: 24.65%;
+    padding: 0;
+  }
+  .container .header .inner .main-menu ul li:nth-child(3) {
+    display: none;
+  }
+  .container .header .inner .main-menu ul li a {
+    width: 100%;
+    height: 40px;
+    padding: 0;
+
+    text-align: center;
+    color: #ffffff;
+  }
+  .container .header .inner .main-menu ul li a i {
+    display: block;
+    float: none;
+    margin: 0;
+    padding: 4px 0 0;
+
+    font-size: 23px;
+    line-height: 23px;
+  }
+  .container .header .inner .main-menu ul li.active a i {
+    color: yellow;
+  }
+  .container .header .inner .main-menu ul li.active a span {
+    color: yellow;
+  }
+  .container .header .inner .main-menu ul li a span {
+    float: left;
+    width: 100%;
+
+    font-size: 11px;
+    line-height: 11px;
+    color: #ffffff;
+    text-transform: none;
+    text-overflow: ellipsis;
+  }
+  .container .header .inner .main-menu ul li:hover a {
+    color: #ffd600;
+  }
+  .container .submenu {
+    display: none;
+    box-sizing: border-box;
+    padding: 0 2%;
+  }
+  .container .submenu ul {
+    display: block;
+    float: left;
+    width: 100%;
+    margin: 0;
+  }
+  .container .submenu ul li {
+  }
+  .container .submenu ul li:last-child {
+    float: left;
+    margin: 0;
+  }
+  .container .submenu ul li:nth-last-child {
+    margin: 0;
+  }
+  .container .submenu ul li:last-child a {
+  }
+  .container .submenu ul li:nth-child(4) {
+    margin: 0;
+  }
+  .container .submenu ul li:nth-child(3),
+  .container .submenu ul li:nth-child(4) {
+    display: none;
+  }
+  .container .submenu ul li:nth-last-child(2) a {
+  }
+  .container .submenu ul li:nth-last-child(2):hover a {
+  }
+  .container .submenu ul li a {
+  }
+  .container .submenu ul li a:hover,
+  .container .submenu ul li.active a {
+  }
+  /*
+.container .header .inner .main-menu ul li.active a {
+    background: rgba(57, 158, 201, 0.1) none repeat scroll 0 0;
+}
+.container .header .inner .main-menu ul li.active {
+}
+.container .header .inner .main-menu ul li.active ul {
+    display: none !important;
+}
+.container .header .inner .main-menu ul li ul {
+    background-color: #399ec9;
+    margin: 0;
+    padding: 0;
+    right: 0;
+    top: 40px;
+    z-index: 1;
+}
+.container .header .inner .main-menu ul li ul li {
+    width: 100%;
+    float: left;
+}
+.container .header .inner .main-menu ul li ul li a {
+}
+*/
+
+  /* Сворачивающееся меню
+.container .header .inner .main-menu ul li ul.flexMenu-popup {
+    background-color: #399ec9;
+    margin: 0;
+    padding: 0;
+    right: 0;
+    top: 40px;
+    z-index: 1;
+    width: 200px;
+}
+.container .header .inner .main-menu ul li ul.flexMenu-popup li {
+    box-sizing: border-box;
+    float: left;
+    padding: 0 5px;
+    width: 100%;
+}
+.container .header .inner .main-menu ul li ul.flexMenu-popup li:hover a,
+.container .header .inner .main-menu ul li ul.flexMenu-popup li:active a {
+}
+.container .header .inner .main-menu ul li ul.flexMenu-popup li a {
+    height: 40px;
+    line-height: 40px;
+}
+
+/*.flexMenu-viewMore > a, .flexMenu-viewMore > a:hover {
+    background-color: #5599AA;
+}
+*/
+  .flexMenu-viewMore > a:after {
+    content: "";
+    position: relative;
+    top: -0.1em;
+
+    display: inline-block;
+    margin-left: 0.4em;
+
+    border-top: 0.4em solid white;
+    border-right: 0.3em solid transparent;
+    border-left: 0.3em solid transparent;
+  }
+  /*
+.container .header .inner .main-menu ul li ul.flexMenu-popup li.flexMenu-viewMore.active a,
+.container .header .inner .main-menu ul li ul.flexMenu-popup li.flexMenu-viewMore.active a i:hover,
+.container .header .inner .main-menu ul li ul.flexMenu-popup li.flexMenu-viewMore.active a:active {
+    color: #ffd600;
+}
+*/
+  .container .header .inner .main-menu ul li ul.flexMenu-popup li a i {
+    width: 35px;
+
+    line-height: 40px;
+  }
+  .container .header .inner .main-menu ul li ul.flexMenu-popup li a span {
+    line-height: 40px;
+  }
+  .container .header .inner .main-menu ul li.active ul.flexMenu-popup li.active a i {
+    color: #ffd600;
+  }
+  .container .header .inner .main-menu ul li.active ul.flexMenu-popup li.active a span {
+    color: #ffd600;
+  }
+  .container .header .inner .main-menu ul li.active ul.flexMenu-popup li a span {
+    color: #ffffff;
+  }
+  .container .header .inner .main-menu ul li.active ul.flexMenu-popup li:hover a span {
+    color: #ffd600;
+  }
+  .container .header .inner .main-menu ul li.active ul.flexMenu-popup li:hover a i {
+    color: #ffd600;
+  }
+  .container .header .inner .main-menu ul li.active ul.flexMenu-popup li a i {
+    color: #ffffff;
+  }
+
+  /* Футер */
+  .container .footer {
+    float: left;
+    padding: 10px 2%;
+
+    background: #3c98bf none repeat scroll 0 0;
+  }
+  .container .footer > ul {
+    float: left;
+    width: 100%;
+    margin: 0;
+  }
+  .container .footer > ul > li {
+    float: left;
+    width: 100%;
+    margin: 0 0 15px;
+  }
+  .container .footer > ul > li:nth-child(1) {
+    display: none;
+  }
+  .container .footer ul li h3 {
+    margin: 0 0 5px;
+
+    color: #ffffff;
+  }
+  .container .footer ul li h3 i {
+  }
+  .container .footer ul li img {
+    width: 32%;
+    margin: 0 2% 0 0;
+  }
+  .container .footer ul li .widget {
+    float: left;
+    margin: 0 auto;
+  }
+
+  /* Всплывающие формы */
+  .container .content .inner .lining .main .fade form {
+    top: 10%;
+
+    width: 94%;
+    margin: 0 3% 0 -47%;
+    padding: 0;
+  }
+  .container .content .inner .lining .main .fade form .head {
+    width: 100%;
+    height: 20px;
+    margin: 0;
+  }
+  .container .content .inner .lining .main .fade form .head h3 {
+    margin: 0 0 0 3%;
+
+    line-height: 20px;
+  }
+  .container .content .inner .lining .main .fade form label {
+    width: 94%;
+    margin: 10px 3% 0;
+  }
+  .container .content .inner .lining .main .fade form label input[type="text"] {
+    float: left;
+    width: 100%;
+    margin: 2px 0 0;
+
+    font-size: 14px;
+  }
+  .container .content .inner .lining .main .fade form label textarea {
+    width: 100%;
+    height: 80px;
+
+    font-size: 14px;
+  }
+  .container .content .inner .lining .main .fade form input[type="button"] {
+    width: 94%;
+    margin: 0 auto 10px;
+
+    border: medium none;
+  }
+  .container .content .inner .lining .main .fade form .head .close {
+    position: absolute;
+    right: 3%;
+
+    width: 20px;
+    height: 20px;
+    margin: 0;
+
+    line-height: 19px;
+
+    background: #399ec9 none repeat scroll 0 0;
+  }
+  .container .content .inner .lining .main .fade form .head .close i {
+    font-size: 14px;
+    line-height: 17px;
+  }
+  .container .content .inner .lining .main .fade .send form label.wide {
+  }
+  .container .content .inner .lining .main .fade .send form label.narrow {
+  }
+
+  /* Страница товара */
+  .container .content .inner .lining .main .product .gallery {
+    width: 100%;
+    padding: 0;
+
+    background: rgba(0, 0, 0, 0) none repeat scroll 0 0;
+    border: 0 none;
+  }
+  .container .content .inner .lining .main .product .gallery a.image {
+    width: 100%;
+  }
+  .container .content .inner .lining .main .product .description {
+    width: 100%;
+    margin: 10px 0 0;
+  }
+  .container .content .inner .lining .main .product .description a.order {
+    width: 100%;
+    margin: 7px 0;
+    padding: 10px 0;
+  }
+  .container .content .inner .lining .main .product .description a.info {
+    width: 100%;
+    margin: 0;
+    padding: 10px 0;
+  }
+
+  .container .content .inner .lining .main .product .gallery .near {
+  }
+  .container .content .inner .lining .main .product .gallery .near a {
+  }
+  .container .content .inner .lining .main .product .gallery .near a.next {
+  }
+  .container .content .inner .lining .main .product .gallery .near a.next span {
+  }
+  .container .content .inner .lining .main .product .gallery .near a.next i {
+  }
+  .container .content .inner .lining .main .product .gallery .near a span {
+  }
+  .container .content .inner .lining .main .product .gallery .near a:hover span {
+  }
+  .container .content .inner .lining .main .product .gallery .near a i {
+  }
+  .container .content .inner .lining .main ul.recommended {
+    padding: 0 10px 10px;
+  }
+  .container .content .inner .lining .main ul.recommended li {
+    width: 49%;
+    margin: 10px 0 0;
+  }
+  .container .content .inner .lining .main ul.recommended li:nth-child(2n) {
+    float: right;
+  }
+  .container .content .inner .lining .main ul.recommended li:nth-child(4) {
+    margin: 10px 0 0;
+  }
+  .container .content .inner .lining .main ul.recommended li:last-child {
+  }
+  .container .content .inner .lining .main ul.recommended li a {
+  }
+  .container .content .inner .lining .main ul.recommended li a:hover span {
+  }
+  .container .content .inner .lining .main ul.recommended li a span {
+  }
+  .container .content .inner .lining .main ul.recommended li a span i {
+  }
+  .container .content .inner .lining .main ul.recommended li a img {
+  }
+
+  /* ХЗ откуда это
+.contacts {
+    float: left;
+    margin: 0 3% 8px 3%;
+    width: 94%;
+}
+.contacts li {
+    width: 50%;
+}
+.contacts li:nth-child(3) {
+    width: 100%;
+}
+.contacts li span {
+    font-size: 13px;
+    padding: 3px 0 3px 25px;
+    line-height: 20px;
+}
+
+*/
+
+  /* Заголовки страниц категорий */
+  .container .content .inner .lining .main p {
+    float: left;
+    width: 100%;
+    margin: 0 0 10px;
+
+    font-size: 15px;
+    text-align: justify;
+  }
+  .container .content .inner .lining .main .catalog ul li a.info,
+  .container .content .inner .lining .main .catalog ul li a.order {
+    width: 97px;
+  }
+  .container .content .inner .lining .main .catalog ul li a.resize {
+    display: none;
+  }
+  .container .content .inner .lining .main .article form.filter label span p {
+    width: auto;
+  }
+  .container .content .inner .lining .main .article h2.parameters {
+    margin: 0 0 10px;
+  }
+  .container .content .inner .lining .intro h1 {
+    bottom: 10px;
+
+    width: auto;
+    padding: 2px 5px;
+
+    font-size: 16px;
+  }
+  .container .content .inner .lining .top h2,
+  .container .content .inner .lining .top h1 {
+    width: 100%;
+    margin: 0 0 10px;
+
+    line-height: 23px;
+  }
+  .container .content .inner .lining .top .advertising {
+    border: medium none;
+  }
+  .container .content .inner .lining .top .advertising form {
+    top: 0;
+    right: 0;
+
+    width: 100%;
+  }
+  .container .content .inner .lining .top .advertising form span {
+    margin: 5px 0 0;
+  }
+  .container .content .inner .lining .top .advertising form input[type="text"],
+  .container .content .inner .lining .top .advertising form select {
+    height: 39px;
+    padding: 8px 5px;
+
+    line-height: 21px;
+  }
+  .container .content .inner .lining .top .advertising form input[type="submit"] {
+    height: 35px;
+    padding: 0;
+  }
+  .container .content .inner .lining ul.how {
+  }
+  .container .content .inner .lining ul.how li {
+  }
+  .container .content .inner .lining ul.how li span {
+  }
+  .container .content .inner .lining ul.how li i {
+  }
+  .container .content .inner .lining .main .breadcrumbs {
+    width: 100%;
+    margin: 0;
+  }
+  .container .content .inner .lining .main .installment {
+    float: left;
+    width: 100%;
+    margin: 10px 0;
+    padding: 0 2%;
+
+    box-shadow: 0 0 3px 0 #999999;
+  }
+  .container .content .inner .lining .main .installment i {
+    width: auto;
+    margin: 0 10px 0 0;
+  }
+  .container .content .inner .lining .main .installment span {
+    float: left;
+    width: auto;
+    height: 30px;
+
+    font-size: 12px;
+    line-height: 30px;
+  }
+  .container .content .inner .lining .main .article form.filter {
+    padding: 5px 5px 10px;
+  }
+  .container .content .inner .lining .main .article form.filter label {
+    width: 48%;
+    margin: 0 1%;
+  }
+  .container .content .inner .lining .main .article form.filter label span {
+    margin: 5px 0 2px;
+  }
+  .container .content .inner .lining .main .article form.filter button {
+    position: static;
+    right: auto;
+    bottom: auto;
+
+    width: 98%;
+    margin: 10px 1% 0;
+  }
+  .container .content .inner .lining .main .catalog ul > li {
+  }
+  .container .content .inner .lining .main .catalog ul li a.image .features span.new {
+    right: 130px;
+    bottom: -20px;
+
+    width: 120px;
+  }
+  .container .content .inner .lining .main .catalog ul li a.image .features span.hit {
+    top: -24px;
+    left: 135px;
+
+    width: 120px;
+  }
+
+  .container .content .inner .lining .main .catalog ul li a span.category-price {
+    bottom: 0;
+    left: 0;
+
+    width: 100% !important;
+  }
+  .catalog ul li a span.heading {
+  }
+  .catalog ul li a span.heading.item {
+  }
+  .container .content .inner .lining .main .catalog ul li ul {
+    top: 160px;
+    left: 35px;
+  }
+  .container .content .inner .lining .main .catalog ul li ul li {
+    opacity: 1;
+  }
+  .container .content .inner .lining .main .catalog ul li:hover ul li {
+    opacity: inherit;
+  }
+  .container .content .inner .lining .main .catalog ul li ul li:hover {
+  }
+  .container .content .inner .lining .main .catalog ul li ul li:nth-child(3) {
+  }
+  .container .content .inner .lining .main .catalog ul li ul li span {
+  }
+  .container .content .inner .lining .main .catalog ul li ul li u {
+  }
+  .container .content .inner .lining .main .catalog ul li ul li:hover u {
+    display: none;
+  }
+  .container .content .inner .lining .main .catalog ul li ul li u::after {
+  }
+  .container .content .inner .lining .main .catalog ul li ul li u i {
+  }
+  .container .content .inner .lining .main .catalog ul li ul li.laminate:nth-child(1) u {
+  }
+  .container .content .inner .lining .main .catalog ul li ul li.laminate:nth-child(2) u {
+  }
+  .container .content .inner .lining .main .catalog ul li ul li.laminate:nth-child(3) u {
+  }
+  .container .content .inner .lining .main .catalog ul li ul li.linoleum:nth-child(1) u {
+  }
+  .container .content .inner .lining .main .catalog ul li ul li.linoleum:nth-child(2) u {
+  }
+  .container .content .inner .lining .main .catalog ul li ul li.linoleum:nth-child(3) u {
+  }
+
+  /* Новые стили */
+  .select {
+    display: none;
+  }
+  .select a.show {
+  }
+  .select a.show:hover i {
+  }
+  .select a.show i {
+  }
+  .select .tabs {
+  }
+  .select .tabs input[type="radio"] {
+  }
+  .select .tabs input.laminate:checked ~ label.type[for="type01"],
+  .select .tabs input.linoleum:checked ~ label.type[for="type02"] {
+  }
+  .select .tabs input[type="radio"]:checked ~ label span {
+  }
+  .select .tabs input.laminate:checked ~ .tab.laminate {
+  }
+  .select .tabs input.linoleum:checked ~ .tab.linoleum {
+  }
+  .select .tabs label.type {
+  }
+  .select .tabs label.type[for="type02"] {
+  }
+  .select .tabs label.type span {
+  }
+  .select .tabs label.type:hover span {
+  }
+  .select .tabs .tab {
+  }
+  .select .tabs .tab span.heading {
+  }
+  .select .tabs .tab > p {
+  }
+  .select .tabs .tab form {
+  }
+  .select .tabs .tab form label {
+  }
+  .select .tabs .tab form label:nth-child(2n) {
+  }
+  .select .tabs .tab form label span {
+  }
+  .select .tabs .tab form label span p {
+  }
+  .select .tabs .tab form label span u {
+  }
+  .select .tabs .tab form label span u:hover {
+  }
+  .select .tabs .tab form label span i {
+  }
+  .select .tabs .tab form label span i b {
+  }
+  .select .tabs .tab form label span u:hover ~ i {
+  }
+  .select .tabs .tab form label select {
+  }
+  .select .tabs .tab form button {
+  }
+  .select .tabs .tab form button:hover {
+  }
+  .select .tabs .tab form button i {
+  }
+  .select .tabs .tab form button span {
+  }
+}
+
+@media only screen and (max-width: 710px) {
+  .lining .how {
+    display: none;
+  }
+  .v_kat_ybrat {
+    display: none;
+  }
+  .niz_ban {
+    display: none;
+  }
+  .linoleum .lining .top,
+  .linoleum .lining .how,
+  .linoleum .left-menu .looked,
+  .linoleum .ad {
+    display: none;
+  }
+  .nashi_rab .col-md-12 {
+    float: LEFT;
+    width: 31%;
+  }
+  .linoleum .nenuzh_lin {
+    display: none;
+  }
+  .gager form label span {
+    font-size: 14px;
+  }
+  .gager p {
+    display: none;
+  }
+  .gager form {
+    width: 90%;
+  }
+  .container .header .main-menu .fa-percent,
+  .container .header .main-menu .fa-briefcase {
+    background-position: 26px;
+  }
+  .slides li {
+    width: 442px !important;
+    height: 300px;
+  }
+  .slides li img {
+    width: 100%;
+  }
+  .poisk_snizy {
+    display: none;
+  }
+  .home .lining .top,
+  .home .lining .how,
+  .home .lining .article {
+    display: none;
+  }
+  .nashi_rab .col-md-12 .title {
+    min-height: 42px;
+  }
+}
+@media only screen and (min-width: 711px) {
+  body {
+    width: 1060px;
+    margin: 0 auto;
+    padding: 10px;
+  }
+  .poisk_sverhy {
+    display: none;
+  }
+  .verh_ban {
+    display: none;
+  }
+}
+@media only screen and (min-width: 800px) {
+  body {
+    width: 1070px;
+    margin: 0 auto;
+    padding: 0;
+  }
+  .slides li {
+    width: 766px !important;
+    height: 548px;
+  }
+  .slides li img {
+    width: 100%;
+    height: 540px;
+  }
+}
+@media only screen and (min-width: 1070px) {
+  body {
+    width: 100%;
+    margin: 0 auto;
+    padding: 0;
+  }
+}
+
+#carousel {
+  height: 55px;
+  padding: 20px 0;
+}
+
+#carousel .flex-viewport {
+margin: 0 35px;
+}
+
+#carousel li {
+  margin-right: 15px;
+  width: 80px !important;
+  height: 55px;
+}
+#carousel img {
+  display: block;
+
+  cursor: pointer;
+  /* opacity: 0.5; */
+  width: 100%;
+  height: auto;
+}
+#carousel img:hover {
+  opacity: 1;
+}
+#carousel .flex-active-slide img {
+  cursor: default;
+  opacity: 1;
+}

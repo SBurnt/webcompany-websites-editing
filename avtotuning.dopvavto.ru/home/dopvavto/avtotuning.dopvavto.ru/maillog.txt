@@ -1,0 +1,246 @@
+Array
+(
+    [TO] => turbingraf@yandex.ru
+    [SUBJECT] => =?UTF-8?B?0JzQsNCz0LDQt9C40L0g0JDQstGC0L7RgtGO0L3QuNC90LM6INCd0L7QstGL0Lkg0LfQsNC60LDQtyBOMzQ4?=
+    [BODY] => ---------alt8345f4cc58
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+body
+{
+font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+font-size: 14px;
+color: #000;
+}
+
+Вами оформлен заказ в магазине Магазин Автотюнинг
+
+Уважаемый Владимир Александрович Турбин,
+
+Ваш заказ номер 348 от 31.08.2020 12:40:26 принят.
+
+Стоимость заказа: 247.80 руб..
+
+Состав заказа:
+
+1. Сумка-холодильник Mobicool MB32, 32л, 12В - 1 x 247.8 руб.
+
+Вы можете следить за выполнением своего заказа (на какой стадии выполнения он находится), войдя в Ваш персональный раздел сайта Магазин Автотюнинг.
+
+Обратите внимание, что для входа в этот раздел Вам необходимо будет ввести логин и пароль пользователя сайта Магазин Автотюнинг.
+
+Для того, чтобы аннулировать заказ, воспользуйтесь функцией отмены заказа, которая доступна в Вашем персональном разделе сайта Магазин Автотюнинг.
+
+Пожалуйста, при обращении к администрации сайта Магазин Автотюнинг ОБЯЗАТЕЛЬНО указывайте номер Вашего заказа - 348.
+
+Спасибо за покупку!
+
+С уважением,
+
+администрация Интернет-магазина:
+http://avtotuning.dopvavto.ru
+
+E-mail: dopvavto@vh115.hoster.by:
+mailto:dopvavto@vh115.hoster.by
+
+
+---------alt8345f4cc58
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<style>
+		body
+		{
+			font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+			font-size: 14px;
+			color: #000;
+		}
+	</style>
+<table cellpadding="0" cellspacing="0" width="850" style="background-color: #d1d1d1; border-radius: 2px; border:1px solid #d1d1d1; margin: 0 auto;" border="1" bordercolor="#d1d1d1">
+<tbody>
+<tr>
+	<td height="83" width="850" bgcolor="#eaf3f5" style="border: none; padding-top: 23px; padding-right: 17px; padding-bottom: 24px; padding-left: 17px;">
+		<table cellpadding="0" cellspacing="0" width="100%">
+		<tbody>
+		<tr>
+			<td bgcolor="#ffffff" height="75" style="font-weight: bold; text-align: center; font-size: 26px; color: #0b3961;">
+				 Вами оформлен заказ в магазине Магазин Автотюнинг
+			</td>
+		</tr>
+		<tr>
+			<td bgcolor="#bad3df" height="11">
+			</td>
+		</tr>
+		</tbody>
+		</table>
+	</td>
+</tr>
+<tr>
+	<td width="850" bgcolor="#f7f7f7" valign="top" style="border: none; padding-top: 0; padding-right: 44px; padding-bottom: 16px; padding-left: 44px;">
+		<p style="margin-top:30px; margin-bottom: 28px; font-weight: bold; font-size: 19px;">
+			 Уважаемый Владимир Александрович Турбин,
+		</p>
+		<p style="margin-top: 0; margin-bottom: 20px; line-height: 20px;">
+			 Ваш заказ номер 348 от 31.08.2020 12:40:26 принят.<br>
+ <br>
+			 Стоимость заказа: 247.80 руб..<br>
+ <br>
+			 Состав заказа:<br>
+			 1. Сумка-холодильник Mobicool MB32, 32л, 12В - 1 x 247.8 руб. <br><br>
+		</p>
+		<p style="margin-top: 0; margin-bottom: 20px; line-height: 20px;">
+ <span style="background-color: #d1d1d1;">Вы можете следить за выполнением своего заказа (на какой стадии выполнения он находится), войдя в Ваш персональный раздел сайта Магазин Автотюнинг.</span>
+		</p>
+		<p>
+ <br>
+			 Обратите внимание, что для входа в этот раздел Вам необходимо будет ввести логин и пароль пользователя сайта Магазин Автотюнинг.<br>
+ <br>
+			 Для того, чтобы аннулировать заказ, воспользуйтесь функцией отмены заказа, которая доступна в Вашем персональном разделе сайта Магазин Автотюнинг.<br>
+ <br>
+			 Пожалуйста, при обращении к администрации сайта Магазин Автотюнинг ОБЯЗАТЕЛЬНО указывайте номер Вашего заказа - 348.<br>
+ <br>
+			 Спасибо за покупку!<br>
+		</p>
+	</td>
+</tr>
+<tr>
+	<td height="40px" width="850" bgcolor="#f7f7f7" valign="top" style="border: none; padding-top: 0; padding-right: 44px; padding-bottom: 30px; padding-left: 44px;">
+		<p style="border-top: 1px solid #d1d1d1; margin-bottom: 5px; margin-top: 0; padding-top: 20px; line-height:21px;">
+			 С уважением,<br>
+			 администрация <a href="http://avtotuning.dopvavto.ru" style="color:#2e6eb6;">Интернет-магазина</a><br>
+			 E-mail: <a href="mailto:dopvavto@vh115.hoster.by" style="color:#2e6eb6;">dopvavto@vh115.hoster.by</a>
+		</p>
+	</td>
+</tr>
+</tbody>
+</table>
+
+
+---------alt8345f4cc58--
+
+    [HEADERS] => From: dopvavto@vh115.hoster.by
+BCC: dopvavto@vh115.hoster.by,Grafturbin@bk.ru
+CC: grafturbin@bk.ru
+Reply-To: dopvavto@vh115.hoster.by
+X-EVENT_NAME: SALE_NEW_ORDER
+X-Priority: 3 (Normal)
+Date: Mon, 31 Aug 2020 12:40:26 +0300
+MIME-Version: 1.0
+X-MID: 46.30 (31.08.2020 12:40:26)
+Content-Type: multipart/alternative; boundary="-------alt8345f4cc58"
+)
+
+========
+Array
+(
+    [TO] => turbingraf@yandex.ru
+    [SUBJECT] => =?UTF-8?B?YXZ0b3R1bmluZy5kb3B2YXZ0by5ydTog0JjQt9C80LXQvdC10L3QuNC1INGB0YLQsNGC0YPRgdCwINC30LDQutCw0LfQsCBOMzQ4?=
+    [BODY] => ---------alt5495f4cc58
+Content-Type: text/plain; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+Изменение статуса заказа в магазине Магазин Автотюнинг
+
+Информационное сообщение сайта Магазин Автотюнинг
+
+------------------------------------------
+
+Статус заказа номер 348 от 31.08.2020 12:40:26 изменен.
+
+Новый статус заказа:
+
+Принят, ожидается оплата
+
+Заказ принят, но пока не обрабатывается (например, заказ только что создан или ожидается оплата заказа)
+
+Для получения подробной информации по заказу пройдите на сайт avtotuning.dopvavto.ru/personal/order/348/
+
+Спасибо за ваш выбор!
+
+Магазин Автотюнинг
+
+С уважением,
+администрация Интернет-магазина:
+http://avtotuning.dopvavto.ru
+
+E-mail: dopvavto@vh115.hoster.by:
+mailto:dopvavto@vh115.hoster.by
+
+
+---------alt5495f4cc58
+Content-Type: text/html; charset=UTF-8
+Content-Transfer-Encoding: 8bit
+
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01 Transitional//EN" "http://www.w3.org/TR/html4/loose.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml" xml:lang="ru" lang="ru">
+<head>
+	<meta http-equiv="Content-Type" content="text/html;charset=UTF-8"/>
+	<style>
+		body
+		{
+			font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
+			font-size: 14px;
+			color: #000;
+		}
+	</style>
+</head>
+<body>
+<table cellpadding="0" cellspacing="0" width="850" style="background-color: #d1d1d1; border-radius: 2px; border:1px solid #d1d1d1; margin: 0 auto;" border="1" bordercolor="#d1d1d1">
+	<tr>
+		<td height="83" width="850" bgcolor="#eaf3f5" style="border: none; padding-top: 23px; padding-right: 17px; padding-bottom: 24px; padding-left: 17px;">
+			<table cellpadding="0" cellspacing="0" border="0" width="100%">
+				<tr>
+					<td bgcolor="#ffffff" height="75" style="font-weight: bold; text-align: center; font-size: 26px; color: #0b3961;">Изменение статуса заказа в магазине Магазин Автотюнинг</td>
+				</tr>
+				<tr>
+					<td bgcolor="#bad3df" height="11"></td>
+				</tr>
+			</table>
+		</td>
+	</tr>
+	<tr>
+		<td width="850" bgcolor="#f7f7f7" valign="top" style="border: none; padding-top: 0; padding-right: 44px; padding-bottom: 16px; padding-left: 44px;">
+			<p style="margin-top:30px; margin-bottom: 28px; font-weight: bold; font-size: 19px;"></p>
+			<p style="margin-top: 0; margin-bottom: 20px; line-height: 20px;">Информационное сообщение сайта Магазин Автотюнинг<br />
+------------------------------------------<br />
+<br />
+Статус заказа номер 348 от 31.08.2020 12:40:26 изменен.<br />
+<br />
+Новый статус заказа:<br />
+Принят, ожидается оплата<br />
+Заказ принят, но пока не обрабатывается (например, заказ только что создан или ожидается оплата заказа)<br />
+<br />
+<br />
+Для получения подробной информации по заказу пройдите на сайт avtotuning.dopvavto.ru/personal/order/348/<br />
+<br />
+Спасибо за ваш выбор!<br />
+Магазин Автотюнинг<br />
+</p>
+		</td>
+	</tr>
+	<tr>
+		<td height="40px" width="850" bgcolor="#f7f7f7" valign="top" style="border: none; padding-top: 0; padding-right: 44px; padding-bottom: 30px; padding-left: 44px;">
+			<p style="border-top: 1px solid #d1d1d1; margin-bottom: 5px; margin-top: 0; padding-top: 20px; line-height:21px;">С уважением,<br />администрация <a href="http://avtotuning.dopvavto.ru" style="color:#2e6eb6;">Интернет-магазина</a><br />
+				E-mail: <a href="mailto:dopvavto@vh115.hoster.by" style="color:#2e6eb6;">dopvavto@vh115.hoster.by</a>
+			</p>
+		</td>
+	</tr>
+</table>
+</body>
+</html>
+
+
+---------alt5495f4cc58--
+
+    [HEADERS] => From: dopvavto@vh115.hoster.by
+Reply-To: dopvavto@vh115.hoster.by
+BCC: Grafturbin@bk.ru
+X-EVENT_NAME: SALE_STATUS_CHANGED_N
+X-Priority: 3 (Normal)
+Date: Mon, 31 Aug 2020 12:40:26 +0300
+MIME-Version: 1.0
+X-MID: 47.43 (31.08.2020 12:40:26)
+Content-Type: multipart/alternative; boundary="-------alt5495f4cc58"
+)
+
+========

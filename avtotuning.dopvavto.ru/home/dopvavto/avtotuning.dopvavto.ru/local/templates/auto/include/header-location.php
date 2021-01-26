@@ -1,0 +1,2 @@
+<a href="https://www.google.com/maps/place/%D1%83%D0%BB.+%D0%9E%D1%80%D0%BB%D0%BE%D0%B2%D1%81%D0%BA%D0%B0%D1%8F+17,+%D0%9C%D0%B8%D0%BD%D1%81%D0%BA,+%D0%91%D0%B5%D0%BB%D0%B0%D1%80%D1%83%D1%81%D1%8C/@53.9319269,27.5588165,17z/data=!3m1!4b1!4m5!3m4!1s0x46dbcf79982616bf:0x10dbc0fa3639f24c!8m2!3d53.9319238!4d27.5610052?hl=ru-KG" target="_blank" class="rg">Магазин "Автотюнинг" <br>
+г. Минск, ул. Орловская, д. 17</a>&nbsp;

@@ -1,0 +1,845 @@
+<!DOCTYPE html>
+<html lang="ru">
+	<head>
+		<meta charset="UTF-8">
+		<title>Avtotuning</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name="description" content="Avtotuning компания" />
+		<!-- <link rel="icon" type="image/png" sizes="32x32" href="./public/img/favicon/favicon-32x32.png" />
+		<link rel="icon" type="image/png" sizes="16x16" href="./public/img/favicon/favicon-16x16.png" /> -->
+		<meta name="theme-color" content="#eeeeee" />
+		<!-- Chrome, Firefox OS and Opera -->
+		<meta name="theme-color" content="#eeeeee" />
+		<!-- Windows Phone -->
+		<meta name="msapplication-navbutton-color" content="#eeeeee" />
+		<!-- iOS Safari -->
+		<meta name="apple-mobile-web-app-status-bar-style" content="#eeeeee" />
+
+		<!--- fonts google --->
+		<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&amp;subset=cyrillic" rel="stylesheet">
+
+		<!--- stylesheet CSS -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+		<link rel="stylesheet" href="./public/css/flipclock.css">
+		<link rel="stylesheet" href="./public/css/carousel.css">
+		<link rel="stylesheet" href="./public/css/flex.css">
+		<link rel="stylesheet" type="text/css" href="./public/css/style.css" />
+
+		<!--- scripts ---->
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.2/jquery.min.js"></script>
+		<script src="./public/js/flipclock.js"></script>
+	</head>
+	<body>
+    <!--- popup modal --->
+    <div id="modal">
+      <div class="overlay"></div>
+
+      <div class="wrapper">
+        <div class="modal">
+          <div class="close main_flex flex__align-items_center flex__jcontent_center">
+            <i class="fas fa-times"></i>
+          </div>
+          <p class="rg account">Аккаунт</p>
+          <form action="" id="form--modal">
+            <div class="form__name main_flex flex__align-items_center flex__jcontent_between">
+              <p class="rg">Полное имя</p>
+              <input type="text" placeholder="Иван Иванович Иванов">
+            </div>
+            <div class="form__name main_flex flex__align-items_center flex__jcontent_between">
+              <div class="flex__1">
+                <div class="form__name--p main_flex flex__align-items_center">
+                  <p class="rg">Ник</p>
+                  <input type="text" placeholder="SuperUser17">
+                </div>
+                <div class="form__name--p main_flex flex__align-items_center">
+                  <p class="rg">Электропочта</p>
+                  <input type="text" placeholder="mail@gmail.com">
+                </div>
+              </div>
+              <div class="flex__1">
+                <div class="form__name--p main_flex flex__align-items_center">
+                  <p class="rg">Дата <br>рождения</p>
+                  <input type="text" placeholder="19 апреля 1968">
+                </div>
+                <div class="form__name--p main_flex flex__align-items_center">
+                  <p class="rg">Телефон</p>
+                  <input type="text" placeholder="+375 (25) 255-55-55">
+                </div>
+              </div>
+            </div>
+          </form>
+          <button class="abs">Сохранить</button>
+        </div>
+      </div>
+    </div>
+    <!--- end popup modal --->
+		<!--- hamburger nav show ---->
+		<div class="hav__show">
+			<i class="fas fa-times-circle"></i>
+			<ul class="main_flex flex__align-items_center navlink">
+				<li><a class="bd" href="#">Акции</a></li>
+				<li><a class="bd" href="catalog.html">Каталог</a></li>
+				<li><a class="bd" href="#">Сервис</a></li>
+				<li><a class="bd" href="#">О компании</a></li>
+				<li><a class="bd" href="#">Контактная информация</a></li>
+			</ul>
+			<a href="#" class="main_flex__nowrap flex__align-items_center log">
+				<div class="icon icon--log"></div>
+				<p class="bd">Вход</p>
+			</a>
+			<div class="header__form">
+				<form action="" class="main_flex__nowrap flex__align-items_center">
+					<input type="text" name="search">
+					<input type="submit" value="найти на сайте" class="bd">
+				</form>
+			</div>
+		</div>
+		<!--- end hamburger nav show ---->
+		<!--- catalog nav show ---->
+		<div class="catalog__show">
+			<i class="fas fa-times-circle fa-times-circle1"></i>
+			<nav class="content__nav">
+				<div class="content__nav--cl main_flex__nowrap flex__align-items_center flex__jcontent_between">
+					<h2 class="bd">Интерьер</h2>
+				</div>
+
+				<ul class="content__nav--show">
+					<li class="active"><a class="bd" href="#">Коврики</a></li>
+					<li><a class="bd" href="#">Органайзеры</a></li>
+					<li><a class="bd" href="#">Подлокотники</a></li>
+					<li><a class="bd" href="#">Подогрев сидений</a></li>
+					<li><a class="bd" href="#">Сумки</a></li>
+					<li><a class="bd" href="#">Чехлы на сиденья</a></li>
+					<li><a class="bd" href="#">Шторки багажника</a></li>
+					<li><a class="bd" href="#">Аксессуары для интерьера</a></li>
+				</ul>
+			</nav>
+
+			<nav class="content__nav">
+				<div class="content__nav--cl">
+					<h2 class="bd">Экстерьер</h2>
+				</div>
+
+				<ul class="content__nav--show">
+					<li><a class="bd" href="#">Багажные системы</a></li>
+					<ul class="content__nav--fx">
+						<li><a class="bd" href="#">Автобоксы</a></li>
+						<li><a class="bd" href="#">Багажные крепления</a></li>
+						<li><a class="bd" href="#">Велобагажники</a></li>
+						<li><a class="bd" href="#">Крепления для лыж</a></li>
+						<li><a class="bd" href="#">Перевозка грузов</a></li>
+					</ul>
+					<li><a class="bd" href="#">Брызговики</a></li>
+					<li><a class="bd" href="#">Защита переднего бампера</a></li>
+					<li><a class="bd" href="#">Защита заднего бампера</a></li>
+					<li><a class="bd" href="#">Защита кузова</a></li>
+					<li><a class="bd" href="#">Крышки для кузова</a></li>
+					<li><a class="bd" href="#">Подкрылки</a></li>
+					<li><a class="bd" href="#">Пороги и накладки</a></li>
+					<li><a class="bd" href="#">Фаркопы</a></li>
+					<li><a class="bd" href="#">Аксессуары для экстерьера</a></li>
+				</ul>
+			</nav>
+
+			<nav class="content__nav">
+				<div class="content__nav--cl">
+					<h2 class="bd">Запчасти</h2>
+				</div>
+
+				<ul class="content__nav--show">
+					<li><a class="bd" href="#">Защита двигателя и КПП</a></li>
+					<li><a class="bd" href="#">Наборы для ТО</a></li>
+				</ul>
+			</nav>
+
+			<nav class="content__nav">
+				<div class="content__nav--cl">
+					<h2 class="bd">Одежда, обувь, аксессуары</h2>
+				</div>
+			</nav>
+
+			<nav class="content__nav">
+				<div class="content__nav--cl">
+					<h2 class="bd">Электроника</h2>
+				</div>
+
+				<ul class="content__nav--show">
+					<li><a class="bd" href="#">GPS-навигаторы</a></li>
+					<li><a class="bd" href="#">Автомобильные радиостанции</a></li>
+					<li><a class="bd" href="#">Видеорегистраторы</a></li>
+					<li><a class="bd" href="#">Зарядные устройства, адаптеры</a></li>
+					<li><a class="bd" href="#">Кофеварки</a></li>
+					<li><a class="bd" href="#">Магнитолы</a></li>
+					<li><a class="bd" href="#">Холодильники</a></li>
+				</ul>
+			</nav>
+
+			<h2 class="bd content__tx">Распродажа</h2>
+		</div>
+		<!--- end catalog nav show ---->
+		<!--- search --->
+		<div id="search">
+			<div class="wrapper">
+				<div class="search main_flex flex__align-items_center flex__jcontent_start">
+					<div class="search__title">
+						<h3 class="bd">Мой автомобиль</h3>
+						<a href="#" class="bd">Добавить в список >></a>
+					</div>
+					<div class="search__select main_flex flex__align-items_center flex__1">
+						<div class="dropdown">
+  							<span class="dropdown-button">Acura</span>
+							<ul class="dropdown-list">
+								<li data-value="Acura">Acura</li>
+								<li data-value="Alfa Romeo">Alfa Romeo</li>
+								<li data-value="Audi">Audi</li>
+								<li data-value="BAW">BAW</li>
+								<li data-value="BMW">BMW</li>
+								<li data-value="Brilliance">Brilliance</li>
+								<li data-value="Byd">Byd</li>
+								<li data-value="Cadillac">Cadillac</li>
+							</ul>
+						</div>
+
+						<div class="dropdown">
+  							<span class="dropdown-button">Модель</span>
+							<ul class="dropdown-list">
+								<li data-value="Модель1">Модель1</li>
+								<li data-value="Модель2">Модель2</li>
+								<li data-value="Модель3">Модель3</li>
+								<li data-value="Модель4">Модель4</li>
+								<li data-value="Модель5">Модель5</li>
+								<li data-value="Модель6">Модель6</li>
+								<li data-value="Модель7">Модель7</li>
+								<li data-value="Модель8">Модель8</li>
+							</ul>
+						</div>
+
+						<div class="dropdown">
+  							<span class="dropdown-button">Год</span>
+							<ul class="dropdown-list">
+								<li data-value="2000">2000</li>
+								<li data-value="2001">2001</li>
+								<li data-value="2002">2002</li>
+								<li data-value="2003">2003</li>
+								<li data-value="2004">2004</li>
+								<li data-value="2005">2005</li>
+								<li data-value="2006">2006</li>
+								<li data-value="2007">2007</li>
+								<li data-value="2008">2008</li>
+							</ul>
+						</div>
+
+						<button class="btn bd">Найти в каталоге</button>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--- end search --->
+		<!--- header --->
+		<div id="header">
+			<div class="wrapper">
+				<div class="header main_flex flex__align-items_center flex__jcontent_between">
+					<div class="header__logo">
+						<a href="index.html">
+							<img src="./public/img/logo.png" alt="logo" class="logo">
+						</a>
+						<p class="bdi">9 лет на рынке беларуси</p>
+					</div>
+					<div class="header__address">
+						<div class="header__address--icon main_flex__nowrap flex__align-items_center">
+							<div class="icon icon--map"></div>
+							<p class="rg">Минск, ул. Орловская, д. 17</p>
+						</div>
+						<div class="header__address--icon main_flex__nowrap flex__align-items_center">
+							<div class="icon icon--time"></div>
+							<p class="rg"><span class="rg">ПН-ПТ</span> 9:00 - 19:00</p>
+						</div>
+						<p class="rg fx">(магазин с 10:00)</p>
+						<p class="rg fx"><span class="rg">СБ</span> 10:00 - 16:00, <span class="rg">ВС</span> выходной</p>
+					</div>
+					<div class="header__phones">
+						<div class="header__address--icon main_flex__nowrap flex__align-items_center fx1">
+							<div class="icon icon--phone"></div>
+							<p class="rg"><span class="rg">+375 17</span> 210-17-76</p>
+						</div>
+						<div class="header__address--icon main_flex__nowrap flex__align-items_center fx1">
+							<div class="icon icon--vel"></div>
+							<p class="rg"><span class="rg">+375 29</span> 635-65-65</p>
+						</div>
+						<div class="header__address--icon main_flex__nowrap flex__align-items_center">
+							<div class="tel main_flex__nowrap flex__align-items_center">
+								<div class="icon icon--viber"></div>
+								<div class="icon icon--whatapp"></div>
+								<div class="icon icon--mts"></div>
+							</div>
+							<p class="rg"><span class="rg">+375 33</span> 635-65-65</p>
+						</div>
+					</div>
+					<div class="header__form">
+						<form action="" class="main_flex__nowrap flex__align-items_center">
+							<input type="text" name="search" id="searchVal">
+							<input type="submit" value="найти на сайте" class="bd" id="submit">
+						</form>
+					</div>
+				</div>
+			</div>
+		</div>
+		<!--- end header --->
+		<!--- nav --->
+		<div id="nav">
+			<div class="wrapper">
+				<div class="nav main_flex flex__align-items_center flex__jcontent_between">
+					<div class="hamburger">
+						<div class="hamb--show main_flex flex__align-items_center flex__jcontent_between">
+							<div class="span">
+								<span></span>
+								<span></span>
+								<span></span>
+							</div>
+							<a href="#" class="bd menus">Меню</a>
+						</div>
+            <div id="menus__show" class="main_flex flex__align-items_start">
+							<ul class="main_flex flex__align-items_center navlink flex__1">
+								<li><a class="bd" href="#">Акции</a></li>
+								<li><a class="bd" href="#">Каталог</a></li>
+								<li><a class="bd" href="#">Сервис</a></li>
+								<li><a class="bd" href="#">О компании</a></li>
+								<li><a class="bd" href="#">Контактная информация</a></li>
+							</ul>
+							<div class="header__form" class="flex__4">
+								<form action="" class="main_flex__nowrap flex__align-items_center">
+									<input type="text" name="search">
+									<input type="submit" value="найти на сайте" class="bd">
+								</form>
+							</div>
+						</div>
+					</div>
+					<div class="search__auto">
+						<div class="main_flex__nowrap flex__align-items_center fx1 show-click">
+							<div class="icon icon--search"></div>
+							<p class="bd">Поиск по авто</p>
+						</div>
+						<div id="search-show">
+							<div class="search main_flex flex__align-items_start flex__jcontent_start">
+								<div class="search__title">
+									<h3 class="bd">Мой автомобиль</h3>
+									<a href="#" class="bd">Добавить в список >></a>
+								</div>
+								<div class="search__select main_flex flex__align-items_center flex__jcontent_end flex__1">
+									<div class="dropdown">
+			  							<span class="dropdown-button">Acura</span>
+										<ul class="dropdown-list">
+											<li data-value="Acura">Acura</li>
+											<li data-value="Alfa Romeo">Alfa Romeo</li>
+											<li data-value="Audi">Audi</li>
+											<li data-value="BAW">BAW</li>
+											<li data-value="BMW">BMW</li>
+											<li data-value="Brilliance">Brilliance</li>
+											<li data-value="Byd">Byd</li>
+											<li data-value="Cadillac">Cadillac</li>
+										</ul>
+									</div>
+
+									<div class="dropdown">
+			  							<span class="dropdown-button">Модель</span>
+										<ul class="dropdown-list">
+											<li data-value="Модель1">Модель1</li>
+											<li data-value="Модель2">Модель2</li>
+											<li data-value="Модель3">Модель3</li>
+											<li data-value="Модель4">Модель4</li>
+											<li data-value="Модель5">Модель5</li>
+											<li data-value="Модель6">Модель6</li>
+											<li data-value="Модель7">Модель7</li>
+											<li data-value="Модель8">Модель8</li>
+										</ul>
+									</div>
+
+									<div class="dropdown">
+			  							<span class="dropdown-button">Год</span>
+										<ul class="dropdown-list">
+											<li data-value="2000">2000</li>
+											<li data-value="2001">2001</li>
+											<li data-value="2002">2002</li>
+											<li data-value="2003">2003</li>
+											<li data-value="2004">2004</li>
+											<li data-value="2005">2005</li>
+											<li data-value="2006">2006</li>
+											<li data-value="2007">2007</li>
+											<li data-value="2008">2008</li>
+										</ul>
+									</div>
+
+									<button class="btn bd">Найти в каталоге</button>
+								</div>
+							</div>
+						</div>
+					</div>
+
+          <div class="navs__catalog main_flex flex__align-items_start">
+						<i class="fas fa-bars"></i>
+						<p class="bd">Каталог</p>
+
+						<div class="catalogs__show main_flex flex__align-items_start flex__jcontent_start">
+
+							<div class="flex__9">
+								<nav class="content__nav">
+									<div class="content__nav--cl">
+										<h2 class="bd">Интерьер</h2>
+									</div>
+
+									<ul class="content__nav--show">
+										<li><a class="bd" href="#">Коврики</a></li>
+										<li><a class="bd" href="#">Органайзеры</a></li>
+										<li><a class="bd" href="#">Подлокотники</a></li>
+										<li><a class="bd" href="#">Подогрев сидений</a></li>
+										<li><a class="bd" href="#">Сумки</a></li>
+										<li><a class="bd" href="#">Чехлы на сиденья</a></li>
+										<li><a class="bd" href="#">Шторки багажника</a></li>
+										<li><a class="bd" href="#">Аксессуары для интерьера</a></li>
+									</ul>
+								</nav>
+
+								<nav class="content__nav">
+									<div class="content__nav--cl">
+										<h2 class="bd">Электроника</h2>
+									</div>
+
+									<ul class="content__nav--show">
+										<li><a class="bd" href="#">GPS-навигаторы</a></li>
+										<li><a class="bd" href="#">Автомобильные радиостанции</a></li>
+										<li><a class="bd" href="#">Видеорегистраторы</a></li>
+										<li><a class="bd" href="#">Зарядные устройства, адаптеры</a></li>
+										<li><a class="bd" href="#">Кофеварки</a></li>
+										<li><a class="bd" href="#">Магнитолы</a></li>
+										<li><a class="bd" href="#">Холодильники</a></li>
+									</ul>
+								</nav>
+							</div>
+
+							<div class="flex__9">
+								<nav class="content__nav">
+									<div class="content__nav--cl">
+										<h2 class="bd">Экстерьер</h2>
+									</div>
+
+									<ul class="content__nav--show">
+										<li><a class="bd" href="#">Багажные системы</a></li>
+										<ul class="content__nav--fx">
+											<li><a class="bd" href="#">Автобоксы</a></li>
+											<li><a class="bd" href="#">Багажные крепления</a></li>
+											<li><a class="bd" href="#">Велобагажники</a></li>
+											<li><a class="bd" href="#">Крепления для лыж</a></li>
+											<li><a class="bd" href="#">Перевозка грузов</a></li>
+										</ul>
+										<li><a class="bd" href="#">Брызговики</a></li>
+										<li><a class="bd" href="#">Защита переднего бампера</a></li>
+										<li><a class="bd" href="#">Защита заднего бампера</a></li>
+										<li><a class="bd" href="#">Защита кузова</a></li>
+										<li><a class="bd" href="#">Крышки для кузова</a></li>
+										<li><a class="bd" href="#">Подкрылки</a></li>
+										<li><a class="bd" href="#">Пороги и накладки</a></li>
+										<li><a class="bd" href="#">Фаркопы</a></li>
+										<li><a class="bd" href="#">Аксессуары для экстерьера</a></li>
+									</ul>
+								</nav>
+							</div>
+
+							<div class="flex__9">
+								<nav class="content__nav">
+									<div class="content__nav--cl">
+										<h2 class="bd">Запчасти</h2>
+									</div>
+
+									<ul class="content__nav--show">
+										<li><a class="bd" href="#">Защита двигателя и КПП</a></li>
+										<li><a class="bd" href="#">Наборы для ТО</a></li>
+									</ul>
+								</nav>
+
+								<nav class="content__nav">
+									<div class="content__nav--cl">
+										<h2 class="bd">Одежда, обувь, аксессуары</h2>
+									</div>
+								</nav>
+
+								<nav class="content__nav">
+									<div class="content__nav--cl">
+										<h2 class="bd">Одежда, обувь, аксессуары</h2>
+									</div>
+								</nav>
+
+								<nav class="content__nav">
+									<div class="content__nav--cl">
+										<h2 class="bd">Распродажа</h2>
+									</div>
+								</nav>
+							</div>
+						</div>
+					</div>
+
+					<ul class="main_flex flex__align-items_center navlink">
+						<li><a class="bd" href="#">Акции</a></li>
+						<li><a class="bd" href="#">Каталог</a></li>
+						<li><a class="bd" href="#">Сервис</a></li>
+						<li><a class="bd" href="#">О компании</a></li>
+						<li><a class="bd" href="#">Контактная информация</a></li>
+					</ul>
+					<a href="#" class="main_flex__nowrap flex__align-items_center log">
+						<div class="icon icon--log"></div>
+						<p class="bd">Вход</p>
+					</a>
+					<a href="#" class="main_flex__nowrap flex__align-items_center basket">
+						<div class="icon icon--basket"></div>
+						<p class="bd">Корзина</p>
+					</a>
+				</div>
+			</div>
+			<div class="nav__catalog main_flex__nowrap flex__align-items_center flex__jcontent_center">
+				<i class="fas fa-bars"></i>
+				<p class="bd">Каталог</p>
+			</div>
+		</div>
+		<!--- end nav --->
+
+		<!--- content --->
+		<div id="content">
+			<div class="wrapper">
+				<div class="content main_flex flex__align-items_start flex__jcontent_between">
+
+					<div class="flex__block content__op">
+
+						<nav class="content__nav">
+							<ul>
+								<li><a class="bd" href="#">Корзина</a></li>
+								<li><a class="bd" href="#">Мои заказы</a></li>
+								<li><a class="bd" href="#">Профиль</a></li>
+								<li><a class="bd" href="#">Мой автомобиль</a></li>
+								<li><a class="bd" href="#">Моя скидка</a></li>
+								<li><a class="bd" href="#">Настройки</a></li>
+							</ul>
+						</nav>
+
+						<div class="loal">
+							<p class="bd">Программа лояльности</p>
+							<img src="./public/img/money.png" alt="money">
+						</div>
+
+					</div>
+
+					<div class="flex__block flex__1">
+            <div class="main_flex flex__align-items_center">
+              <a href="#" class="url rg">Главная &rarr; </a>
+              <a href="#" class="url rg">Личный кабинет &rarr; </a>
+              <a href="#" class="url rg">Профиль</a>
+            </div>
+						<div class="shop">
+							<h2 class="shop__title rg">Профиль</h2>
+
+							<div class="profile">
+								<div class="profile__block main_flex flex__align-items_start flex__jcontent_between">
+									<p class="rg">Аккаунт</p>
+									<div class="profile__edit">
+										<i class="fas fa-pencil-alt"></i>
+										<span class="rg">Редактировать</span>
+									</div>
+								</div>
+								<div class="profile__info main_flex flex__align-items_start flex__jcontent_between">
+									<div class="profile__info--img">
+										<img src="./public/img/user.png" alt="user">
+									</div>
+
+									<div class="profile__info--block">
+										<div class="main_flex flex__align-items_start flex__jcontent_between">
+											<p class="rg">Ник</p>
+											<p class="rg name">SuperUser17</p>
+										</div>
+										<div class="main_flex flex__align-items_start flex__jcontent_between">
+											<p class="rg">Полное имя</p>
+											<p class="rg name">Иван Иванович Иванов</p>
+										</div>
+										<div class="main_flex flex__align-items_start flex__jcontent_between">
+											<p class="rg">Дата рождения</p>
+											<p class="rg name">19 апреля 1968</p>
+										</div>
+										<div class="main_flex flex__align-items_start flex__jcontent_between">
+											<p class="rg">Электронная почта</p>
+											<p class="rg name">mail@gmail.com</p>
+										</div>
+										<div class="main_flex flex__align-items_start flex__jcontent_between">
+											<p class="rg">Телефон</p>
+											<p class="rg name">+375 25 255-55-55</p>
+										</div>
+										<div class="btf main_flex flex__align-items_start flex__jcontent_between">
+											<p class="rg">Зарегистрирован</p>
+											<p class="rg name">4 апреля 2018</p>
+										</div>
+									</div>
+
+
+								</div>
+							</div>
+
+							<div class="profile">
+								<div class="profile__block main_flex flex__align-items_start flex__jcontent_between">
+									<p class="rg">Пароль</p>
+									<div class="profile__edit">
+										<i class="fas fa-pencil-alt"></i>
+										<span class="rg">Редактировать</span>
+									</div>
+								</div>
+							</div>
+
+							<div class="profile">
+								<div class="profile__block main_flex flex__align-items_start flex__jcontent_between">
+									<p class="rg">Мои адреса</p>
+									<div class="profile__edit">
+										<i class="fas fa-pencil-alt"></i>
+										<span class="rg">Редактировать</span>
+									</div>
+								</div>
+								<div class="block">Барановичи, ул. Орловская, д. 17</div>
+							</div>
+
+							<div class="profile">
+								<div class="profile__block main_flex flex__align-items_start flex__jcontent_between">
+									<p class="rg">Подписка на рассылку</p>
+								</div>
+
+								<div class="profile__check">
+									<div class="main_flex flex__align-items_start">
+										<div class="holder">
+											<input type="checkbox" value="None" id="check" name="check" class="check-ios"/>
+											<label for="check"></label>
+											<span></span>
+										</div>
+										<div class="wd">
+											<p class="rg">Email-уведомления об оформлении заказов, изменении настроек профиля, прочие информационные рассылки</p>
+											<p class="lg small">Данная настройка необходима для оформления заказов на сайте</p>
+										</div>
+									</div>
+									<div class="main_flex flex__align-items_start">
+										<div class="holder">
+											<input type="checkbox" value="None" id="check" name="check" class="check-ios"/>
+											<label for="check"></label>
+											<span></span>
+										</div>
+										<div class="wd">
+											<p class="rg">SMS-уведомления</p>
+										</div>
+									</div>
+									<div class="main_flex flex__align-items_start">
+										<div class="holder">
+											<input type="checkbox" value="None" id="check" name="check" class="check-ios"/>
+											<label for="check"></label>
+											<span></span>
+										</div>
+										<div class="wd">
+											<p class="rg">Email-рассылки об акциях и специальных предложениях</p>
+										</div>
+									</div>
+								</div>
+							</div>
+
+							<div class="profile">
+								<div class="profile__block main_flex flex__align-items_start flex__jcontent_between">
+									<p class="rg">Социальные сети</p>
+									<div class="profile__edit">
+										<i class="fas fa-pencil-alt"></i>
+										<span class="rg">Редактировать</span>
+									</div>
+								</div>
+
+								<ul class="main_flex flex__align-items_start flex__jcontent_start">
+									<li>
+										<a href="#" class="profile__icon vk"></a>
+									</li>
+									<li>
+										<a href="#" class="profile__icon fb"></a>
+									</li>
+									<li>
+										<a href="#" class="profile__icon od"></a>
+									</li>
+									<li>
+										<a href="#" class="profile__icon tw"></a>
+									</li>
+									<li>
+										<a href="#" class="profile__icon gl"></a>
+									</li>
+									<li>
+										<a href="#" class="profile__icon in"></a>
+									</li>
+									<li>
+										<a href="#" class="profile__icon pi"></a>
+									</li>
+									<li>
+										<a href="#" class="profile__icon ins"></a>
+									</li>
+								</ul>
+							</div>
+						</div>
+
+            <div class="main_flex flex__align-items_center link--url">
+              <a href="#" class="url rg">Главная &rarr; </a>
+              <a href="#" class="url rg">Личный кабинет &rarr; </a>
+              <a href="#" class="url rg">Профиль</a>
+            </div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<!--- end content --->
+
+		<!--- client --->
+		<div id="client">
+			<div class="wrapper">
+				<div class="client main_flex flex__align-items_center flex__jcontent_between">
+					<a href="#" class="client__list">Способы оплаты</a>
+					<a href="#" class="client__list">
+						<img src="./public/img/client/1.png" alt="client">
+					</a>
+					<a href="#" class="client__list">
+						<img src="./public/img/client/2.png" alt="client">
+					</a>
+					<a href="#" class="client__list">
+						<img src="./public/img/client/3.png" alt="client">
+					</a>
+					<a href="#" class="client__list">
+						<img src="./public/img/client/4.png" alt="client">
+					</a>
+					<a href="#" class="client__list">
+						<img src="./public/img/client/3.png" alt="client">
+					</a>
+					<a href="#" class="client__list">
+						<img src="./public/img/client/5.png" alt="client">
+					</a>
+					<a href="#" class="client__list">
+						<img src="./public/img/client/6.png" alt="client">
+					</a>
+				</div>
+			</div>
+		</div>
+		<!--- end client --->
+		<!--- footer --->
+		<div id="footer">
+			<div class="wrapper">
+				<div class="footer main_flex flex__align-items_start flex__jcontent_between">
+
+					<div class="flex__block">
+						<div class="footer__logo">
+							<a href="index.html">
+								<img src="./public/img/logo.png" alt="logo" class="logo">
+							</a>
+							<h4 class="bdi">9 лет на рынке беларуси</h4>
+							<p class="rg footer__logo--p">© 2018 ОДО «АМ-Трейдер» Свидетельство №100253019, выдано Мингорисполкомом 18.04.2001 Юридический адрес: Беларусь, 220068, г. Минск, ул. Орловская, д. 17, пом. 2Н, магазин «Автотюнинг» УНП 100253019, ОКПО 14588310 Регистрационный номер в торговом реестре Республики Беларусь: 312657 от 23.03.2016</p>
+							<div class="div">
+								<p class="rg">Разработка сайта — <span>Polar Bear Web Studio</span></p>
+							</div>
+						</div>
+					</div>
+
+					<div class="flex__block flex__1">
+						<div class="flex main_flex flex__align-items_start flex__jcontent_between">
+							<div class="footer__title">
+								<p class="rg">© 2018 ОДО «АМ-Трейдер» Свидетельство №100253019, выдано Мингорисполкомом 18.04.2001 Юридический адрес: Беларусь, 220068, г. Минск, ул. Орловская, д. 17, пом. 2Н, магазин «Автотюнинг» УНП 100253019, ОКПО 14588310 Регистрационный номер в торговом реестре Республики Беларусь: 312657 от 23.03.2016</p>
+							</div>
+							<div class="footer__contact">
+								<p class="rg ft">Контактная информация</p>
+								<div class="main_flex__nowrap flex__align-items_center fx1">
+									<div class="icons icon--phone"></div>
+									<p class="rg"><span class="rg">+375 17</span> 210-17-76</p>
+								</div>
+								<div class="footer__phones">
+									<div class="main_flex__nowrap flex__align-items_center fx1">
+										<div class="icons icon--vel"></div>
+										<p class="rg"><span class="rg">+375 29</span> 635-65-65</p>
+									</div>
+									<div class="main_flex__nowrap flex__align-items_center">
+										<div class="tel main_flex__nowrap flex__align-items_center">
+											<div class="icons icon--viber"></div>
+											<div class="icons icon--whatapp"></div>
+											<div class="icons icon--mts"></div>
+										</div>
+										<p class="rg"><span class="rg">+375 33</span> 635-65-65</p>
+									</div>
+									<div class="main_flex__nowrap flex__align-items_center">
+										<div class="icons icon--map"></div>
+										<p class="rg small">Минск, ул. Орловская, д. 17</p>
+									</div>
+									<div class="main_flex__nowrap flex__align-items_center">
+										<div class="icons icon--time"></div>
+										<p class="rg"><span class="rg">ПН-ПТ.............</span> 9:00 - 19:00</p>
+									</div>
+									<p class="rg fx fx2"><span>..............</span> (магазин с 10:00)</p>
+									<p class="rg fx fx2"><span class="rg">СБ..................</span> 10:00 - 16:00</p>
+								</div>
+							</div>
+
+							<div class="footer__company flex__1">
+								<p class="rg ft">О компании</p>
+								<ul>
+									<li><a href="#">О нас</a></li>
+									<li><a href="#">Команда</a></li>
+									<li><a href="#">Новости</a></li>
+									<li><a href="#">Преимущества</a></li>
+									<li><a href="#">Отзывы клиентов</a></li>
+									<li><a href="#">Медиа</a></li>
+									<li><a href="#">Контактная информация</a></li>
+								</ul>
+							</div>
+							<div class="footer__servers flex__1">
+								<p class="rg ft">Сервис</p>
+								<ul>
+									<li><a href="#">Способы оплаты</a></li>
+									<li><a href="#">Команда</a></li>
+									<li><a href="#">Установка</a></li>
+									<li><a href="#">Правила обмена и возврата</a></li>
+									<li><a href="#">Гарантия</a></li>
+									<li><a href="#">Помощь</a></li>
+								</ul>
+							</div>
+							<div class="footer__acii flex__1">
+								<p class="rg ft">Акции</p>
+								<ul>
+									<li><a href="#">Специальные предложения</a></li>
+									<li><a href="#">Программа лояльности</a></li>
+								</ul>
+							</div>
+						</div>
+						<div class="div div1">
+							<p class="rg">Разработка сайта — <span>Polar Bear Web Studio</span></p>
+						</div>
+					</div>
+
+				</div>
+			</div>
+		</div>
+		<!--- end footer --->
+
+		<script src="https://cdnjs.cloudflare.com/ajax/libs/owl-carousel/1.3.3/owl.carousel.min.js"></script>
+		<script src="./public/js/app.js"></script>
+		<script type="text/javascript">
+	        var clock;
+
+	        $(document).ready(function() {
+	            var clock;
+
+	            clock = $('.clock').FlipClock({
+	                clockFace: 'DailyCounter',
+	                autoStart: false,
+	                callbacks: {
+	                    stop: function() {
+	                        $('.message').html('The clock has stopped!')
+	                    }
+	                }
+	            });
+
+	            clock.setTime(101000);
+	            clock.setCountdown(true);
+	            clock.start();
+
+	        });
+    	</script>
+	</body>
+</html>

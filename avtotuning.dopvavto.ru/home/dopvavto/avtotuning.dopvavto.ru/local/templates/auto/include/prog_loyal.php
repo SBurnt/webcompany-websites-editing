@@ -1,0 +1,1 @@
+<a class="item__list--link" href="http://avtotuning.dopvavto.ru/loyalty"><img width="20" src="/local/templates/auto/img/icon/id-card.svg" class="svg">Программа лояльности (10% скидка) </a>

@@ -1,0 +1,5 @@
+{
+    "require": {
+        "matejsvajger/ntlm-soap-client": "^1.1"
+    }
+}
