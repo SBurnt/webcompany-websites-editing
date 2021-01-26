@@ -1,0 +1,364 @@
+/* CSS kod pishite v etom faile, chotobi pri ustanovke obnovlenii ne bilo problem  */
+
+/* --------------------------------------- */
+
+/* Here you can put custom css rules for your site */
+
+
+.header_nopacity .address-block span {color:#000!important;}
+
+
+.banners-big .back {
+    position: relative;
+}
+/*
+.banners-big .back:before {
+    position: absolute;
+    content: "";
+    width: 105%;
+    height: 120%;
+    background: rgba(255, 255, 255, 0.5);
+    top: 50%;
+    left: 41%;
+    transform: translate(-50%, -50%);
+    -webkit-transform: translate(-50%, -50%);
+    -moz-transform: translate(-50%, -50%);
+    z-index: 1;
+    border-radius: 175px;
+}*/
+
+.banners-big .slides .title {
+    z-index: 2;
+    position: relative;
+    padding: 0;
+}
+
+.banners-big .slides .text-block {
+    z-index: 2;
+    position: relative;
+}
+
+.banners-big .slides a {
+    position: relative;
+    z-index: 2;
+}
+
+.fancybox-inner {
+    margin: 0 auto;
+    max-width: 600px;
+    width: 100% !important;
+}
+
+@media (max-width:990px) {
+
+    .banners-big .back:before {
+        width: 100%;
+        height: 115%;
+        border-radius: 0;
+        left: 50%;
+    }
+}
+
+.advantages {
+	color: #FFFFFF;
+	position: relative;
+	background-image: url(../images/advantages-bg.png);
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+}
+
+.advantages::before {
+	position: absolute;
+	content: "";
+	top: 0;
+	bottom: 0;
+	left: 0;
+	right: 0;
+	background: rgba(0, 0, 0, 0.75);
+	z-index: 0;
+}
+
+.advantages.item-views.blocks h3 {
+	font-weight: bold;
+	font-size: 20px;
+	line-height: 23px;
+	color: #000000;
+	padding-bottom: 44px;
+}
+
+.advantages.item-views .item {
+	box-shadow: none;
+}
+
+.advantages .item .title .top-text {
+	font-weight: 500;
+	font-size: 18px;
+	line-height: 21px;
+	margin-top: 5px;
+	color: #222222;
+	margin-bottom: 7px;
+}
+
+.advantages .item .title .desc-text {
+	font-weight: normal;
+	font-size: 15px;
+	line-height: 18px;
+	color: #222222;
+}
+
+
+
+@media (max-width: 991px) {
+	/* .advantages {
+		background-position-x: center;
+		background-position-y: bottom;
+		background-size: 100% 230px;
+		padding-bottom: 180px !important;
+	}
+	.advantages::before {
+		background: linear-gradient(180deg, #FFFFFF 74%, rgba(255, 255, 255, 0) 100%);
+	} */
+}
+
+@media (max-width: 767px) {
+	.advantages.item-views.blocks h3 {
+		font-size: 18px;
+		line-height: 21px;
+		padding-bottom: 30px;
+	}
+
+	.advantages .item .title .top-text {
+		font-size: 15px;
+		line-height: 18px;
+	}
+	
+	.advantages .item .title .desc-text {
+		font-size: 13px;
+		line-height: 15px;
+	}
+
+	.advantages .advantages__btn span {
+		font-size: 13px;
+		line-height: 15px;
+	}
+}
+
+form[name="monk_konsul"] .form-header .text {
+	/* text-align: center; */
+	color: #555555;
+}
+
+form[name="monk_konsul"] .form-header .title {
+	font-size: 24px;
+	line-height: 28px;
+	color: #000000;
+	margin-bottom: 8px;
+}
+
+form[name="monk_konsul"] .licence_block.bx_filter + * {
+	display: flex;
+}
+
+form[name="monk_konsul"] .btn.btn-default {
+	/* background-color: transparent; */
+	/* color: #0435B1; */
+	border-radius: 5px;
+	margin: 0 auto;
+}
+
+form[name="monk_konsul"] .btn.btn-default:hover {
+	background-color: #0435B1;
+	color: #FFFFFF;
+}
+
+.advantages {
+	padding: 44px 56px 41px;
+}
+
+.advantages__wrap {
+	position: relative;
+	display: flex;
+	justify-content: space-between;
+}
+
+.advantages__title {
+	position: relative;
+	font-weight: bold;
+	font-size: 34px;
+	line-height: 40px;
+	color: #FFFFFF;
+	margin: 0;
+	margin-bottom: 61px;
+	width: 270px;
+}
+
+.advantages__title::after {
+	position: absolute;
+	content: "";
+	left: 0;
+	bottom: -16px;
+	height: 1px;
+	width: 250px;
+	background: rgba(255, 255, 255, 0.5);
+	border-radius: 3px;
+}
+
+.advantages__col.col1 {
+	width: 100%;
+  max-width: 466px;
+}
+
+.advantages__col.col2,
+.advantages__col.col3 {
+	margin-top: 30px;
+	display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.advantages__list {
+	margin: 0;
+	padding: 0;
+	list-style-type: none;
+}
+
+.advantages__item {
+	display: flex;
+	align-items: flex-start;
+	margin-bottom: 40px;
+	padding: 0;
+	list-style-type: none;
+	width: 270px;
+}
+
+.advantages__item:before {
+	content: none !important;
+}
+
+.advantages__img {
+	margin-top: 3px;
+	margin-right: 15px;
+}
+
+.advantages__item-title {
+	display: block;
+	font-weight: bold;
+	font-size: 18px;
+	line-height: 21px;
+	color: #FFFFFF;
+	margin-bottom: 6px;
+}
+
+.advantages__item-desc {
+	font-weight: normal;
+	font-size: 14px;
+	line-height: 16px;
+	color: #FFFFFF;
+}
+
+.advantages .advantages__btn {
+	margin-top: 35px;
+	position: relative;
+	z-index: 2;
+}
+.advantages .advantages__btn span {
+	display: block;
+	border: 0;
+	border-radius: 5px;
+	font-weight: 500;
+	font-size: 15px;
+	line-height: 18px;
+	padding: 16px 13px;
+	width: 100%;
+	max-width: 340px;
+	margin: 0 auto;
+	font-variant: small-caps;
+	background: #0435B1;
+	text-align: center;
+}
+
+@media (max-width: 1023px) {
+	.advantages__wrap,
+	.advantages__col.col2 {
+		flex-direction: column;
+	}
+
+	.advantages__col.col2 {
+		margin-top: 0;
+	}
+}
+
+@media (max-width: 767px) {
+	.advantages {
+		padding: 16px 15px 60px;
+	}
+
+	.advantages__title {
+		font-size: 20px;
+		line-height: 23px;
+		margin-bottom: 45px;
+		width: 100%;
+	}
+	.advantages__title::after {
+		bottom: -10px;
+	}
+
+	.advantages__item {
+		margin-bottom: 25px;
+		width: 100%;
+	}
+
+	.advantages__item-title {
+		font-size: 14px;
+		line-height: 16px;
+		margin-bottom: 4px;
+	}
+
+	.advantages__item-desc {
+		font-size: 12px;
+		line-height: 14px;
+	}
+
+	.advantages__btn {
+		margin-top: 25px;
+	}
+}
+
+.form-header__img-wrap {
+	text-align: center;
+    margin-bottom: 18px;
+    height: 25px;
+}
+
+.form-header__img {
+    height: 100%;
+}
+
+.form.form-new label {
+	margin-bottom: 0;
+}
+
+.form.form-new .required-star {
+	margin-left: 0;
+}
+
+.form.form-new .form-group {
+	margin-bottom: 12px;
+}
+
+.form.form-new.popup .form-footer {
+	padding-top: 0;
+}
+
+.form.form-new .form-header {
+    padding: 30px 53px 29px 53px;
+}
+
+/* .form.popup.success {
+	background-image: url('/images/inner1.jpg');
+	background-repeat: no-repeat;
+	background-size: cover;
+	background-position: center;
+} */
+

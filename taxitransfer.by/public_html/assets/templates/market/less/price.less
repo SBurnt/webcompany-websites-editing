@@ -1,0 +1,83 @@
+.table-price {
+  margin-bottom: 40px;
+  .title_center {
+    vertical-align: middle;
+    text-align: center;
+  }
+  .title_left {
+    vertical-align: middle;
+    text-align: left;
+  }
+  .title-right {
+    vertical-align: middle;
+    text-align: right;
+  }
+  .title-tbody {
+    height: 52px;
+    vertical-align: middle;
+    td:first-child {
+      vertical-align: middle;
+      text-transform: uppercase;
+      font-weight: 600;
+    }
+    .title_centerzag {
+
+        .flex-table {
+          display: -webkit-flex;
+          display: -ms-flexbox;
+          display: flex;
+          -webkit-justify-content: space-between;
+          -ms-flex-pack: justify;
+          justify-content: space-between;
+          -webkit-align-items: center;
+          -ms-flex-align: center;
+          align-items: center;
+          @media (max-width: 768px) {
+            .title-right {
+              display: none;
+            }
+          }
+         > div {
+           display: -webkit-flex;
+           display: -ms-flexbox;
+           display: flex;
+           > a {
+             display: -webkit-flex;
+             display: -ms-flexbox;
+             display: flex;
+           }
+         }
+
+        }
+      }
+
+
+    .button {
+      text-align: right;
+    }
+    a {
+      line-height: 23px;
+    }
+    .first {
+      margin-right: 15px;
+    }
+    .download {
+      background: url("../img/sprite/arr-table.png") no-repeat;
+      width: 13px;
+      height: 18px;
+      display: inline-block;
+      margin-right: 10px;
+      position: relative;
+      top: 4px;
+    }
+    .print {
+      background: url("../img/sprite/arr-table-print.png") no-repeat;
+      width: 18px;
+      height: 18px;
+      display: inline-block;
+      margin-right: 10px;
+      position: relative;
+      top: 4px;
+    }
+  }
+}

@@ -1,0 +1,241 @@
+.card-gallery {
+  margin-bottom: 40px;
+}
+
+.card-gallery-slider {
+  margin-top: 40px;
+  margin-bottom: 22px;
+
+  .slick-arrow {
+    top: 44.5%;
+  }
+
+  .slick-prev {
+    background: url("../img/card-gallery-left.svg") 50% 50% no-repeat;
+    width: 50px;
+    height: 50px;
+    left: 9px;
+    z-index: 10;
+
+    &:hover {
+      background-image: url("../img/card-gallery-left-hover.svg");
+    }
+
+    &:before {
+      display: none;
+    }
+  }
+
+  .slick-next {
+    background: url("../img/card-gallery-right.svg") 50% 50% no-repeat;
+    width: 50px;
+    height: 50px;
+    right: -2px;
+    z-index: 10;
+    @media all and (max-width: 1300px) {
+      right: 9px;
+    }
+
+    &:hover {
+      background-image: url("../img/card-gallery-right-hover.svg");
+    }
+
+    &:before {
+      display: none;
+    }
+  }
+}
+
+.card-gallery-slider__overlay {
+  background: url('../img/plus-fancybox.png') 50% 50% no-repeat;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  width: 100%;
+  height: 100%;
+  -webkit-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  opacity: 0;
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  z-index: -1;
+}
+
+.card-gallery-slider__el {
+  height: 445px;
+  outline: none;
+  position: relative;
+  width: 100%;
+  opacity: 0;
+
+  &:hover {
+    .card-gallery-slider__overlay {
+      opacity: 1;
+      z-index: 1;
+    }
+  }
+
+  a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  img {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  }
+}
+
+.card-gallery-slider-pager {
+  border-top: 1px solid #e6e6e6;
+  padding-top: 10px;
+  height: 101px;
+  white-space: nowrap;
+  overflow: hidden;
+
+  .slick-prev,.slick-next {
+    position: absolute;
+    top: 54px;
+    @media all and (max-width: 1300px) {
+      display: none;
+    }
+  }
+
+  .slick-prev {
+    left: -19px;
+
+    &:before {
+      position: relative;
+      content: '\f104';
+      font-family: FontAwesome;
+      font-size: 20px;
+      color: #333;
+      width: 20px;
+      height: 20px;
+      top: 0;
+      left: 0;
+      opacity: 1;
+    }
+  }
+
+  .slick-next {
+    right: -19px;
+
+    &:before {
+      position: relative;
+      content: '\f105';
+      font-family: FontAwesome;
+      font-size: 20px;
+      color: #333;
+      width: 20px;
+      height: 20px;
+      top: 0;
+      left: 0;
+      opacity: 1;
+    }
+  }
+}
+
+
+.card-gallery-slider-pager__el {
+  position: relative;
+  height: 90px;
+  width: 90px;
+  outline: none;
+  border-radius: 3px;
+  border: 1px solid #e5e5e5;
+  opacity: 0;
+  cursor: pointer;
+  margin: 0 5px;
+
+  img {
+    position: absolute;
+    max-width: 100%;
+    max-height: 100%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    top: 50%;
+    left: 50%;
+  }
+
+  &.slick-current {
+    &:after, &:hover:after {
+      position: absolute;
+      content: '';
+      top: -1px;
+      left: -1px;
+      width: 86px;
+      height: 86px;
+      border-radius: 3px;
+      border: 2px solid @primary-color;
+    }
+  }
+
+  &:hover:after {
+    position: absolute;
+    content: '';
+    top: -1px;
+    left: -1px;
+    width: 86px;
+    height: 86px;
+    border-radius: 3px;
+    border: 2px solid #ccc;
+  }
+}
+
+@media screen and (max-width: 767px) {
+  .card-gallery-slider-pager {
+    display: none;
+  }
+
+  .card-gallery-slider {
+    border: 1px solid #ededed;
+    padding-top: 15px;
+    padding-bottom: 36px;
+    border-radius: 3px;
+  }
+
+  .card-gallery-slider__el {
+    height: 270px;
+  }
+
+  .card-gallery-slider .slick-dots {
+    bottom: 11px;
+  }
+
+  .card-gallery-slider .slick-dots >li:before,
+  .card-gallery-slider  .slick-dots li button:before{
+    display: none;
+  }
+
+  .card-gallery-slider .slick-dots li button {
+    width: 6px;
+    height: 6px;
+    border-radius: 50%;
+    background: #e5e5e5;
+    padding: 0;
+  }
+
+  .primary-block .card-gallery-slider .slick-dots >li {
+    padding-left: 0;
+    width: auto;
+    height: auto;
+    margin: 0 2px;
+  }
+
+  .card-gallery-slider .slick-dots li.slick-active button {
+    background: @primary-color;
+  }
+}

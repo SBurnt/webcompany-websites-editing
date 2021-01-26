@@ -1,0 +1,12 @@
+<?xml version='1.0' encoding='utf-8' standalone='yes'?>
+<!DOCTYPE result [
+<!ATTLIST result
+firstcode CDATA #REQUIRED
+secondcode CDATA #REQUIRED
+count CDATA #REQUIRED
+>
+<!ELEMENT result (return?)>
+<!ELEMENT return (hash?)>
+<!ELEMENT hash (#PCDATA)>
+]>
+<result firstcode="0" secondcode="0" count="1"><return><Hash>F010B8F0DE3B4E6EC9CE12CF4862B0E2</Hash></return></result>

@@ -1,0 +1,333 @@
+.margin {
+  margin: 25px 0;
+}
+/*bxslider*/
+.bx-wrapper {
+  margin-bottom: 0;
+}
+
+.bx-wrapper .bx-viewport {
+  border: none;
+  box-shadow: none;
+  left: 0;
+}
+
+.social {
+  p {
+    display: inline-block;
+    margin-bottom: 0;
+    color: #fff;
+    font-size: 13px;
+    margin-right: 4px;
+  }
+  a{
+    margin-right: 3px;
+    -o-transition: 0.2s all ease;
+    transition: 0.2s all ease;
+  }
+  a:last-child {
+    margin-right: 0;
+  }
+  a:hover {
+    opacity: 0.8;
+  }
+}
+.main-title {
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+
+  h1,h2,h3,h4,h5 {
+    margin: 0 20px 0 0;
+    font-size: 24px;
+    border-bottom: 2px solid @primary-color;
+    line-height: 1.1em;
+    font-weight: bold;
+  }
+}
+.main-title-tag {
+    margin: 0 20px 0 0;
+    font-size: 24px;
+    border-bottom: 2px solid @primary-color;
+    line-height: 1.1em;
+    font-weight: bold;
+}
+
+.more-button {
+  background: @primary-btn-bg;
+  color: @primary-btn-border-text;
+  margin-right: 10px;
+}
+.more-button:hover {
+  background: @primary-btn-bg-hover;
+  color: @primary-btn-border-text-hover;
+  text-decoration: none;
+}
+
+/*не работает в variable.less*/
+@buy-btn: #f82900;
+@buy-btn-hover: darken(@buy-btn, 5%);
+/**/
+
+
+.buy-button, .buy-btn {
+  color: @primary-btn-text;
+  background: @buy-btn;
+}
+
+.buy-btn {
+  font-size: 13px;
+}
+
+.main-first-info-presence-wrap {
+  .buy-btn {
+    width: 138px;
+    justify-content: flex-start;
+    padding-left: 42px;
+    background: url("../img/card-basket-btn.png") 17px 50% no-repeat #f82900;
+    border: 1px solid transparent;
+
+    &:hover {
+      background: url("../img/card-basket-btn.png") 17px 50% no-repeat @buy-btn-hover;
+    }
+  }
+}
+
+.buy-button:hover, .buy-btn:hover {
+  color: @primary-btn-text-hover;
+  background: @buy-btn-hover;
+  text-decoration: none;
+}
+
+
+.breadcrumb {
+  margin: 24px 0 30px;
+  .uk-breadcrumb {
+    li {
+      a {
+        color: #969696;
+      }
+      span {
+        color: @primary-color;
+      }
+    }
+  }
+  .uk-breadcrumb > li:nth-child(n+2)::before {
+    content: '\f105';
+    position: relative;
+    margin: 0 4px;
+    color: #969696;
+    font-family: FontAwesome;
+    font-style: normal;
+    font-weight: normal;
+    text-decoration: inherit;
+    /*--adjust as necessary--*/
+  }
+}
+
+.second-page {
+  h1 {
+    color: @title-page;
+    font-weight: bold;
+    margin: 25px 0;
+  }
+}
+.main-menu-left {
+  margin-bottom: 25px;
+  ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+  }
+  > ul {
+    > li {
+      font-size: 13px;
+      text-transform: uppercase;
+      font-weight: bold;
+      min-height: 50px;
+      border-bottom: 1px solid #d7d7d7;
+      position: relative;
+      > a {
+        color: #4b4b4b;
+        padding: 15px 25px 15px 15px;
+        display: block;
+      }
+     .wrap {
+       > a {
+         color: #4b4b4b;
+         padding: 15px 25px 15px 15px;
+         display: block;
+       }
+       span {
+         position: absolute;
+         top: 15px;
+         width: 25px;
+         height: 20px;
+         right: 0;
+         font-size: 18px;
+         padding-left: 10px;
+         cursor: pointer;
+       }
+     }
+    }
+    > li.active {
+     >.wrap {
+       >a {
+         background: @primary-color;
+         color: #fff;
+       }
+       span {
+         color: #fff;
+         padding-left: 5px;
+       }
+     }
+    }
+  }
+  ul.dropdown {
+    display: none;
+    background: #f6f8f9;
+    text-transform: none;
+    font-weight: normal;
+    padding: 10px 0 15px;
+    li {
+      a {
+        padding: 4px 15px;
+        color: #666767;
+        display: block;
+      }
+      a:hover {
+        text-decoration: none;
+      }
+    }
+  }
+  a:hover {
+    text-decoration: none;
+  }
+}
+.left-bar .preview-news {
+  margin: 25px 0;
+}
+.preview-news {
+
+  >a {
+    color: #363636;
+    font-size: 13px;
+    text-decoration: underline;
+    line-height: 1.2em;
+  }
+  >a:hover {
+    color: #363636;
+    text-decoration: none;
+  }
+  .preview-news-block {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    >a {
+      margin: 0 12px 20px 0;
+      border-radius: 10px;
+      border: 1px solid #d7d7d7;
+      -webkit-flex-shrink: 0;
+      -ms-flex-negative: 0;
+      flex-shrink: 0;
+       img {
+        border-radius: 10px;
+      }
+    }
+    >a:hover {
+      opacity: 0.8;
+    }
+    .content {
+      a {
+        color: #363636;
+        font-size: 13px;
+        text-decoration: underline;
+        line-height: 1.2em;
+      }
+      a:hover {
+        color: #363636;
+        text-decoration: none;
+      }
+    }
+
+  }
+}
+.pagination {
+  margin: 32px 0;
+  .uk-pagination {
+    li {
+     > a, > span {
+        width: 32px;
+        height: 32px;
+        line-height: 32px;
+        background: #fff;
+        padding: 0;
+       border-radius: 6px;
+       color: #363636;
+      }
+      i {
+        color: #fff;
+      }
+      > a,>span {
+        border: 1px solid #e3e3e3;
+      }
+    }
+    li.active {
+      > span {
+        border: 1px solid @primary-color;
+      }
+    }
+    li:first-child, li:last-child {
+      > a {
+        background: @primary-color;
+        border-color: @primary-color;
+      }
+      > span {
+        background: lighten(@primary-color, 10%);
+        border-color: lighten(@primary-color, 10%);
+      }
+    }
+    li:hover > a {
+      opacity: 0.8;
+    }
+  }
+}
+
+/*! UIkit 2.26.2 | http://www.getuikit.com | (c) 2014 YOOtheme | MIT License */
+/* ========================================================================
+   Component: Form file
+ ========================================================================== */
+/*
+ * 1. Behave like form elements
+ * 2. Create position context for dropdowns
+ * 3. Clip content
+ */
+.uk-form-file {
+  /* 1 */
+  display: inline-block;
+  vertical-align: middle;
+  /* 2 */
+  position: relative;
+  /* 3 */
+  overflow: hidden;
+}
+/*
+ * 1. Required for Firefox
+ * 2. Expand height and required for the cursor
+ */
+.uk-form-file input[type="file"] {
+  position: absolute;
+  top: 0;
+  z-index: 1;
+  width: 100%;
+  opacity: 0;
+  cursor: pointer;
+  left: 0;
+  font-size: 500px;
+}

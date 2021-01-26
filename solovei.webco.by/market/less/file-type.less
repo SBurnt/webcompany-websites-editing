@@ -1,0 +1,72 @@
+.card-documents {
+  margin-bottom: 40px;
+}
+
+.card-documents-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  -webkit-flex-wrap: wrap;
+  flex-wrap: wrap;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  margin-top: -11px;
+}
+
+.card-documents__el {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  padding: 11px 33px 11px 0;
+  -webkit-flex-basis: 296px;
+  -ms-flex-preferred-size: 296px;
+  flex-basis: 296px;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+
+.card-documents__el-img {
+  margin-right: 16px;
+  -webkit-box-flex: 0;
+  -ms-flex: none;
+  -webkit-flex: none;
+  flex: none;
+  width: 31px;
+  height: 40px;
+  background: url("../img/update/file_unknown.svg") 50% 50% no-repeat;
+  
+  div {
+    font-size: 9px;
+    line-height: normal;
+    font-weight: bold;
+    text-transform: uppercase;
+    text-align: center;
+    padding: 0 2px;
+    margin-top: 17px;
+    color: @primary-color;
+  }
+}
+
+.card-documents__el-inner a {
+  color: @primary-color;
+  border-bottom: 1px solid lighten(@primary-color, 30%);
+  line-height: 19px;
+
+  &:hover {
+    text-decoration: none;
+    border-color: fade(#333, 40%);
+    color: #333;
+  }
+}
+
+.card-documents__el-file-size {
+  font-size: 12px;
+  margin-top: 3px;
+}

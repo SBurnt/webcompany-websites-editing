@@ -1,0 +1,1159 @@
+/*NOTE: This file is intended for programmers. Aspro technical support is not advised to work with him.*/
+
+/* Examples (uncomment to use):*/
+
+/* Expand site width */
+/* body .wrapper { max-width: 1400px !important;  } */
+
+/* Set site background image */
+/* body {  background: url(image_source) top no-repeat; }
+
+/* Hide compare button */
+/* a.compare_item { display: none !important;  }*/
+
+.catalog_item .item-title a,
+.catalog_item .item-title a span,
+.view-item .item-title a span {
+  color: black;
+}
+
+#header .middle-h-row .logo_wrapp .logo a img {
+  width: 100px;
+}
+
+.catalog_block .catalog_item_wrapp {
+  width: 23%;
+  width: 210px;
+  float: left;
+  padding-bottom: 40px;
+  white-space: normal;
+  display: inline-block;
+  margin: 5px;
+  vertical-align: top;
+  border: 1px solid #cacacd;
+}
+
+.description_block_custom {
+  height: 40px;
+  overflow: hidden;
+  margin-bottom: 10px;
+}
+.cat_desc_more {
+  display: block;
+  margin-bottom: 20px;
+  color: #c50026;
+  cursor: pointer;
+}
+
+ul.menu li .child ul {
+  /*width: 12%!important;*/
+}
+
+.catalog_detail .offers_table .cost.prices .price {
+  float: none;
+  display: inline-block;
+}
+
+.info_item .middle_info .prices .price {
+  font-size: 14px;
+  line-height: 20px;
+  padding-right: 5px;
+}
+
+.cost .price:not(.discount) {
+  margin-right: 4px;
+}
+
+.cost.prices .price {
+  float: left;
+}
+
+.cost.prices .price,
+.module-cart .row_titles .item_title,
+.module-cart .row_values .price {
+  font-size: 18px;
+  font-weight: bold;
+  line-height: 15px;
+  margin: 8px 0 2px;
+}
+
+.info_item .middle_info .prices .price {
+  line-height: 20px;
+  padding-right: 5px;
+}
+
+.catalog_detail .item_main_info .item_slider {
+  width: 35%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 29px 0 29px 0;
+  float: left;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+
+.catalog_detail .item_main_info .item_slider {
+  width: 35%;
+  box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  -o-box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  padding: 29px 0 29px 0;
+  float: left;
+  position: relative;
+  z-index: 1;
+  text-align: center;
+}
+.catalog_detail .item_main_info .right_info {
+  padding-left: 35%;
+  position: relative;
+}
+table.colored td.buy {
+  width: 425px;
+  text-align: center;
+  /*white-space: nowrap;*/
+}
+.offers_table thead,
+.offers_table thead tr,
+.offers_table thead tr td {
+  border: 0;
+  background: #d9002a;
+  color: white;
+}
+
+table.colored thead td {
+  font-size: 12px;
+  padding: 8px 5px 7px;
+  border-top: 0;
+}
+.top-h-row {
+  height: 47px;
+}
+
+/*improvements 31.10.17*/
+body {
+  color: #000;
+}
+
+.group_description {
+  color: #000;
+}
+
+.img-in-description {
+  max-width: 50%;
+  padding: 0 10px 0 0;
+}
+
+.full-text {
+  max-height: 80px;
+  overflow: hidden;
+}
+
+.full-text.full {
+  max-height: none;
+}
+
+.show-more-description {
+  float: right;
+  padding-right: 15px;
+}
+
+hr.long {
+  margin: 25px 0 30px;
+}
+
+.stickers-gender {
+  width: 170px;
+  color: #000;
+}
+
+.gender {
+  width: 12px;
+  height: 20px;
+  display: block;
+  z-index: 12;
+  background-repeat: no-repeat;
+}
+
+.gender_text {
+  font-size: 10px;
+  position: absolute;
+  margin-left: 30px;
+}
+
+.gender.female {
+  background: url("/female.png");
+  background-size: 11px 20px;
+}
+
+.gender.unisex {
+  background: url(/unisex.png);
+  background-size: 24px 20px;
+  width: 24px !important;
+  height: 20px !important;
+  left: 89%;
+}
+
+.gender.male {
+  background: url("/male.png");
+  background-size: 11px 24px;
+}
+
+.catalog_detail .gender {
+  clear: both;
+  margin: 0 auto;
+}
+
+.h_color_white.m_color_none #header ul.menu li .child .child_wrapp,
+.has_menu.m_color_white #header ul.menu li .child .child_wrapp {
+  border: 2px solid #d02c47;
+}
+
+ul.menu li .child ul {
+  width: 13%;
+  margin-right: 3%;
+  display: inline-block;
+  margin-bottom: 0;
+  list-style: none;
+  zoom: 1;
+  vertical-align: top;
+  text-align: left;
+}
+
+ul.menu .child li.menu_title {
+  display: block;
+  margin: 0;
+  line-height: 15px;
+}
+
+ul.menu .child li.menu_title a {
+  font-size: 10px;
+  text-transform: uppercase;
+}
+
+.main-nav .child ul li:hover {
+  background: #c50026;
+}
+
+.main-nav .child ul li:hover span,
+.main-nav .child ul li:hover a {
+  color: #fff !important;
+}
+
+.catalog_section_list .section_item {
+  width: 20%;
+  display: inline-block;
+}
+
+.prices_tab.current {
+  margin-top: 15px;
+}
+
+.catalog_detail .property {
+  min-width: 80px;
+}
+
+.catalog_detail table.colored .like_icons {
+  text-align: center;
+  width: 90px;
+  white-space: nowrap;
+}
+
+table.colored .counter_block_wr {
+  text-align: right;
+  display: none;
+}
+
+td.buy .counter_wrapp {
+  /*width: 75%;*/
+  margin: 4px auto;
+  display: inline;
+  margin-right: 4px;
+}
+
+td.buy .counter_wrapp span {
+  white-space: nowrap;
+}
+
+table.offers_table td {
+  padding: 10px 5px;
+  border: 1px solid #999;
+}
+
+table.colored td {
+  border-bottom: 1px solid #e7e7e7;
+}
+
+.item-stock > span {
+  display: inline-block;
+  vertical-align: middle;
+  font-size: 10px !important;
+  white-space: nowrap;
+}
+
+.catalog_detail .item_main_info .price {
+  float: none;
+}
+
+.prices_tab .buy .to-order {
+  opacity: 0;
+}
+
+.cost .price:not(.discount) {
+  margin-right: 4px;
+}
+
+.breadcrumbs .drop a span {
+  border-bottom: 1px dotted #b4b4b4;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -o-transition: none;
+  transition: none;
+}
+
+.breadcrumbs .dropdown a {
+  color: #000;
+}
+
+.breadcrumbs .dropdown > a {
+  margin-top: 4px;
+}
+
+.breadcrumbs .dropdown a:hover {
+  color: #fff;
+  display: block;
+  background: #d9002a;
+  width: 100%;
+}
+
+.stickers .sticker_new {
+  background: url("../images/new.png");
+}
+.stickers .sticker_recommend {
+  background-position: -1px -184px;
+}
+.stickers .sticker_gift {
+  background-position: -1px -232px;
+}
+.stickers .sticker_deficit {
+  background: url("../images/def.png");
+}
+.stickers .sticker_stock {
+  background: url("../images/akc.png");
+}
+.stickers .sticker_hit {
+  background-position: -1px -92px;
+}
+.stickers .sticker_hit {
+  background-position: -1px -92px;
+  background: url(../images/hit.png);
+}
+.stickers [class*="sticker_"]:first-child {
+  margin-top: 0;
+}
+
+@media (max-width: 768px) {
+  body .wrapper .top_slider_wrapp .flexslider .slides > li,
+  body .wrapper .top_slider_wrapp .flexslider .slides > li td,
+  body .wrapper .top_slider_wrapp .flexslider {
+    background-size: 100% !important;
+    background-repeat: no-repeat !important;
+  }
+}
+
+@media (max-width: 450px) {
+  body .wrapper .top_slider_wrapp .flexslider .slides > li {
+    /* background-size: 100% !important; */
+    background-size: cover !important;
+    background-repeat: no-repeat !important;
+  }
+}
+
+@media (max-width: 450px) {
+  body .wrapper .top_slider_wrapp .flexslider .slides > li,
+  body .wrapper .top_slider_wrapp .flexslider {
+    /* height: 93px !important; */
+    height: 115px !important;
+  }
+}
+
+@font-face {
+  font-family: "Vijaya-Bold";
+  src: url("/bitrix/fonts/Vijaya-Bold.eot");
+  src: local("☺"), url("/bitrix/fonts/Vijaya-Bold.woff") format("woff"),
+    url("/bitrix/fonts/Vijaya-Bold.ttf") format("truetype"),
+    url("/bitrix/fonts/Vijaya-Bold.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "Bulgarian";
+  src: url("/bitrix/fonts/Bulgarian.eot");
+  src: local("☺"), url("/bitrix/fonts/Bulgarian.woff") format("woff"),
+    url("/bitrix/fonts/Bulgarian.ttf") format("truetype"),
+    url("/bitrix/fonts/Bulgarian.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+  font-family: "rb";
+  src: url("/bitrix/fonts/rb.eot");
+  src: local("☺"), url("/bitrix/fonts/rb.woff") format("woff"),
+    url("/bitrix/fonts/rb.ttf") format("truetype"),
+    url("/bitrix/fonts/rb.svg") format("svg");
+  font-weight: normal;
+  font-style: normal;
+}
+
+.rgb0_175_167,
+.rgb229_1_9 {
+  font-family: "Oswald", Ubuntu, Arial, Helvetica, sans-serif;
+}
+
+.main-nav ul.menu > li > a span {
+  font-family: "Bulgarian", Ubuntu, Arial, Helvetica, sans-serif;
+  font-style: italic;
+  letter-spacing: 0.02em;
+}
+
+.offers_table thead,
+.offers_table thead tr,
+.offers_table thead tr td {
+  background: rgb(0, 175, 167);
+}
+
+.offers_table thead,
+.offers_table thead tr,
+.offers_table thead tr td {
+  background: rgb(0, 175, 167);
+}
+
+.catalog_detail .offers_table .cost.prices .price:not(.discount) {
+  color: rgb(229, 1, 9);
+}
+
+.catalog_detail
+  .offers_table
+  .cost.prices
+  .price:not(.discount)
+  .accent-price-text {
+  color: #000;
+}
+
+.catalog_detail .info_item .middle_info .prices .price.discount {
+  background-color: yellow;
+  padding: 2px;
+}
+
+.share_wrapp .shares {
+  display: block !important;
+  position: initial !important;
+  top: 0;
+  left: 0;
+  margin: 0;
+}
+
+.catalog_detail .element_detail_text {
+  display: -webkit-flex;
+  display: -moz-flex;
+  display: -ms-flex;
+  display: -o-flex;
+  display: flex;
+  -ms-align-items: center;
+  align-items: center;
+}
+
+.share_wrapp .shares:after {
+  content: none;
+}
+
+@media (max-width: 950px) {
+  .catalog_detail .element_detail_text .price_txt {
+    width: 57%;
+    padding-top: 0;
+    margin-left: 33px;
+    margin-top: 30px;
+  }
+}
+
+@media (max-width: 768px) {
+  .catalog_detail .element_detail_text {
+    display: block;
+  }
+
+  .catalog_detail .element_detail_text > div {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    display: block !important;
+  }
+
+  .share_wrapp .shares {
+    margin-left: auto;
+    margin-right: auto;
+  }
+
+  .catalog_detail .element_detail_text .price_txt {
+    width: 100%;
+    padding-top: 0;
+    margin-top: 10px;
+  }
+}
+
+.rgb229_1_9,
+.rgb0_175_167 {
+  font-size: 54px;
+  margin: 8px 0 18px;
+}
+
+@media (max-width: 1200px) {
+  .rgb229_1_9,
+  .rgb0_175_167 {
+    font-size: 44px;
+    margin: 2px 0 10px;
+  }
+}
+
+@media (max-width: 768px) {
+  .rgb229_1_9,
+  .rgb0_175_167 {
+    font-size: 35px;
+    margin: 0;
+  }
+
+  .rgb0_175_167 {
+    margin-bottom: 0;
+  }
+}
+
+@media (max-width: 576px) {
+  .rgb229_1_9,
+  .rgb0_175_167 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+}
+
+table.colored td.buy {
+  width: 150px;
+}
+
+.prices_tab .to-order,
+.prices_tab .to-cart,
+.prices_tab .one_click {
+  background-color: transparent !important;
+}
+
+.prices_tab .to-order span,
+.prices_tab .to-cart span,
+.prices_tab .one_click span {
+  font-family: "rb";
+}
+
+.prices_tab .to-order,
+.prices_tab .to-cart,
+.prices_tab .one_click {
+  position: relative;
+}
+
+.prices_tab .button.small::after,
+.prices_tab .button.small::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  background-size: contain;
+  z-index: -1;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+
+.prices_tab .button.small:hover::before {
+  opacity: 1;
+}
+
+.prices_tab .button.small:hover::after {
+  opacity: 0;
+}
+
+.prices_tab .to-order::before {
+  background-image: url("/bitrix/templates/aspro_mshop_copy/images/btn-blue-figure-hover.png");
+}
+.prices_tab .to-order::after {
+  background-image: url("/bitrix/templates/aspro_mshop_copy/images/btn-blue-figure.png");
+}
+
+.prices_tab .to-cart::before {
+  background-image: url("/bitrix/templates/aspro_mshop_copy/images/btn-blue-hover.png");
+}
+.prices_tab .to-cart::after {
+  background-image: url("/bitrix/templates/aspro_mshop_copy/images/btn-blue.png");
+}
+
+.prices_tab .one_click::before {
+  background-image: url("/bitrix/templates/aspro_mshop_copy/images/btn-red-hover.png");
+}
+.prices_tab .one_click::after {
+  background-image: url("/bitrix/templates/aspro_mshop_copy/images/btn-red.png");
+}
+
+.buy .one_click {
+  margin-top: 4px;
+}
+
+.prices_tab .to-cart,
+.prices_tab .one_click,
+.prices_tab .to-order {
+  display: -webkit-inline-flex;
+  display: -moz-inline-flex;
+  display: -ms-inline-flex;
+  display: -o-inline-flex;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 15px;
+}
+
+.prices_tab .to-order {
+  width: 120px;
+  height: 47px;
+}
+
+.prices_tab .to-cart,
+.prices_tab .one_click {
+  width: 120px;
+  height: 38px;
+}
+
+.prices_tab .button.small {
+  padding: 0;
+}
+
+@media (max-width: 600px) {
+  .catalog_detail .adaptive.text > div.like_icons {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+}
+
+.item_wrap .description .preview_text {
+  overflow: hidden;
+}
+
+.item_wrap .description .preview_text.full {
+  height: 100% !important;
+}
+
+.item_wrap .description .show-full-descr {
+  cursor: pointer;
+  font-size: 12px;
+  line-height: 14px;
+}
+
+.start_promo .wrapper_inner_tizer * {
+  background-color: transparent !important;
+  padding: 0 !important;
+  margin: 0 !important;
+}
+
+.outer_text .inner_text {
+  position: relative;
+  display: inline-block;
+  line-height: 16px !important;
+  font-size: 13px !important;
+}
+
+.outer_text .inner_text img {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%) scale(1) !important;
+  -ms-transform: translate(-50%, -50%) scale(1) !important;
+  -o-transform: translate(-50%, -50%) scale(1) !important;
+  transform: translate(-50%, -50%) scale(1) !important;
+  width: calc(100% + 30px);
+  height: calc(100% + 23px);
+  -webkit-transition: 0.4s all ease;
+  -moz-transition: 0.4s all ease;
+  -ms-transition: 0.4s all ease;
+  -o-transition: 0.4s all ease;
+  transition: 0.4s all ease;
+  z-index: -1;
+}
+
+.outer_text .inner_text .bg-img-red {
+  z-index: -1;
+}
+
+.outer_text .inner_text .bg-img-red-hover {
+  z-index: -2;
+}
+
+.outer_text .inner_text:hover .bg-img-red {
+  opacity: 0;
+}
+
+.start_promo .item.hover:hover .outer_text .inner_text img {
+  -webkit-transform: translate(-50%, -50%) scale(1) !important;
+  -ms-transform: translate(-50%, -50%) scale(1) !important;
+  -o-transform: translate(-50%, -50%) scale(1) !important;
+  transform: translate(-50%, -50%) scale(1) !important;
+  top: 50%;
+  left: 50%;
+}
+
+.outer_text .inner_text:hover .bg-img-red-hover {
+  opacity: 1;
+  -webkit-transform: translate(-50%, -50%) scale(1) !important;
+  -ms-transform: translate(-50%, -50%) scale(1) !important;
+  -o-transform: translate(-50%, -50%) scale(1) !important;
+  transform: translate(-50%, -50%) scale(1) !important;
+  top: 50%;
+  left: 50%;
+}
+
+@media (max-width: 991px) {
+  .outer_text .inner_text {
+    font-fize: 14px;
+    line-height: 18px;
+  }
+
+  .outer_text .inner_text br {
+    display: none;
+  }
+}
+
+@media (max-width: 768px) {
+  .wrapper_inner .wrap_tizer {
+    text-align: center;
+  }
+
+  .wrap_tizer .wrapper_inner_tizer {
+    padding: 0 35px;
+  }
+}
+
+@media (max-width: 600px) {
+  .outer_text .inner_text img {
+    width: calc(100% + 18px);
+    height: calc(100% + 9px);
+  }
+}
+
+@media (max-width: 380px) {
+  .wrapper_inner .wrap_tizer .wr_block .title .inner_text {
+    font-size: 9px !important;
+    line-height: 10px !important;
+  }
+}
+
+.top_slider_wrapp .flexslider .slides > li {
+  position: relative;
+}
+
+.top_slider_wrapp .flexslider .slides > li .wr_block {
+  position: absolute;
+  top: 50%;
+  left: 20%;
+  -webkit-transform: translate(0, -50%);
+  -moz-transform: translate(0, -50%);
+  -ms-transform: translate(0, -50%);
+  -o-transform: translate(0, -50%);
+  transform: translate(0, -50%);
+}
+
+.top_slider_wrapp .outer_text .inner_text {
+  cursor: pointer !important;
+  font-weight: 600;
+}
+
+.prices_tab .to-order,
+.prices_tab .to-cart,
+.prices_tab .one_click {
+  background-color: transparent !important;
+}
+
+.ask_btn_block .button span {
+  font-family: "rb";
+  z-index: 3;
+  position: relative;
+}
+
+.ask_btn_block .button.vbig_btn.wides {
+  position: relative;
+  background-color: transparent !important;
+}
+
+.ask_btn_block .button.vbig_btn.wides::after,
+.ask_btn_block .button.vbig_btn.wides::before {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  -moz-transform: translate(-50%, -50%);
+  -ms-transform: translate(-50%, -50%);
+  -o-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 100%;
+  height: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  -webkit-background-size: contain;
+  background-size: contain;
+  z-index: 1;
+  -webkit-transition: 0.3s all ease;
+  -o-transition: 0.3s all ease;
+  transition: 0.3s all ease;
+}
+
+.ask_btn_block .button.vbig_btn.wides:hover::before {
+  opacity: 1;
+  z-index: 2;
+}
+
+.ask_btn_block .button.vbig_btn.wides:hover::after {
+  opacity: 0;
+}
+
+.ask_btn_block .button.vbig_btn.wides::before {
+  background-image: url("/bitrix/templates/aspro_mshop_copy/images/btn-red-hover.png");
+}
+.ask_btn_block .button.vbig_btn.wides::after {
+  background-image: url("/bitrix/templates/aspro_mshop_copy/images/btn-red.png");
+}
+
+.left_menu li a span,
+.sform_footer .button_wrap input {
+  font-family: "rb";
+  z-index: 3;
+  position: relative;
+  color: #fff !important;
+  background-color: transparent;
+}
+
+.left_menu li a {
+  text-align: center;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("/bitrix/templates/aspro_mshop_copy/images/btn-red-hover.png");
+}
+
+.sform_footer .button_wrap {
+  text-align: center;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("/bitrix/templates/aspro_mshop_copy/images/btn-red.png");
+}
+
+.left_menu > li {
+  background-color: transparent !important;
+  margin-bottom: 8px;
+}
+
+.left_menu > li a,
+.sform_footer .button_wrap {
+  background-color: transparent !important;
+}
+
+.left_menu > li.current a {
+  background-image: url("/bitrix/templates/aspro_mshop_copy/images/btn-red.png");
+}
+
+.left_menu > li a:hover {
+  background-image: url("/bitrix/templates/aspro_mshop_copy/images/btn-red.png");
+}
+
+.sform_footer .button_wrap:hover {
+  background-image: url("/bitrix/templates/aspro_mshop_copy/images/btn-red-hover.png");
+}
+
+.left_menu li.exit a {
+  text-align: center !important;
+}
+
+.left_menu li.exit a:before {
+  display: none;
+}
+
+.form.FEEDBACK .form_footer input {
+  text-align: center;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("/bitrix/templates/aspro_mshop_copy/images/btn-red.png");
+  background-color: transparent !important;
+  font-family: "rb";
+  letter-spacing: 0.1em;
+}
+
+.form.FEEDBACK .form_footer input:hover {
+  background-image: url("/bitrix/templates/aspro_mshop_copy/images/btn-red-hover.png");
+}
+
+.form.FEEDBACK .form_footer button.button {
+  text-align: center;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("/bitrix/templates/aspro_mshop_copy/images/btn-blue.png");
+  color: #fff !important;
+  border: none !important;
+  padding: 12px 15px 11px;
+}
+
+.form.FEEDBACK .form_footer button.button span {
+  font-family: "rb";
+  letter-spacing: 0.1em;
+}
+
+.form.FEEDBACK .form_footer button.button:hover {
+  background-image: url("/bitrix/templates/aspro_mshop_copy/images/btn-blue-hover.png");
+  background-color: transparent !important;
+}
+
+.module-form-block-wr .form-block .but-r .button {
+  background-color: transparent !important;
+  text-align: center;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("/bitrix/templates/aspro_mshop_copy/images/btn-red.png");
+  background-color: transparent !important;
+  font-family: "rb";
+  letter-spacing: 0.1em;
+}
+
+.module-form-block-wr .form-block .but-r .button:hover {
+  background-image: url("/bitrix/templates/aspro_mshop_copy/images/btn-blue-hover.png");
+  background-color: transparent !important;
+}
+
+.enter_frame .wides {
+  background-image: url("/bitrix/templates/aspro_mshop_copy/images/btn-blue.png");
+  background-color: transparent !important;
+  text-align: center;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("/bitrix/templates/aspro_mshop_copy/images/btn-blue.png");
+  background-color: transparent !important;
+  font-family: "rb";
+  letter-spacing: 0.1em;
+  color: #fff !important;
+  border: none !important;
+}
+
+.enter_frame .wides:hover {
+  background: url("/bitrix/templates/aspro_mshop_copy/images/btn-blue-hover.png")
+    no-repeat center !important;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.enter_frame .button.transparent:not(.text):hover {
+  background: url("/bitrix/templates/aspro_mshop_copy/images/btn-blue-hover.png")
+    no-repeat center !important;
+  -webkit-background-size: 100% 100% !important;
+  background-size: 100% 100% !important;
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.enter_frame button.wides {
+  background-image: url("/bitrix/templates/aspro_mshop_copy/images/btn-red.png");
+  background-color: transparent !important;
+  text-align: center;
+  -webkit-background-size: 100% 100% !important;
+  background-size: 100% 100% !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("/bitrix/templates/aspro_mshop_copy/images/btn-red.png");
+  background-color: transparent !important;
+}
+
+.enter_frame button.wides span {
+  font-family: "rb";
+  letter-spacing: 0.1em;
+}
+
+.enter_frame button.wides:hover {
+  background: url("/bitrix/templates/aspro_mshop_copy/images/btn-red-hover.png")
+    no-repeat center !important;
+  -webkit-background-size: 100% 100% !important;
+  background-size: 100% 100% !important;
+  background-color: transparent !important;
+}
+
+.faq_ask .form_footer input.button {
+  background-image: url("/bitrix/templates/aspro_mshop_copy/images/btn-red.png");
+  background-color: transparent !important;
+  text-align: center;
+  -webkit-background-size: 100% 100% !important;
+  background-size: 100% 100% !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("/bitrix/templates/aspro_mshop_copy/images/btn-red.png");
+  background-color: transparent !important;
+  font-family: "rb";
+  letter-spacing: 0.1em;
+}
+.faq_ask .form_footer input.button:hover {
+  background: url("/bitrix/templates/aspro_mshop_copy/images/btn-red-hover.png")
+    no-repeat center !important;
+  -webkit-background-size: 100% 100% !important;
+  background-size: 100% 100% !important;
+  background-color: transparent !important;
+}
+
+.faq_ask .form_footer button.button {
+  background-image: url("/bitrix/templates/aspro_mshop_copy/images/btn-blue.png");
+  background-color: transparent !important;
+  text-align: center;
+  -webkit-background-size: 100% 100%;
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("/bitrix/templates/aspro_mshop_copy/images/btn-blue.png");
+  background-color: transparent !important;
+  font-family: "rb";
+  letter-spacing: 0.1em;
+  color: #fff !important;
+  border: none !important;
+}
+
+.faq_ask .form_footer button.button:hover {
+  background: url("/bitrix/templates/aspro_mshop_copy/images/btn-blue-hover.png")
+    no-repeat center !important;
+  -webkit-background-size: 100% 100% !important;
+  background-size: 100% 100% !important;
+  background-color: transparent !important;
+  border: none !important;
+}
+
+.faq_ask .form_footer button.button span {
+  font-family: "rb";
+  letter-spacing: 0.1em;
+}
+
+#basket_form .button {
+  background-image: url("/bitrix/templates/aspro_mshop_copy/images/btn-red.png");
+  background-color: transparent !important;
+  text-align: center;
+  -webkit-background-size: 100% 100% !important;
+  background-size: 100% 100% !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("/bitrix/templates/aspro_mshop_copy/images/btn-red.png");
+  background-color: transparent !important;
+  color: #fff !important;
+  border: none !important;
+}
+
+#basket_form .button:hover {
+  background: url("/bitrix/templates/aspro_mshop_copy/images/btn-red-hover.png")
+    no-repeat center !important;
+  -webkit-background-size: 100% 100% !important;
+  background-size: 100% 100% !important;
+  background-color: transparent !important;
+}
+
+#basket_form .button span {
+  font-family: "rb";
+  letter-spacing: 0.1em;
+  color: #fff !important;
+}
+
+.faq_ask .faq_button {
+  background-color: transparent !important;
+  text-align: center;
+  -webkit-background-size: 100% 100% !important;
+  background-size: 100% 100% !important;
+  background-repeat: no-repeat;
+  background-position: center;
+  background-image: url("/bitrix/templates/aspro_mshop_copy/images/btn-blue.png");
+  background-color: transparent !important;
+  width: auto !important;
+}
+
+.faq_ask .faq_button:hover {
+  background: url("/bitrix/templates/aspro_mshop_copy/images/btn-blue-hover.png")
+    no-repeat center !important;
+  -webkit-background-size: 100% 100% !important;
+  background-size: 100% 100% !important;
+  background-color: transparent !important;
+}
+
+.faq_ask .faq_button span {
+  font-family: "rb";
+  letter-spacing: 0.1em;
+}
+
+#pagetitle {
+  font-family: "Oswald", Ubuntu, Arial, Helvetica, sans-serif;
+}
+
+#pagetitle:hover {
+  color: #1d1a1a;
+}
+
+h1 {
+  font-size: 42px;
+}
+
+.basket_sort .remove_all_basket:before,
+.bx_sort_container .wrap_remove_button .button:before {
+  background: url("../images/close_icons.png") -21px -28px no-repeat !important;
+}
+
+#basket_form .button span {
+  letter-spacing: 0.08em;
+  font-size: 12px !important;
+}
+
+#basket_form .button {
+  letter-spacing: 0.08em;
+  font-size: 12px !important;
+  font-family: "rb";
+}
+
+.left_menu > li {
+  font-size: 13px;
+  letter-spacing: 0.05em;
+}
+
+#header .wrapper_inner .middle-h-row .logo_wrapp .logo > a {
+  background-color: transparent !important;
+}
+
+#footer .logo-foot {
+	width: 100%;
+	max-width: 510px;
+	height: auto;
+}

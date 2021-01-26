@@ -1,0 +1,379 @@
+h1 + .card-reviews {
+  margin-top: -47px;
+}
+
+.card-reviews-el {
+  margin-bottom: 30px;
+
+  &:last-of-type {
+    margin-bottom: 0;
+  }
+}
+
+.card-reviews-el-header {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  padding: 5px 25px 5px 81px;
+  background-color: #f0f0f0;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  min-height: 55px;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  position: relative;
+
+  &:before {
+    position: absolute;
+    content: '';
+    background: url('../img/rewiews-quotes.png') 50% 50% no-repeat;
+    width: 51px;
+    height: 45px;
+    left: 19px;
+    top: -5px;
+  }
+}
+
+.card-reviews-el-header__name {
+  font-weight: bold;
+  text-transform: uppercase;
+  line-height: normal;
+  margin-top: 3px;
+  font-size: 14px;
+}
+
+.card-reviews-el-header__post {
+  font-size: 12px;
+  color: #808080;
+  line-height: normal;
+}
+
+.card-reviews-el-header-soc {
+  -webkit-box-flex: 0;
+  -ms-flex: none;
+  -webkit-flex: none;
+  flex: none;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+
+  a {
+    margin-right: 12px;
+    -webkit-box-flex: 0;
+    -ms-flex: none;
+    -webkit-flex: none;
+    flex: none;
+    display: inline-block;
+    height: 21px;
+    font-size: 0;
+
+    &:hover {
+      text-decoration: none;
+    }
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+  }
+}
+
+.card-reviews-el-inner {
+  padding: 13px 23px 13px 17px;
+  background-color: #f7f7f7;
+  border-bottom-right-radius: 5px;
+  border-bottom-left-radius: 5px;
+
+  &.show .card-reviews-el-inner__txt {
+    height: auto;
+  }
+}
+
+.card-reviews-el-inner__txt {
+  height: 38px;
+  overflow: hidden;
+}
+
+.card-reviews-el-inner-btns {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
+  -webkit-justify-content: space-between;
+  justify-content: space-between;
+  margin-top: 2px;
+
+  .fancyshow {
+    color: #333;
+
+    &:hover {
+      svg {
+        fill: @primary-color;
+      }
+
+      span {
+        color: @primary-color;
+        border-color: fade(@primary-color, 40%);
+      }
+    }
+
+    span {
+      border-bottom: 1px solid rgba(51, 51, 51, .4);
+      font-size: 11px;
+      font-weight: bold;
+    }
+
+    img {
+      margin-right: 4px;
+    }
+
+    svg {
+      margin-right: 4px;
+    }
+  }
+
+  a {
+    &:hover {
+      text-decoration: none;
+    }
+  }
+}
+
+.card-reviews-el__more {
+  span {
+    color: @primary-color;
+    border-bottom: 1px solid lighten(@primary-color, 30%);
+
+    &:hover {
+
+      color: #333;
+      border-color: lighten(#333, 30%);
+    }
+  }
+}
+
+.card-reviews-wrap {
+  //display: -webkit-box;
+  //display: -ms-flexbox;
+  //display: -webkit-flex;
+  //display: flex;
+  display: block;
+
+  .card-reviews-el {
+    //-webkit-box-flex: 0;
+    //-ms-flex: none;
+    //-webkit-flex: none;
+    //flex: none;
+    width: 48.3333%;
+    //margin-right: 3.25%;
+    margin-bottom: 0;
+    //-webkit-box-orient: vertical;
+    //-webkit-box-direction: normal;
+    //-ms-flex-direction: column;
+    //-webkit-flex-direction: column;
+    //flex-direction: column;
+    background-color: #f7f7f7;
+    border-radius: 5px;
+    display: none;
+
+    &:first-of-type {
+      margin-right: 3.25%;
+    }
+
+    &:last-of-type {
+      margin-right: 0;
+    }
+
+    &:nth-of-type(-n + 2) {
+      //display: -webkit-box;
+      //display: -ms-flexbox;
+      //display: -webkit-flex;
+      //display: flex;
+      display: inline-block;
+      vertical-align: top;
+    }
+  }
+
+  .card-reviews-el-inner__txt {
+    height: 56px;
+  }
+
+  .card-reviews-el-inner-btns {
+    margin-top: 4px;
+    padding-right: 8px;
+  }
+
+  .card-reviews-el-inner {
+    padding-bottom: 9px;
+  }
+}
+
+.index-reviews {
+  h2 {
+    border-left: 2px solid @primary-color;
+    padding-left: 13px;
+    color: #333;
+    font-size: 22px;
+    line-height: 30px;
+    font-weight: bold;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .card-reviews-el-header:before {
+    top: -18px;
+    left: ~"calc(50% - 25px)";
+  }
+
+  .card-reviews-wrap {
+    .slick-track {
+      margin-left: 4px;
+    }
+
+    .card-reviews-el:first-of-type {
+      margin-right: 0;
+    }
+  }
+
+  .card-reviews-el-header {
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-bottom: 14px;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+    text-align: center;
+  }
+
+  .card-reviews-el-header__name {
+    margin-top: 34px;
+  }
+
+  .card-reviews-el-inner-btns {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .card-reviews-el__more {
+    margin-bottom: 18px;
+  }
+
+  .card-reviews-wrap .card-reviews-el-inner {
+    padding-bottom: 25px;
+  }
+
+  .card-reviews-wrap {
+    display: block;
+  }
+
+  .card-reviews-wrap .card-reviews-el {
+    display: block;
+    width: 100%;
+    margin-top: 18px;
+    outline: none;
+    margin-left: 5px;
+    margin-right: 5px;
+  }
+
+  .card-reviews.index-reviews {
+    margin-left: -10px;
+    margin-right: -10px;
+  }
+
+  .index-reviews .slick-slide img {
+    display: inline;
+  }
+
+  .card-reviews .view-more {
+    margin-top: 20px;
+  }
+
+  .card-reviews-lnk-wrap {
+    text-align: center;
+  }
+
+  .index-reviews h2 {
+    border-left: none;
+    padding-left: 0;
+    margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .card-reviews-el-header:before {
+    display: none;
+  }
+
+  .card-reviews-el-header {
+    padding-top: 11px;
+    padding-bottom: 12px;
+  }
+
+  .card-reviews-el-header__name {
+    margin-top: 0;
+  }
+
+  .card-reviews-el-header {
+    min-height: 60px;
+  }
+
+  .card-reviews-el-header {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+
+  .card-reviews-el-inner__txt {
+    margin-bottom: 7px;
+  }
+
+  .card-reviews-el__more {
+    display: block;
+    text-align: left;
+    width: 100%;
+    margin-bottom: 10px;
+  }
+
+  .card-reviews-el-inner {
+    padding-left: 10px;
+    padding-right: 10px;
+  }
+
+  .card-reviews-el-inner-btns .fancyshow {
+    margin-top: 36px;
+  }
+
+  .card-reviews-el-inner-btns {
+    position: relative;
+  }
+
+  .card-reviews-el-inner-btns:after {
+    content: "";
+    display: block;
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 35px;
+    height: 1px;
+    background-color: #eee;
+  }
+}

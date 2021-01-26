@@ -1,0 +1,222 @@
+.personal-manager {
+  border: 1px solid #f2f2f2;
+  margin-bottom: 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+  padding: 18px 3.0269% 20px;
+}
+
+.personal-manager__img {
+  width: 140px;
+  height: 140px;
+  border-radius: 50%;
+  overflow: hidden;
+  -webkit-box-flex: 0;
+  -ms-flex: none;
+  -webkit-flex: none;
+  flex: none;
+}
+
+.personal-manager__info {
+  margin-left: 3.8848%;
+  line-height: 22px;
+}
+
+.personal-manager__info-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-flex: 1;
+  -webkit-flex-grow: 1;
+  -ms-flex-positive: 1;
+  flex-grow: 1;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
+.personal-manager__name {
+  font-size: 16px;
+  font-weight: bold;
+  color: @primary-color;
+}
+
+.personal-manager__phone {
+  height: 60px;
+  position: relative;
+  margin-left: 9.0647%;
+  white-space: nowrap;
+
+  img, svg {
+    display: block;
+    margin: 0 auto 19px;
+  }
+
+  svg {
+    fill: @primary-color;
+  }
+
+  &:before {
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 1px;
+    background-color: #d9d9d9;
+    left: -35px;
+  }
+}
+
+.personal-manager__mail {
+  height: 60px;
+  position: relative;
+  margin-left: 11.223%;
+  white-space: nowrap;
+
+  a {
+    border-bottom: 1px solid fade(#333, 40%);
+    color: #333;
+
+    &:hover {
+      color: @primary-color;
+      border-color: fade(@primary-color, 40%);
+    }
+  }
+
+  img, svg {
+    display: block;
+    margin: 0 auto 19px;
+  }
+
+  svg {
+    fill: @primary-color;
+  }
+
+  &::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    height: 100%;
+    width: 1px;
+    background-color: #d9d9d9;
+    left: -35px;
+  }
+}
+
+.personal-manager__info-title {
+  font-size: 13px;
+  text-transform: uppercase;
+  position: relative;
+  margin-bottom: 18px;
+  padding-top: 10px;
+
+  &:after {
+    content: '';
+    position: absolute;
+    width: 49px;
+    height: 2px;
+    background-color: #666;
+    left: 0;
+    bottom: -2px;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .personal-manager__img {
+    width: 98px;
+    height: 98px;
+  }
+
+  .personal-manager {
+    padding: 20px 15px;
+  }
+
+  .personal-manager__info {
+    margin-left: 15px;
+  }
+
+  .personal-manager__phone, .personal-manager__mail {
+    margin-left: 30px;
+  }
+
+  .personal-manager__phone:before, .personal-manager__mail:before {
+    left: -15px;
+  }
+
+  .personal-manager__info-wrap {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    -webkit-box-align: start;
+    -webkit-align-items: flex-start;
+    -ms-flex-align: start;
+    align-items: flex-start;
+  }
+
+  .personal-manager__img {
+    margin-right: 15px;
+  }
+
+  .personal-manager__info-title {
+    margin: 0;
+    padding: 0;
+  }
+
+  .personal-manager__info {
+    margin: 0;
+  }
+
+  .personal-manager__phone:before, .personal-manager__mail:before,
+  .personal-manager__info-title:after,
+  .personal-manager__phone img, .personal-manager__mail img,
+  .personal-manager__phone svg, .personal-manager__mail svg {
+    display: none;
+  }
+
+  .personal-manager__mail, .personal-manager__phone {
+    height: auto;
+    margin: 0;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .personal-manager__phone {
+    font-size: 12px;
+  }
+
+  .personal-manager__info-title {
+    font-size: 12px;
+  }
+
+  .personal-manager__mail, .personal-manager__phone {
+    white-space: normal;
+
+    * {
+      word-break: break-all;
+    }
+
+    span {
+      font-size: 12px;
+    }
+
+    a {
+      //white-space: nowrap;
+      //word-break: break-all;
+      //text-overflow: ellipsis;
+    }
+  }
+
+  .personal-manager__name {
+    font-size: 14px;
+  }
+}

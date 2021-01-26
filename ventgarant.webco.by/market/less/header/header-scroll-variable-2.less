@@ -1,0 +1,143 @@
+.header-scroll.header-variable-2 {
+  right: 0;
+  left: 0;
+
+  -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2);
+  -webkit-transform: translateZ(0);
+
+  -webkit-transition: all 0s;
+  -o-transition: all 0s;
+  transition: all 0s;
+
+  .logo {
+    margin-right: 29px;
+    img {
+      max-width: 100%;
+      // max-height: 100%;
+      max-height: 50px;
+      margin-top: 2px;
+    }
+  }
+
+  .header-top-right-block {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+
+    border-right: 1px solid #e5e5e5;
+    border-left: 1px solid #e5e5e5;
+  }
+
+  .header-basket {
+    width: 60px;
+    margin-right: 0;
+    margin-left: 0;
+
+    border-left: 1px solid #e5e5e5;
+
+    a {
+      width: 100%;
+    }
+  }
+
+  .header-basket__count {
+    top: 7px;
+    right: 7px;
+    left: auto;
+  }
+
+  .header-scroll__search-btn {
+    display: inline-block;
+    width: 60px;
+    height: 52px;
+
+    background: url("../img/magnifier.png") 50% 50% no-repeat;
+    cursor: pointer;
+  }
+
+  .flexMenu-viewMore {
+    > a {
+      color: #333333;
+    }
+    &::after {
+      display: none;
+    }
+  }
+
+  .desktop-menu {
+    .menu {
+      > li {
+        > a {
+          padding-top: 17px;
+          padding-bottom: 16px;
+        }
+      }
+      .active {
+        > a {
+          color: #ffffff;
+
+          opacity: 1;
+        }
+      }
+      a {
+        color: #333333;
+      }
+    }
+  }
+
+  .header-top-left-block {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-flex: 1;
+    -webkit-flex-grow: 1;
+    -ms-flex-positive: 1;
+    flex-grow: 1;
+  }
+
+  .header-variable-2__nav {
+    padding-left: 14px;
+
+    border-left: 1px solid #e5e5e5;
+
+    .menu {
+      > .nav-arrow {
+        &:hover::after {
+          color: #ffffff;
+        }
+
+        &::after {
+          content: "\f107";
+          position: absolute;
+          top: 20px;
+          right: 11px;
+
+          font-size: 14px;
+          font-family: FontAwesome;
+          color: #333333;
+        }
+        &.active::after {
+          color: #ffffff;
+        }
+      }
+      > li:hover {
+        ul {
+          -webkit-box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+          box-shadow: 0 0 30px rgba(0, 0, 0, 0.3);
+        }
+      }
+    }
+  }
+}
+
+#search-panel-top.fix {
+  position: fixed;
+  top: 52px;
+  bottom: auto;
+  z-index: 1000;
+
+  display: block;
+}

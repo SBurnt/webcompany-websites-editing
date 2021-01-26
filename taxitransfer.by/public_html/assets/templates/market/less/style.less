@@ -1,0 +1,288 @@
+/*@import url('../fonts/lato/lato.css');*/
+//@import url('../fonts/lato/latofonts.css');
+@import url('../fonts/opensans/opensans.css');
+
+@primary-btn-hover: lighten(@primary-btn, 10%);
+@primary-btn-border-hover: lighten(@primary-btn-border, 10%);
+@more-link-hover: lighten(@more-link, 10%);
+@link-dashed-border: lighten(@link-dashed, 5%);
+@modal-close-hover: lighten(@primary-btn-border, 10%);
+
+* {
+  box-sizing: border-box;
+}
+
+::-webkit-input-placeholder {
+  color: #b6b6b6;
+}
+
+::-moz-placeholder {
+  color: #b6b6b6;
+}
+
+:-moz-placeholder {
+  color: #b6b6b6;
+}
+
+:-ms-input-placeholder {
+  color: #b6b6b6;
+}
+
+body, html {
+  /*height: 100%;*/
+}
+
+body {
+  margin: 0;
+  //font: 400 14px 'Lato', sans-serif;
+  font: 400 13px 'Open Sans', sans-serif;
+  color: #333;
+  //line-height: 1.4em;
+  line-height: normal;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  //font-family: 'Lato', sans-serif;
+  font-family: 'Open Sans', sans-serif;
+  color: #000;
+}
+
+h1 {
+  font-size: 26px;
+  line-height: 1.4em;
+}
+
+h2 {
+  font-size: 24px;
+}
+
+h3 {
+  font-size: 20px;
+}
+
+h4 {
+  font-size: 18px;
+}
+
+button {
+  //font-family: Lato, sans-serif;
+  font-family: 'Open Sans', sans-serif;
+}
+
+.container {
+  max-width: 1200px;
+  padding-left: 10px;
+  padding-right: 10px;
+  margin: auto;
+}
+
+@media (min-width: 1200px) {
+  .container {
+    padding-left: 0;
+    padding-right: 0;
+  }
+}
+
+a {
+  color: #005eb8;
+}
+
+.primary-button {
+  cursor: pointer;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px 16px;
+  margin: 0;
+  text-align: center;
+  border-radius: 3px;
+  color: @primary-btn-text;
+  border: none;
+  background: @primary-btn;
+
+}
+
+.primary-button:hover {
+  color: @primary-btn-text-hover;
+  background: @primary-btn-hover;
+  text-decoration: none;
+}
+
+.primary-button-border {
+  color: @primary-btn-border-text;
+  background: @primary-btn-bg;
+  border: 1px solid @primary-btn-border;
+  border-radius: 2px;
+  text-decoration: none;
+  cursor: pointer;
+  display: inline-block;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+  padding: 5px 16px;
+  margin: 0;
+  text-align: center;
+}
+
+.primary-button-border:hover {
+  color: @primary-btn-border-text-hover;
+  background: @primary-btn-bg-hover;
+  text-decoration: none;
+}
+
+/*Подробнее*/
+.view-more {
+  padding: 8px 20px 10px;
+  color: @more-link;
+  font-weight: bold;
+  text-transform: uppercase;
+  border: 1px solid @more-link;
+  border-radius: 3px;
+
+  &:hover {
+    text-decoration: none;
+    color: @more-link-hover;
+  }
+
+  span {
+    border-bottom: 2px dotted @more-link-border;
+    -o-transition: 0.2s all ease;
+    transition: 0.2s all ease;
+    &:hover {
+      border-color: transparent;
+    }
+  }
+
+}
+
+/* General Menu Styles */
+.desktop-menu {
+  .menu {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+
+  .js .menu {
+    /* If we have JavaScript enabled and we're just waiting for flexMenu to load and run, hide list items that don't fit on one line. If JavaScript is not enabled, just show 'em all. */
+    height: 54px;
+    overflow: hidden;
+  }
+
+  .menu > li {
+    float: left;
+    border-left: 1px solid #f0f0f0;
+    font-size: 14px;
+    font-weight: bold;
+    text-transform: uppercase;
+    /*height: 2em;*/
+  }
+
+  .menu > li:first-child {
+    border-left: none;
+    margin-left: 0;
+  }
+
+  .menu > li > a {
+    padding: 18px 14px;
+  }
+
+  .menu a {
+    display: block;
+    text-decoration: none;
+    color: #707070;
+  }
+  .menu > li > a:hover {
+    opacity: 0.8;
+  }
+  .menu-sub {
+    display: none;
+    position: absolute;
+    list-style-type: none;
+    padding-left: 0;
+    z-index: 11;
+    background: #fff;
+    width: 300px;
+
+    li {
+      a {
+        padding: 18px;
+        display: block;
+        text-decoration: none;
+        color: #707070;
+        border-bottom: 1px solid #f0f0f0;
+      }
+      a:hover {
+        opacity: 0.8;
+      }
+    }
+
+  }
+
+  li:hover > .menu-sub {
+    display: block;
+  }
+
+  .clear {
+    clear: both;
+  }
+
+  /* flexMenu styles */
+
+  .flexMenu-viewMore > a {
+    color: @primary-color;
+  }
+
+  .flexMenu-popup {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+    z-index: 11;
+    background: #fff;
+    min-width: 250px;
+    -o-transition: 0.3s all ease;
+    transition: 0.3s all ease;
+
+    li {
+      > a {
+        padding: 18px;
+        display: block;
+        text-decoration: none;
+        color: #707070;
+        border-bottom: 1px solid #f0f0f0;
+      }
+    }
+
+  }
+
+  .flexMenu-popup a:hover {
+    opacity: 0.8;
+    display: block;
+  }
+}
+/*@import "variable";*/
+@import "header";
+@import "block";
+@import "main";
+@import "catalog";
+@import "sale";
+@import "history";
+@import "ask-jobs";
+@import "product-card";
+@import "about_us";
+@import "sotrudniki";
+@import "project";
+@import "partner";
+@import "certif";
+@import "news";
+@import "usluga";
+@import "contact";
+@import "price";
+@import "views";
+@import "404";
+@import "sitemap";
+@import "search";
+@import "modal";
+@import "transfer-table.less";
+@import "footer";

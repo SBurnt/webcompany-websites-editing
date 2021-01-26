@@ -1,0 +1,120 @@
+.breadcrumb {
+  margin-bottom: -12px;
+  margin-top: -2px;
+
+  .uk-breadcrumb {
+    margin-bottom: 22px;
+    li {
+      list-style: none;
+      padding-left: 0;
+      font-size: 12px;
+
+      a {
+        border-bottom: 1px solid #969696;
+        font-size: 0.875rem;
+        line-height: 12px;
+        color: #969696;
+
+        &:hover {
+          text-decoration: none;
+          color: @primary-color;
+          border-color: fade(@primary-color, 40%);
+        }
+      }
+
+      span {
+        color: @primary-color;
+      }
+    }
+
+    > li:nth-child(n+2)::before {
+      content: '\f105';
+      position: relative;
+      margin: 0 4px;
+      color: #969696;
+      font-family: FontAwesome;
+      font-style: normal;
+      font-weight: normal;
+      text-decoration: inherit;
+    }
+  }
+}
+
+@media (max-width: 1024px) {
+  .uk-breadcrumb {
+    display: table;
+
+    > li {
+      border-top: 1px solid #e5e5e5;
+      border-bottom: 1px solid #e5e5e5;
+      margin-bottom: -1px;
+      height: 40px;
+      line-height: 40px;
+      -webkit-box-flex: 1;
+      -ms-flex-positive: 1;
+      -webkit-flex-grow: 1;
+      flex-grow: 1;
+      display: table-cell;
+      white-space: nowrap;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      padding-left: 8px;
+      padding-right: 24px;
+      font-size: 13px;
+      position: relative;
+
+      &:not(:first-of-type) {
+        padding-left: 39px;
+      }
+
+      &:after {
+        content: "";
+        width: 15px;
+        height: 40px;
+        position: absolute;
+        right: -15px;
+        top: 0;
+        background: url("../img/update/breadcrumbs-angle.svg") 100% 50% no-repeat;
+      }
+    }
+
+    > li:last-of-type {
+      margin-right: 20px;
+    }
+  }
+
+  .uk-breadcrumb > li:before,
+  .breadcrumb .uk-breadcrumb > li:nth-child(n+2)::before {
+    display: none;
+  }
+
+  .breadcrumb .uk-breadcrumb li a {
+    border-bottom: none;
+    font-size: 13px;
+    line-height: normal;
+    color: #333;
+  }
+}
+
+@media (max-width: 1024px) {
+  .uk-breadcrumb > li:first-of-type {
+    padding-left: 15px;
+  }
+}
+
+@media (max-width: 768px) {
+  .breadcrumbs-wrap {
+    margin-right: -10px;
+    margin-left: -10px;
+  }
+
+  .breadcrumb .mCSB_horizontal.mCSB_inside > .mCSB_container {
+    margin-bottom: 0;
+  }
+
+  .breadcrumb .mCSB_draggerContainer {
+    display: none;
+  }
+}

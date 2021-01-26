@@ -1,0 +1,120 @@
+.main-map-wrapper {
+  height: 328px;
+  overflow: hidden;
+}
+
+.main-map {
+  height: 378px;
+
+  .content {
+    display: block;
+    top: 46px;
+  }
+}
+
+.map-info {
+  background-color: #fff;
+  max-width: 360px;
+  border-radius: 5px;
+  overflow: hidden;
+  -webkit-box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+  box-shadow: 0 0 10px 0 rgba(0, 0, 0, 0.3);
+}
+
+.map-info__el {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.2);
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+
+  &:last-of-type {
+    border: none;
+  }
+}
+
+.map-info__title {
+  background-color: @primary-color;
+  color: #fff;
+  height: 51px;
+  line-height: 51px;
+  padding: 0 21px;
+  font-size: 18px;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.map-info__img {
+  width: 20px;
+  text-align: center;
+  margin-left: 22px;
+
+  svg {
+    fill: @primary-color;
+  }
+}
+
+.map-info__txt {
+  line-height: 19px;
+  padding: 14px 14px 14px 20px;
+}
+
+@media screen and (max-width: 480px) {
+  .main-map .content {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+  }
+
+  .main-map-wrapper {
+    height: 345px;
+  }
+
+  .main-map {
+    height: 100%;
+  }
+
+  .map-info {
+    max-width: none;
+    margin: 30px 20px 0 20px;
+  }
+
+  .map-info__el {
+    min-height: 79px;
+  }
+
+  .map-button-mobile {
+    display: block;
+    height: 51px;
+    -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+    border-radius: 3px;
+    background-color: #fff;
+    line-height: 51px;
+    margin-top: 21px;
+    text-align: center;
+    font-weight: bold;
+    cursor: pointer;
+    position: absolute;
+    bottom: 34px;
+    left: 20px;
+    right: 20px;
+    z-index: 1000;
+  }
+
+  .map-button-mobile img {
+    margin-right: 5px;
+    position: relative;
+    top: -1px;
+  }
+
+  .map-info.hide {
+    opacity: 0;
+    z-index: -1;
+  }
+}

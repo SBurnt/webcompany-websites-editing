@@ -1,0 +1,460 @@
+.footer {
+  background: #6d6d6d;
+
+  .logo-sign {
+    font-weight: bold;
+    color: #ffffff;
+  }
+
+  #Canvas__logo-new {
+    fill: #ffffff;
+  }
+
+  #Ellipse4__logo-new {
+    fill: @primary-color;
+  }
+
+  .footer-top {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-box-pack: justify;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    justify-content: space-between;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+    padding: 18px 0;
+
+    .flex-block {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: -webkit-box;
+      display: flex;
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+
+      .logo {
+        margin-right: 104px;
+
+        img {
+          height: 70px;
+        }
+      }
+      .phone {
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: flex;
+        -webkit-box-align: center;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        align-items: center;
+        margin-right: 22px;
+        > svg {
+          //background: url("../img/sprite/phone-footer.png") no-repeat;
+          //width: 35px;
+          //height: 35px;
+          margin-right: 10px;
+
+          fill: #ffffff;
+          stroke: #ffffff;
+
+          #Vector__footer-phone-default {
+            fill: #ffffff;
+            stroke: none;
+          }
+        }
+        p {
+          font-weight: bold;
+          font-size: 20px;
+          color: #a8aeb1;
+          span {
+            color: #ffffff;
+          }
+        }
+      }
+      .callback-block {
+        a {
+          display: inline-block;
+          height: 37px;
+          padding: 0 12px;
+
+          font-weight: bold;
+          font-size: 14px;
+          line-height: 33px;
+          color: #ffffff;
+          text-transform: uppercase;
+
+          border: 2px solid #ffffff;
+          border-radius: 3px;
+
+          -webkit-transition: 0.2s all linear;
+          -o-transition: 0.2s all linear;
+          transition: 0.1s all linear;
+        }
+        a:hover {
+          text-decoration: none;
+
+          background-color: #333333;
+        }
+      }
+      @media (max-width: 960px) {
+        .phone {
+          p {
+            font-size: 18px;
+          }
+        }
+        .callback-block {
+          font-size: 16px;
+        }
+      }
+    }
+    @media (max-width: 768px) {
+      .flex-block {
+        -webkit-box-pack: center;
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        justify-content: center;
+      }
+    }
+  }
+  .footer-center {
+    padding: 28px 0 16px;
+
+    background: #606060;
+
+    ul {
+      margin: 0;
+      padding: 0;
+
+      list-style: none;
+      font-size: 0;
+
+      li {
+        display: inline-block;
+        width: 25%;
+        margin-bottom: 6px;
+
+        a {
+          font-weight: bold;
+          font-size: 14px;
+          color: #ffffff;
+
+          &:hover {
+            color: lighten(@primary-color, 15%);
+          }
+        }
+      }
+      @media (max-width: 768px) {
+        li {
+          width: 50%;
+          a {
+            font-size: 13px;
+          }
+        }
+      }
+      @media (max-width: 480px) {
+        li {
+          width: 100%;
+          a {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+  .webcompany {
+    display: block;
+
+    color: #b8babb;
+
+    background-color: #515151;
+
+    .container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: justify;
+      -webkit-justify-content: space-between;
+      -ms-flex-pack: justify;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      align-items: center;
+      padding: 15px 0;
+
+      color: #ffffff;
+    }
+
+    .sitemap {
+      a {
+        color: #ffffff;
+        text-decoration: underline;
+      }
+      a:hover {
+        color: @primary-color;
+      }
+      @media (max-width: 768px) {
+        display: none;
+      }
+    }
+  }
+}
+
+.develop {
+  svg {
+    max-width: 60px;
+    height: auto;
+
+    transition: 0.1s;
+
+    fill: #808080;
+
+    &:hover {
+      fill: #335aad;
+    }
+  }
+
+  a {
+    display: inline-block;
+    margin-left: 17px;
+  }
+}
+
+.footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  ul {
+    width: 100%;
+
+    @media all and (max-width: 1300px) {
+      display: none;
+    }
+  }
+}
+
+.footer-details {
+  -webkit-flex: none;
+  flex: none;
+  -webkit-box-flex: 0;
+  max-width: 342px;
+  margin-top: -2px;
+
+  font-size: 10px;
+  line-height: 0.89rem;
+  color: #ffffff;
+  letter-spacing: -0.025rem;
+
+  -ms-flex: none;
+}
+
+@media all and (max-width: 1300px) {
+  .footer .footer-top {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+
+  .footer-top .social {
+    display: none;
+  }
+
+  .footer .footer-top .flex-block .logo {
+    margin-right: 30px;
+  }
+
+  .footer-center .footer-container {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+
+    text-align: center;
+  }
+
+  .footer .footer-center {
+    padding-top: 16px;
+  }
+
+  .footer .webcompany .container {
+    padding-right: 15px;
+    padding-left: 15px;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .footer-container {
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .footer-details {
+    margin: 0 auto;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .footer-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .footer .footer-top .flex-block {
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+  }
+}
+
+@media all and (max-width: 680px) {
+  .footer {
+    .footer-top {
+      flex-direction: column;
+      .flex-block {
+        display: block;
+
+        .phone {
+          margin-right: 0;
+
+          > span,
+          svg {
+            display: none;
+          }
+        }
+
+        .phone,
+        .callback-block {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .footer .footer-top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .footer .footer-top .flex-block .logo {
+    margin-right: 0;
+  }
+
+  .footer .footer-top .flex-block .phone {
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+}
+
+#Ellipse__footer-logo {
+  fill: @primary-color;
+}
+
+#title_logo__footer-logo,
+#under_logo__footer-logo {
+  fill: #ffffff;
+}
+
+.footer.footer-theme_gray {
+  background: #f7f7f7;
+
+  .logo-sign {
+    font-weight: normal;
+    color: #333333;
+  }
+
+  #Rectangle423_3__logo-new {
+    fill: #333333;
+  }
+
+  .footer-top .flex-block .phone > svg {
+    fill: #333333;
+    stroke: #333333;
+
+    #Vector__footer-phone-default {
+      fill: #333333;
+      stroke: none;
+    }
+  }
+
+  .footer-center {
+    background: #f2f2f2;
+  }
+
+  .webcompany {
+    background: #e5e5e5;
+  }
+
+  #title_logo__footer-logo,
+  #under_logo__footer-logo {
+    fill: #333333;
+  }
+
+  .footer-center ul li a,
+  .footer-top .flex-block .phone p span {
+    color: #333333;
+  }
+
+  .footer-center ul li a:hover {
+    color: @primary-color;
+  }
+
+  .webcompany .sitemap,
+  .container {
+    color: #808080;
+  }
+
+  .webcompany .sitemap {
+    display: none;
+  }
+
+  .footer-details {
+    color: #676767;
+  }
+
+  .footer-top .flex-block .callback-block a {
+    color: @primary-color;
+
+    border-color: @primary-color;
+
+    &:hover {
+      color: #ffffff;
+
+      background-color: @primary-color;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .footer .webcompany .container {
+    flex-direction: column;
+  }
+
+  .develop {
+    margin-top: 10px;
+  }
+}

@@ -1,0 +1,142 @@
+.buttons > .relative.left:hover .btn.catalog + ul {
+    display: block;
+}
+.buttons > .relative:first-child {
+    z-index: 200;
+}
+.btn.catalog + ul {
+    display: none;
+    position: absolute;
+    top: 37px;
+    left: 0px;
+    list-style: none;
+    background: #e8eaee;
+    width: 188px;
+    border-top: none;
+	border: 1px solid #bfc0c2;
+}
+.btn.catalog + ul > li {
+	border-top: 1px solid #bfc0c2;
+}
+.btn.catalog + ul > li > a {
+    text-decoration: none;
+    background:url(../img/arrow.png) no-repeat 175px center;
+    display: block;
+    padding: 7px 9px 8px 26px;
+    font: bold 11px Tahoma, Geneva, sans-serif;
+    color: #3a3a3a;
+    border-top: 1px solid #f4f5f7;
+}
+.btn.catalog + ul > li:hover > a {
+    background: #ed1c24 url(../img/pnt_wht.png) no-repeat 175px center;
+    border-top: 1px solid #ed1c24;
+    color: #fff;
+}
+.btn.catalog + ul > li:hover > a + .window {
+    display: block !important;
+}
+.window.catalog {
+    position: absolute;
+    top: 2px;
+    left: 188px;
+    width: 710px;
+    padding: 15px 10px;
+    box-shadow: 0px 0px 8px 0px #77848d;
+    border: 2px solid #ed1c24;
+    border-radius: 2px;
+    background: #FFFFFF!important;
+    filter: none;
+}
+.window.catalog.alt ul li {
+    padding-left: 0px;
+    position: relative;
+    z-index: 1000;
+}
+.window.catalog.alt ul li img {
+    position: absolute;
+    top: 0px;
+    left: 0px;
+    width: 50px;
+}
+.window.catalog.alt ul li > span {
+    margin-left: 10px;
+    font: bold 14px Arial, Helvetica, sans-serif;
+    color: #aaa;
+    cursor: pointer;
+}
+.window.catalog.alt ul li > span:hover {
+    color: #ed1c24;
+}
+.window.catalog.alt ul li > a {
+    text-decoration: none;
+    padding: 0px;
+}
+.window.catalog.alt ul li > div {
+    display: none;
+}
+.window.catalog.alt ul li > div a {
+    display: block;
+    padding: 0px 0px 0px 10px;
+    text-decoration: none;
+    color: #666;
+    font: 11px Tahoma, Geneva, sans-serif;
+}
+.window.catalog.alt ul li a:hover {text-decoration: underline;}
+.window.catalog.alt ul li > div a:hover {
+    color: #ed1c24;}
+.window.catalog .angle {
+    display: block;
+    position: absolute;
+    top: -16px;
+    left: 165px;
+    border-style:solid;
+    border-width: 8px;
+    width:0;
+    height:0;
+}
+.window.catalog > ul {
+    float: left;
+    list-style: none;
+    margin-bottom: 20px;
+    width:190px;
+    padding: 0px 20px;
+}
+.window.catalog > ul > li {
+    padding-left: 15px;
+    padding-bottom: 10px;
+}
+.window.catalog > ul > li > a {
+    font: bold 13px/20px Tahoma, Geneva, sans-serif;
+    color: #3a3a3a;
+}
+.window.catalog > ul > li.title {
+    display: block;
+    padding: 0 10px;
+    border-radius: 18px;
+    height: 35px;
+    margin-bottom: 10px;
+    width: auto;
+}
+.window.catalog > ul > li > ul {
+    padding-left: 25px;
+    list-style: none;
+}
+.window.catalog > ul > li > ul a {
+    font: 14px/24px "Display";
+}
+.window.catalog > ul > li.title > a {
+    font: 17px/35px "DisplayMedium";
+    text-decoration: none;
+    padding: 0;
+}
+
+.window.catalog {
+	background: #fff;
+
+}
+.window.catalog .angle {
+	border-color: transparent transparent #0060a1 transparent;
+}
+.window.catalog ul li.title {
+	background: #004f8a;
+}

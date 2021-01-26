@@ -1,0 +1,40 @@
+.certificate {
+  .certif-block {
+    > div {
+      margin-bottom: 25px;
+      text-align: center;
+    }
+    >div a{
+      position: relative;
+      display: inline-block;
+    }
+    >div a:hover::after {
+      background: url('../img/sprite/loup.png') no-repeat;
+      height: 78px;
+      width: 78px;
+      content: "";
+      display: block;
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      z-index: 3;
+    }
+    >div a:hover::before {
+      content: "";
+      display: block;
+      background-color:rgba(0,0,0,.3);
+      height:100%;
+      width:100%;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      position: absolute;
+      z-index: 2;
+    }
+  }
+}

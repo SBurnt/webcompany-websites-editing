@@ -1,0 +1,53 @@
+.parther-page {
+  .parther {
+    margin-top: 15px;
+    > div {
+      margin-bottom: 20px;
+    }
+    .wrap{
+      border: 1px solid #eeeeee;
+      background: #fcfcfc;
+      .img {
+        background: #fff;
+        padding: 10px 0;
+        text-align: center;
+
+      }
+      > p {
+        margin: 5px 0;
+        text-align: center;
+      }
+      .work {
+        font-size: 14px;
+        font-weight: bold;
+      }
+      .link {
+        a {
+          color: #7c7c7c;
+          //text-decoration: underline;
+          border-bottom: 1px solid fade(#7c7c7c, 40%);
+        }
+        a:hover {
+          text-decoration: none;
+          color: @primary-color;
+          border-color: fade(@primary-color, 40%);;
+        }
+      }
+      .tel {
+        color: @primary-color;
+        font-size: 14px;
+        font-weight: bold;
+      }
+    }
+  }
+}
+
+.parther .wrap {
+  -webkit-transition: 0.2s;
+  -o-transition: 0.2s;
+  transition: 0.2s;
+  &:hover {
+    -webkit-box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.3);
+  }
+}

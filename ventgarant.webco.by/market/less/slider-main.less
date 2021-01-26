@@ -1,0 +1,328 @@
+.slider-main {
+
+  li {
+    opacity: 0;
+    @media all and (max-width: 1300px) {
+      padding-left: 30px;
+      padding-right: 30px;
+    }
+
+  }
+  .full-slide {
+    min-height: 406px;
+    @media all and (max-width: 1300px) {
+      min-height: 350px;
+    }
+
+    .content {
+
+      span {
+        font-weight: bold;
+      }
+
+      a {
+        padding: 0 23px;
+        border-radius: 3px;
+      }
+
+      .title {
+        text-transform: uppercase;
+        line-height: normal;
+        margin-bottom: 8px;
+      }
+
+      .black {
+        color: #000;
+        &.title {
+          color: #000;
+        }
+      }
+
+      > div {
+        margin-top: 26px;
+        margin-bottom: 17px;
+      }
+    }
+  }
+
+  .bx-slider {
+    margin: 0;
+    padding: 0;
+  }
+
+  .bx-controls-direction {
+    > a {
+      width: 52px;
+      height: 52px;
+      background: url("../img/sprite/arrow-main-slider.png") no-repeat;
+      z-index: 999;
+    }
+    .bx-prev {
+      background: url("../img/arrow-main-slider-left.png") 50% 50% no-repeat;
+      -webkit-transition: .1s;
+      -o-transition: .1s;
+      transition: .1s;
+
+      &:hover {
+        background: url("../img/arrow-main-slider-hov.png") 50% 50% no-repeat;
+      }
+    }
+    .bx-next {
+      background: url("../img/arrow-main-slider-right.png") 50% 50% no-repeat;
+      -webkit-transition: .1s;
+      -o-transition: .1s;
+      transition: .1s;
+
+      &:hover {
+        background: url("../img/arrow-main-slider-next-hov.png") 50% 50% no-repeat;
+      }
+    }
+  }
+
+  .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+    bottom: 20px;
+
+    .bx-pager-item {
+      .bx-pager-link {
+        width: 20px;
+        height: 20px;
+        border: 3px solid #93b8c7;
+        background: #fff;
+        border-radius: 50%;
+        margin: 0 3px;
+      }
+      .bx-pager-link.active {
+        background: @primary-color;
+      }
+    }
+
+  }
+
+  .bx-wrapper {
+    .bx-pager .bx-pager-item .bx-pager-link,
+    .bx-controls-auto .bx-pager-item .bx-pager-link {
+      width: 14px;
+      height: 14px;
+      border: none;
+      margin: 0 8px;
+      position: relative;
+    }
+
+    .bx-pager .bx-pager-item .bx-pager-link::before,
+    .bx-controls-auto .bx-pager-item .bx-pager-link::before {
+      content: '';
+      position: absolute;
+      width: 14px;
+      height: 14px;
+      border: 4px solid rgba(0, 0, 0, 0.2);
+      top: -4px;
+      left: -4px;
+      border-radius: 50%;
+    }
+
+    .bx-pager, .bx-controls-auto {
+      bottom: 24px;
+    }
+  }
+
+  .more-button {
+    margin-right: 20px;
+    background-color: #fff;
+    color: @primary-color;
+
+    &:hover {
+      background-color: @primary-color;
+      color: #fff;
+    }
+  }
+
+  @media (max-width: 768px) {
+    .bx-wrapper .bx-pager, .bx-wrapper .bx-controls-auto {
+      bottom: 0;
+      .bx-pager-item {
+        .bx-pager-link {
+          width: 12px;
+          height: 12px;
+          border: 2px solid #93b8c7;
+          background: #fff;
+          border-radius: 50%;
+          margin: 0 3px;
+        }
+        .bx-pager-link.active {
+          background: @primary-color;
+        }
+      }
+
+    }
+  }
+
+  .full-slide {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    align-items: center;
+
+    .content {
+      min-height: 145px;
+
+      &.active {
+        padding: 20px;
+        background-color: rgba(0, 0, 0, 0.5);
+        border-radius: 10px;
+      }
+
+      .title {
+        font-size: 40px;
+        font-weight: bold;
+        color: #fff;
+        margin-bottom: 6px;
+        line-height: 1.4em;
+      }
+      span {
+        color: #fff;
+        font-size: 18px;
+      }
+      > div {
+        margin-top: 30px;
+      }
+      a {
+        padding: 8px 14px;
+        display: inline-block;
+        border-radius: 2px;
+        text-transform: uppercase;
+        font-size: 14px;
+        font-weight: bold;
+        -o-transition: all 0.2s ease;
+        transition: all 0.2s ease;
+
+        &.more-button {
+          color: @primary-btn;
+
+          &:hover {
+            background: @primary-btn;
+            color: #fff;
+          }
+        }
+
+        &.buy-button {
+          &:hover {
+            color: #fff;
+          }
+        }
+
+
+
+      }
+      @media (max-width: 960px) {
+        .title {
+          font-size: 30px;
+        }
+
+        span {
+          font-size: 13px;
+        }
+
+        a {
+          font-size: 16px;
+        }
+      }
+      @media (max-width: 768px) {
+        .title {
+          font-size: 24px;
+        }
+
+        a {
+          font-size: 14px;
+        }
+
+        span {
+          font-size: 12px;
+        }
+      }
+    }
+    .img {
+      -webkit-flex-shrink: 2;
+      -ms-flex-negative: 2;
+      flex-shrink: 2;
+      img {
+        width: 100%;
+      }
+    }
+    @media (max-width: 768px) {
+      .img {
+        display: none;
+      }
+
+      .content {
+        text-align: center;
+        margin: 30px 0 45px;
+      }
+    }
+  }
+
+  @media (max-width: 1300px) {
+    .bx-controls-direction a {
+      display: none;
+    }
+  }
+}
+
+@media all and (max-width: 768px) {
+  .slider-main .full-slide {
+    min-height: 250px;
+  }
+
+  .slider-main .full-slide .content span {
+    font-size: 14px;
+  }
+
+  .slider-main .full-slide .content .title {
+    text-transform: none;
+  }
+
+  .slider-main .full-slide .content .buy-button {
+    display: none;
+  }
+
+  .slider-main .more-button {
+    margin-right: 0;
+  }
+
+  .slider-main .bx-controls {
+    display: none;
+  }
+
+  .slider-main .full-slide .content {
+    margin-top: 45px;
+  }
+}
+
+@media screen and (max-width: 480px) {
+  .slider-main .full-slide .content .title {
+    font-size: 22px;
+  }
+
+  .slider-main li {
+    padding: 20px 8px;
+  }
+
+  .slider-main .full-slide .content span {
+    font-weight: 700;
+  }
+
+  .slider-main .full-slide .content > div {
+    margin-top: 12px;
+    margin-bottom: 0;
+  }
+
+  .slider-main .full-slide {
+    min-height: 170px;
+  }
+
+  .slider-main .full-slide .content {
+    margin: 0;
+  }
+}

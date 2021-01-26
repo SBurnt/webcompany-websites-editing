@@ -1,0 +1,40 @@
+/*404*/
+
+.page-404 {
+  text-align: center;
+  margin: 40px 0 40px;
+
+  svg {
+    margin-bottom: 30px;
+    fill: @primary-color;
+    max-width: 100%;
+  }
+
+  .content {
+    p {
+      margin: 0;
+    }
+    .button {
+      margin-top: 20px;
+
+      @media (min-width: 480px) {
+        a:first-child {
+          margin-right: 20px;
+        }
+      }
+
+      @media (max-width: 480px) {
+        a {
+          margin: 0 auto 20px;
+        }
+      }
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .page-404 .content .button {
+    display: flex;
+    flex-direction: column;
+  }
+}

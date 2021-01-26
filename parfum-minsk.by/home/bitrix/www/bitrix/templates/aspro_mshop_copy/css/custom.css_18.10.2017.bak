@@ -1,0 +1,138 @@
+/*NOTE: This file is intended for programmers. Aspro technical support is not advised to work with him.*/
+
+/* Examples (uncomment to use):*/
+
+/* Expand site width */
+/* body .wrapper { max-width: 1400px !important;  } */
+
+/* Set site background image */
+/* body {  background: url(image_source) top no-repeat; }
+
+/* Hide compare button */
+/* a.compare_item { display: none !important;  }*/
+
+.catalog_item .item-title a, .catalog_item .item-title a span, .view-item .item-title a span {
+    color: black;
+    
+}
+
+#header .middle-h-row .logo_wrapp .logo a img {
+    width: 100px;
+    
+}
+/*
+.item-stock {
+    display: none;
+   
+}
+*/
+.catalog_block .catalog_item_wrapp {
+    width: 23%;
+    width: 210px;
+    float: left;
+    padding-bottom: 40px;
+    white-space: normal;
+    display: inline-block;
+    margin: 5px;
+    vertical-align: top;
+    border: 1px solid #cacacd;
+}
+
+
+.description_block_custom {
+    height:40px;
+    overflow: hidden;
+    margin-bottom: 10px;
+}
+.cat_desc_more  {
+    display: block;
+    margin-bottom: 20px;
+    color: #c50026;
+    cursor: pointer;
+}
+
+ul.menu li .child ul  {
+    width: 12%!important;
+}
+
+.item-stock {
+    display: none;
+}
+
+
+.catalog_detail .offers_table .cost.prices .price {
+    float: none;
+    display: inline-block;
+}
+
+.info_item .middle_info .prices .price {
+    font-size: 14px;
+    line-height: 20px;
+    padding-right: 5px;
+}
+
+.cost .price:not(.discount) {
+    margin-right: 4px;
+}
+
+.cost.prices .price {
+    float: left;
+}
+
+.cost.prices .price, .module-cart .row_titles .item_title, .module-cart .row_values .price {
+    font-size: 18px;
+    font-weight: bold;
+    line-height: 15px;
+    margin: 8px 0px 2px;
+}
+
+.info_item .middle_info .prices .price {
+    font-size: 18px;
+    line-height: 20px;
+    padding-right: 5px;
+}
+
+.catalog_detail .item_main_info .item_slider {
+    width: 35%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 29px 0 29px 0;
+    float: left;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+
+.catalog_detail .item_main_info .item_slider {
+    width: 35%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -o-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    padding: 29px 0 29px 0;
+    float: left;
+    position: relative;
+    z-index: 1;
+    text-align: center;
+}
+.catalog_detail .item_main_info .right_info {
+    padding-left: 35%;
+    position: relative;
+}
+table.colored td.buy {
+    width: 425px;
+    text-align: center;
+}
+.offers_table thead, .offers_table thead tr, .offers_table thead tr td {
+    border: 0;
+    background: #d9002a;
+    color: white;
+}
+
+table.colored thead td {
+    font-size: 12px;
+    padding: 8px 5px 7px;
+    border-top: 0;
+}
