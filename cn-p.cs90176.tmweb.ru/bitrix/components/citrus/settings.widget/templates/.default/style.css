@@ -1,0 +1,7 @@
+.settings-prepare-visible {
+  opacity: 0.5;
+}
+#js-settings-widget-arealty-map-link {
+    display: inline-flex;
+    text-decoration: none;
+}

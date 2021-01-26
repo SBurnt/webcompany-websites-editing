@@ -1,0 +1,225 @@
+.certificate {
+  .certif-block {
+    > div {
+      margin-bottom: 25px;
+      text-align: center;
+    }
+    >div a{
+      position: relative;
+      display: inline-block;
+    }
+    >div a:hover::after {
+      z-index: 3;
+      position: absolute;
+      content: "";
+      width: 100%;
+      height: 100%;
+      display: block;
+      top: 0;
+      left: 0;
+      background: url("../img/update/magnifier-white.svg") 50% 50% no-repeat transparent;
+    }
+    >div a:hover::before {
+      content: "";
+      display: block;
+      background-color:rgba(0,0,0,.3);
+      height:100%;
+      width:100%;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      position: absolute;
+      z-index: 2;
+    }
+  }
+}
+
+.certificates {
+  margin-bottom: 40px;
+
+  .main-title {
+    margin-bottom: 0;
+  }
+
+  .certif-slider {
+    padding-right: 40px;
+    padding-left: 40px;
+    .certificates-element a {
+      position: relative;
+      display: inline-block;
+    }
+    .certificates-element a:hover::after {
+      opacity: 1;
+    }
+    .certificates-element a::after {
+      display: block;
+      opacity: 0;
+      content: "";
+      position: absolute;
+      top: 0;
+      right: 0;
+      left: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.45) url("../img/sprite/loop.png") no-repeat center;
+      -o-transition: 0.5s all ease;
+      transition: 0.5s all ease;
+
+    }
+    .owl-controls {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      margin: auto;
+      left: 0;
+      right: 0;
+      height: 50px;
+      z-index: -1;
+      .owl-prev {
+        float: left;
+      }
+      .owl-next {
+        float: right;
+      }
+      i {
+        font-size: 50px;
+        color: @primary-color;
+      }
+    }
+
+  }
+
+  .company-logo {
+    position: relative;
+    margin: 48px 0 29px;
+    padding: 0 37px;
+
+    .owl-nav {
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      left: 0;
+      right: 0;
+      margin: auto;
+      height: 35px;
+      .owl-prev {
+        background: url('../img/update/partners-arrow-left.jpg') 50% 50% no-repeat;
+        width: 20px;
+        height: 35px;
+        float: left;
+        position: relative;
+        left: -10px;
+      }
+      .owl-next {
+        background: url('../img/update/partners-arrow-right.jpg') 50% 50% no-repeat;
+        width: 20px;
+        height: 35px;
+        float: right;
+        position: relative;
+        right: -10px;
+      }
+    }
+  }
+}
+
+.certif-slider-wrap {
+  position: relative;
+
+  .customNextBtn {
+    right: -20px;
+    position: absolute;
+    z-index: 111;
+  }
+
+  .customPrevBtn {
+    position: absolute;
+    left: -20px;
+    z-index: 111;
+  }
+
+  .customPrevBtn, .customNextBtn {
+    top: ~"calc(50% - 20px)";
+  }
+}
+
+.certificates-element {
+  opacity: 0;
+  text-align: center;
+}
+
+.certif-slider.owl-carousel .owl-item img {
+  margin: 0;
+}
+
+@media all and (max-width: 1300px) {
+  .sale .customNextBtn,
+  .certif-slider-wrap .customNextBtn {
+    right: 20px;
+  }
+
+  .sale .customPrevBtn,
+  .certif-slider-wrap .customPrevBtn {
+    left: 20px;
+  }
+
+  .dignity .sale {
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-bottom: 1px solid #f2f2f2;
+  }
+
+  .certificates {
+    padding-top: 30px;
+  }
+
+  .certificates .company-logo .owl-nav .owl-prev {
+    left: 10px;
+  }
+
+  .certificates .company-logo .owl-nav .owl-next {
+    right: 10px;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .dignity .sale {
+    background: none;
+  }
+
+  .dignity .sale .slider-sale {
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    background: none;
+    padding: 0;
+  }
+
+  .slider-sale .price-name {
+    height: 27px;
+    overflow: hidden;
+  }
+
+  .dignity .sale .content .primary-button {
+    margin-top: 8px;
+    font-weight: normal;
+  }
+
+  .dignity {
+    padding-bottom: 0
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .certificates .certif-slider {
+    padding-right: 20px;
+    padding-left: 20px;
+  }
+
+  .certificates .certif-slider .certificates-element a {
+    display: inline-block;
+  }
+
+  .certificates-element {
+    text-align: center;
+  }
+}

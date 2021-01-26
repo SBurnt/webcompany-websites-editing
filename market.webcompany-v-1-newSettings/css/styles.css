@@ -1,0 +1,57 @@
+.drag-link {
+  position: relative;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  text-decoration-line: underline;
+  color: #f9690e;
+  padding-left: 25px;
+  margin-bottom: 13px;
+}
+
+.drag-link::before {
+  position: absolute;
+  left: 0;
+
+  content: url(../img/drag-docum-link.svg);
+  width: 12px;
+  height: 16px;
+}
+
+.drag .tasks__list {
+  position: relative;
+  padding-left: 0;
+}
+
+.btn-drag {
+  background: url(../img/drag.svg) no-repeat;
+  background-color: transparent;
+  background-size: contain;
+  background-position: center;
+  width: 20px;
+  height: 20px;
+  padding: 5px;
+  cursor: move;
+  border: none;
+  outline: none;
+}
+
+.selected {
+  opacity: 0.5;
+}
+
+.drag .checkbox.checkbox-slider {
+  margin-left: auto;
+  margin-right: 22px;
+}
+
+.drag .settings-table-row__half:nth-child(2) {
+  margin-left: auto;
+  margin-right: 22px;
+}
+
+.drag .settings-table-row__half .checkbox.checkbox-slider {
+  margin-left: 22px;
+  /* margin-right: 22px; */
+}
+

@@ -1,0 +1,254 @@
+{
+  "tabs": [
+    {
+      "id": "tab_1",
+      "name": "Объект",
+      "title": "",
+      "fields": [
+        {
+          "id": "ACTIVE",
+          "name": "Опубликован"
+        },
+        {
+          "id": "NAME",
+          "name": "Название"
+        },
+        {
+          "~id": "IBLOCK_SECTION_ID",
+          "id": "IBLOCK_SECTION[]",
+          "name": "Разделы"
+        },
+        "contact",
+        "quick_sale",
+        "deal_type",
+        "deal_status_new",
+        "deal_status",
+        "deal_status_commercial",
+        "category",
+        "commercial_type",
+        "deal_conditions",
+        "commercial_rent_conditions",
+        "taxation_form",
+        "agent_fee",
+        "cian_other_fee",
+        "prepayment",
+        "security_payment",
+        "lot_number",
+        "ownership_type",
+        "share_amount"
+      ]
+    },
+    {
+      "id": "tab_233426",
+      "name": "Описание",
+      "title": "",
+      "fields": [
+        {
+          "id": "DETAIL_PICTURE",
+          "name": "Основная фотография"
+        },
+        "photo",
+        "video",
+        "PREVIEW_TEXT",
+        "DETAIL_TEXT"
+      ]
+    },
+    {
+      "id": "tab_648262",
+      "name": "Расположение",
+      "title": "",
+      "fields": [
+        "metro_stations",
+        "district",
+        "apartment",
+        "cadastral_number",
+        "distance_to_town",
+        "geodata"
+      ]
+    },
+    {
+      "id": "tab_614420",
+      "name": "Стоимость",
+      "title": "",
+      "fields": [
+        {
+          "id": "cost_curr_value",
+          "name": "Цена",
+          "type": "number"
+        },
+        "cost_curr",
+        "cost_unit",
+        "cost_period"
+      ]
+    },
+    {
+      "id": "tab_257124",
+      "name": "Помещение",
+      "title": "",
+      "fields": [
+        "floor",
+        "rooms",
+        "rooms_offered",
+        "common_area",
+        "living_area",
+        "rooms_type",
+        "rooms_area",
+        "kitchen_area",
+        "ceiling_height",
+        "floor_covering",
+        "balcony",
+        "wc",
+        "window_view",
+        "renovation",
+        "condition",
+        "window_type",
+        "walls_type"
+      ]
+    },
+    {
+      "id": "tab_241242",
+      "name": "Дом",
+      "title": "",
+      "fields": [
+        "floors",
+        "complex",
+        "house",
+        "building_type",
+        "building_series",
+        "building_section",
+        "built_year",
+        "residential_features",
+        "building_features",
+        "commercial_building_type",
+        "commercial_building_features",
+        "house_features"
+      ]
+    },
+    {
+      "id": "tab_984380",
+      "name": "Земля",
+      "title": "",
+      "fields": [
+        "land_area",
+        "type_of_land"
+      ]
+    },
+    {
+      "id": "tab_71562",
+      "name": "Гараж",
+      "title": "",
+      "fields": [
+        "garage_type",
+        "garage_name",
+        "garage_building_type",
+        "garage_features"
+      ]
+    },
+    {
+      "id": "tab_353131",
+      "name": "Выгрузка",
+      "title": "",
+      "fields": [
+        {
+          "id": "feeds",
+          "name": "Выгружать в фиды"
+        },
+        {
+          "id": "field_736960",
+          "name": "Яндекс.Недвижимость",
+          "type": "section"
+        },
+        {
+          "id": "feed_yandex_promo",
+          "name": "Дополнительная услуга по продвижению объявления"
+        },
+        {
+          "id": "field_920553",
+          "name": "ЦИАН",
+          "type": "section"
+        },
+        {
+          "id": "publishterms_sevices",
+          "name": "Список размещений"
+        },
+        {
+          "id": "auction_bet",
+          "name": "Ставка на объявление в аукционе"
+        },
+        {
+          "id": "publishterms_excludedsevices",
+          "name": "Условия размещения, которые нельзя применять к объявлению"
+        },
+        {
+          "id": "deposit",
+          "name": "Залог собственнику"
+        },
+        {
+          "id": "cian_balconiescount",
+          "name": "Количество балконов"
+        },
+        {
+          "id": "cian_cargoliftscount",
+          "name": "Количество грузовых лифтов"
+        },
+        {
+          "id": "cian_loggiascount",
+          "name": "Количество лоджий"
+        },
+        {
+          "id": "cian_passengerliftscount",
+          "name": "Количество пассажирских лифтов"
+        },
+        {
+          "id": "cian_separatewcscount",
+          "name": "Количество раздельных санузлов"
+        },
+        {
+          "id": "cian_combinedwcscount",
+          "name": "Количество совместных санузлов"
+        },
+        {
+          "id": "publishterms_ignoreservicepackages",
+          "name": "Не использовать пакет размещений при публикации объявления"
+        },
+        {
+          "id": "cian_wclocationtype",
+          "name": "Расположение санузла"
+        },
+        {
+          "id": "cian_saletype",
+          "name": "Тип продажи"
+        },
+        {
+          "id": "field_339171",
+          "name": "Авито"
+        },
+        {
+          "id": "listing_fee",
+          "name": "Вариант платного размещения"
+        },
+        {
+          "id": "directionroad_avito",
+          "name": "Шоссе"
+        }
+      ]
+    },
+    {
+      "id": "tab_137590",
+      "name": "Прочее",
+      "title": "",
+      "fields": [
+        "entrance_type",
+        "office_class",
+        "parking_guest_places",
+        "parking_places",
+        "phone_lines",
+        "purpose_warehouse",
+        "commercial_features",
+        "commercial_purpose",
+        "parking_place_price",
+        "parking_type"
+      ]
+    }
+  ]
+}

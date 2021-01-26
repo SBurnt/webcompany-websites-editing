@@ -1,0 +1,180 @@
+.citrus-realty-mortgage {
+	display: table;
+	width: 100%;
+	margin-bottom: 30px;
+	font-size: 0;
+}
+
+.citrus-realty-mortgage .result-block {
+	display: inline-block;
+	vertical-align: top;
+	width: 30%;
+	padding: 30px 15px;
+	background-color: rgba(233, 229, 224, 0.5);
+	border-radius: 10px;
+	text-align: center;
+	margin-top: -60px;
+	font-size: 16px;
+}
+
+.citrus-realty-mortgage .result-block h2{
+	margin-top: 0;
+}
+
+.citrus-realty-mortgage .result-row {
+	position: relative;
+	line-height: 1;
+}
+.citrus-realty-mortgage .result-row-notice {
+	font-size: 90%;
+	font-style: italic;
+}
+.citrus-realty-mortgage .result-row+.result-row {
+	margin-top: 30px
+}
+
+.citrus-realty-mortgage .result-row span {
+	display: block;
+	font-size: 24px;
+	margin-top: 15px
+}
+
+.citrus-realty-mortgage .result-row.big-row span {
+	font-size: 40px;
+	color: #008000
+}
+
+.citrus-realty-mortgage .calc-content {
+	display: inline-block;
+	vertical-align: top;
+	width: 70%;
+	padding-right: 30px;
+	font-size: 16px;
+}
+
+.citrus-realty-mortgage .service-form-row {
+	line-height: 35px;
+	padding-left: 200px;
+	display: table;
+	width: 100%
+}
+
+.citrus-realty-mortgage .service-form-row+.service-form-row {
+	margin-top: 30px
+}
+
+.citrus-realty-mortgage .field {
+	float: left;
+	width: 200px
+}
+
+.citrus-realty-mortgage .service-form-label {
+	float: left;
+	width: 200px;
+	margin-left: -200px
+}
+
+.citrus-realty-mortgage .goods-price{
+	position: static;
+}
+
+.citrus-realty-mortgage .fs30{
+	font-size: 30px!important;
+}
+
+.citrus-realty-mortgage input.input-short {
+	height: 35px;
+	background-color: #f9f8f5;
+	border: 1px solid #c5b99f;
+	color: #333;
+	padding: 0 10px;
+	font-size: 16px;
+	font-family: "PT Sans",Helvetica,Arial,sans-serif;
+	width: 120px;
+	display: inline-block;
+	vertical-align: top;
+	text-align: right;
+}
+
+.citrus-realty-mortgage input.input-short:focus {
+	background-color: #fff;
+}
+
+.citrus-realty-mortgage .slider-cont {
+	margin-left: 200px;
+	padding-top: 13px
+}
+
+.citrus-realty-mortgage .content-title {
+	padding-top: 15px;
+}
+
+@media screen and (max-width: 1279px){
+	.citrus-realty-mortgage .service-form-row {
+		padding:0
+	}
+
+	.citrus-realty-mortgage .service-form-label {
+		float: none;
+		margin-left: 0;
+		display: inline-block
+	}
+
+	.citrus-realty-mortgage .field {
+		float: none;
+		display: inline-block
+	}
+
+	.citrus-realty-mortgage .slider-cont {
+		margin-left: 0;
+		padding: 0;
+		margin-top: 15px
+	}
+	.citrus-realty-mortgage .calc-content,
+	.citrus-realty-mortgage .result-block {
+		width: 50%;
+		vertical-align: middle;
+	}
+}
+@media screen and (max-width: 768px){
+	.citrus-realty-mortgage .calc-content,
+	.citrus-realty-mortgage .result-block {
+		width: 100%;
+		vertical-align: top;
+		display: block;
+	}
+	.citrus-realty-mortgage .calc-content{
+		padding: 0;
+	}
+	.citrus-realty-mortgage .result-block{
+		margin-top: 30px;
+	}
+}
+@media screen and (max-width: 767px){
+	.wrap img.ipoteka-banks{
+		display: none!important;
+	}
+}
+
+.citrus-realty-mortgage-form { margin-bottom:50px;}
+
+.wrap img.ipoteka-banks {
+	display: inline-block;
+	vertical-align: middle;
+	margin-left: 15px;
+}
+
+.citrus-realty-mortgage .ui-slider-horizontal {
+	border-radius: 50px;
+}
+.citrus-realty-mortgage .ui-widget-header {
+	background-color: #eee;
+	border-radius: 0 50px 50px 0;
+}
+.citrus-realty-mortgage .ui-slider .ui-slider-handle {
+	cursor: pointer;
+}
+.citrus-realty-mortgage .ui-widget-content .ui-state-default {
+	background: #fff;
+	border-radius: 100%;
+}

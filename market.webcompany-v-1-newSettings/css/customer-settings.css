@@ -1,0 +1,308 @@
+.panel__tabs {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+}
+
+.panel__tabs::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #e2e2e2;
+  border-radius: 1px;
+}
+
+.panel__tab {
+  position: relative;
+  margin-right: 30px;
+  padding-bottom: 18px;
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 19px;
+  color: #808080;
+  cursor: pointer;
+}
+
+.panel__tab.active {
+  color: #333333;
+}
+
+.panel__tab.active::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 2px;
+  background-color: #f82900;
+  border-radius: 1px;
+}
+
+.panel__info {
+  display: none;
+}
+
+.panel__info.active {
+  display: block;
+}
+
+.panel__item {
+  padding-top: 35px;
+}
+
+.panel__title-wrap {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
+}
+
+.panel__title {
+  margin: 0 !important;
+  margin-right: 10px !important;
+}
+
+.panel__title.margin {
+  margin-top: 35px !important;
+  margin-bottom: 10px !important;
+}
+
+.panel__details-popup {
+  position: absolute;
+  left: calc(100% + 5px);
+  z-index: 2;
+  display: none;
+  width: 100%;
+  max-width: 266px;
+  padding: 18px 25px;
+  background: #ffffff;
+  border-radius: 5px;
+  -webkit-box-shadow: 0 0 7px rgba(0, 0, 0, 0.25);
+          box-shadow: 0 0 7px rgba(0, 0, 0, 0.25);
+}
+
+.panel .details-popup__title {
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 11px;
+  line-height: 15px;
+  color: #333333;
+}
+
+.panel .details-popup__list {
+  margin: 0;
+  padding: 0;
+  padding-left: 6px;
+  list-style: none;
+}
+
+.panel .details-popup__item, .panel .details-popup__subitem {
+  position: relative;
+  padding-left: 11px;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 15px;
+  color: #494949;
+}
+
+.panel .details-popup__item::before, .panel .details-popup__subitem::before {
+  content: "";
+  position: absolute;
+  top: 6px;
+  left: 0;
+  width: 4px;
+  height: 4px;
+  background-color: #696969;
+  border-radius: 28px;
+}
+
+.panel .details-popup__item.other-color, .panel .details-popup__subitem.other-color {
+  color: #f82900;
+}
+
+.panel .details-popup__item.other-color::before, .panel .details-popup__subitem.other-color::before {
+  background-color: #f82900;
+}
+
+.panel .details-popup__subitem::before {
+  width: 3px;
+  height: 3px;
+}
+
+.panel__title-img:hover + .panel__details-popup {
+  display: block;
+}
+
+.panel__subtitle {
+  display: block;
+  margin-bottom: 14px;
+  font-weight: normal;
+  font-size: 11px;
+  line-height: 15px;
+  color: #808080;
+}
+
+.panel__checkbox-wrap {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+}
+
+.panel__checkbox-title {
+  font-weight: bold;
+  font-size: 11px;
+  line-height: 15px;
+  color: #333333;
+}
+
+.panel__link {
+  position: relative;
+  display: block;
+  margin-top: 14px;
+  margin-bottom: 9px;
+  padding-left: 22px;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 16px;
+  color: #f9690e;
+  -webkit-text-decoration-line: underline;
+          text-decoration-line: underline;
+}
+
+.panel__link::before {
+  content: url(../img/panel-link.svg);
+  position: absolute;
+  top: 50%;
+  left: 0;
+  width: 12px;
+  height: 12px;
+  -webkit-transform: translateY(-50%);
+          transform: translateY(-50%);
+}
+
+.panel .service-detail li {
+  width: auto;
+}
+
+.panel .service-detail label {
+  padding: 19px 45px 45px 45px;
+  background: #fbfbfb;
+  border-width: 2px;
+}
+
+.panel .service-detail .select-radio-img-list__title {
+  font-size: 15px;
+  line-height: 20px;
+}
+
+.panel .settings-table-row.column {
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+  -webkit-box-align: start;
+      -ms-flex-align: start;
+          align-items: flex-start;
+}
+
+.panel .settings-table-row.column .settings-table-row__item {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+          justify-content: space-between;
+  -webkit-box-align: center;
+      -ms-flex-align: center;
+          align-items: center;
+  width: 100%;
+  margin-bottom: 8px;
+}
+
+.panel .settings-table-row.column .panel__checkbox-wrap:not(:last-child) {
+  margin-bottom: 8px;
+}
+
+.panel .settings-table-row.column .panel__checkbox-wrap .checkbox-slider__toggle {
+  width: 15px;
+  height: 15px;
+  margin-top: -8px;
+}
+
+.panel .settings-table-row.column .panel__checkbox-wrap .checkbox.checkbox-slider {
+  width: 28px;
+  height: 9px;
+}
+
+.panel .settings-table-row.column .panel__checkbox-wrap .checkbox.checkbox-slider.active .checkbox-slider__toggle {
+  left: 14px;
+}
+
+.panel .settings-table-row.column .panel__checkbox-wrap .panel__checkbox-title {
+  font-weight: normal;
+}
+
+.panel .select-radio-img-item {
+  position: relative;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: column;
+          flex-direction: column;
+}
+
+.panel .select-radio-img-item .panel__checkbox-wrap {
+  position: absolute;
+  top: 45px;
+  z-index: 1;
+}
+
+.panel .select-radio-img-item .panel__checkbox-wrap .checkbox.checkbox-slider {
+  width: 24px;
+  height: 8px;
+  margin-top: 0;
+  margin-right: 6px;
+  margin-left: 9px;
+  padding: 0;
+  border: 0;
+}
+
+.panel .select-radio-img-item .panel__checkbox-wrap .checkbox.checkbox-slider.active .checkbox-slider__toggle {
+  left: 12px;
+}
+
+.panel .select-radio-img-item .panel__checkbox-wrap .checkbox-slider__toggle {
+  width: 13px;
+  height: 13px;
+  margin-top: -7px;
+}
+
+.panel .select-radio-img-item label.radio {
+  height: 100%;
+  padding: 13px 9px 9px;
+  border-width: 2px;
+}
+
+.panel .select-radio-img-item .select-radio-img-list__title {
+  margin-bottom: 45px;
+}
+
+.panel .select-radio-img-item .select-radio-img-text {
+  display: block;
+  margin-top: 10px;
+  font-size: 11px;
+  line-height: 15px;
+  text-align: left;
+  color: #808080;
+}
+/*# sourceMappingURL=customer-settings.css.map */

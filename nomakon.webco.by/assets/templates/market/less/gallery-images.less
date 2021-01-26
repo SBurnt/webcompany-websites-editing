@@ -1,0 +1,45 @@
+.gallery-images {
+  display: flex;
+  flex-wrap: wrap;
+  margin-left: -21px;
+  overflow: hidden;
+}
+
+.gallery-images__el {
+  flex-basis: ~"calc((100% - 63px) / 3)";
+  margin-left: 21px;
+  border-radius: 3px;
+  overflow: hidden;
+  margin-bottom: 21px;
+  position: relative;
+  cursor: pointer;
+
+  &:hover a {
+    opacity: 1;
+  }
+
+  a {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: url('../img/progect-plus.png') 50% 50% no-repeat;
+    opacity: 0;
+    transition: 0.2s;
+  }
+}
+
+@media all and (max-width: 767px) {
+  .gallery-images__el {
+    margin-left: 10px;
+    margin-bottom: 10px;
+    display: inline-block;
+  }
+
+  .gallery-images {
+    margin-left: -10px;
+    text-align: center;
+    display: block;
+  }
+}

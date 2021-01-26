@@ -1,0 +1,506 @@
+/* CSS kod pishite v etom faile, chotobi pri ustanovke obnovlenii ne bilo problem  */
+/* --------------------------------------- */
+/* Here you can put custom css rules for your site */
+
+/* section "about the company" on the main page START */
+.company-edits.item-views.front {
+  border: none;
+}
+
+.company-edits .show_all {
+  margin-bottom: 3px !important;
+
+  font-weight: 600;
+  line-height: 20px;
+}
+
+.company-edits.item-views.company.front.type_4 h2 {
+  margin-bottom: 44px;
+
+  font-weight: 500;
+  line-height: 37px;
+}
+
+.company-edits.item-views.company.front .company-block .text .btn {
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+}
+.company-edits.item-views.company.front .company-block .text .btn.btn-default {
+  border-color: #f17036;
+}
+
+.company-edits .preview-text {
+  line-height: 20px;
+}
+
+.company-edits.item-views.company.front .props .image {
+  margin-top: -3px;
+
+  background-color: transparent;
+}
+
+.company-edits .front_tizers .props .title {
+  line-height: 22px;
+  color: #222222;
+}
+
+.company-edits .front_tizers .props .value {
+  line-height: 19px;
+  color: #555555;
+}
+
+@media (max-width: 540px) {
+  .company-edits.item-views.company.front.type_4 h2 {
+    margin-bottom: 15px;
+
+    font-size: 20px;
+  }
+
+  .company-edits .preview-text {
+    font-style: 13px;
+  }
+
+  .company-edits.item-views.company.front .company-block .text .buttons {
+    margin-top: 0 !important;
+  }
+
+  .company-edits.item-views.company.front.type_4 .company-block > .row > .item.left_block {
+    margin-bottom: 15px;
+  }
+
+  .company-edits.item-views.company.front.type_4 .company-block > .row > .item.right_block {
+    margin-top: 25px;
+  }
+
+  .company-edits .front_tizers .props .value {
+    font-size: 11px;
+  }
+
+  .company-edits .front_tizers .props .body-info {
+    padding-left: 66px;
+  }
+}
+/* section "about the company" on the main page END */
+
+/* section "Applications for bidding" on the main page START */
+.bids-bargaining.item-views.front {
+  padding: 28px 0 44px;
+
+  background: #f2f5fa;
+  border: none;
+}
+
+.bids-bargaining__top {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 26px;
+}
+
+.bids-bargaining__title {
+  margin: 0 !important;
+
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  color: #333333;
+}
+
+.bids-bargaining__show-all {
+  font-weight: normal;
+  font-size: 10px;
+  line-height: 12px;
+  color: #6c6c6c;
+  text-transform: uppercase;
+}
+.bids-bargaining.item-views.news-items:not(.projects) .flexslider {
+  margin: 0 !important;
+}
+
+.bids-bargaining__wrap ul,
+.bids-bargaining__wrap ul li {
+  margin: 0;
+}
+
+.bids-bargaining__wrap ul li:before {
+  content: none;
+}
+
+.bids-bargaining__list {
+  display: flex;
+  justify-content: space-between;
+  padding: 0 !important;
+}
+
+.bids-bargaining__item {
+  width: calc(100% / 3 - 42px);
+  margin: 0;
+}
+
+.bids-bargaining__subitem:not(:last-child) {
+  margin-bottom: 16px;
+}
+
+.bids-bargaining__text {
+  position: relative;
+
+  margin: 0;
+  padding-left: 13px;
+
+  font-weight: normal;
+  font-size: 15px;
+  line-height: 20px;
+  color: #333333;
+}
+
+.bids-bargaining__text::before {
+  content: "";
+  position: absolute;
+  top: 0;
+  left: 0;
+
+  width: 3px;
+  height: 100%;
+
+  background-color: #f17036;
+}
+
+.bids-bargaining__date {
+  display: block;
+  margin-top: 3px;
+  padding-left: 13px;
+
+  font-weight: normal;
+  font-size: 13px;
+  line-height: 20px;
+  color: #888888;
+}
+
+.bids-bargaining__subitem:hover .bids-bargaining__text,
+.bids-bargaining__subitem:hover .bids-bargaining__date {
+  color: #f17036;
+}
+
+.bids-bargaining__subitem:hover .bids-bargaining__text {
+  text-decoration-line: underline;
+}
+
+.bids-bargaining__pagination {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 32px;
+}
+
+.pagination__arrow.flex-disabled {
+  display: none;
+}
+
+.pagination__controls-container {
+  margin: 0 32px;
+}
+
+.bids-bargaining__pagination .flex-control-nav {
+  position: static;
+}
+
+.bids-bargaining__pagination .flex-control-paging li {
+  margin-left: 6px;
+}
+
+.bids-bargaining__pagination .flex-control-paging li a {
+  width: 9px;
+  height: 9px;
+}
+
+.bids-bargaining__pagination .flex-control-paging li a:before {
+  top: 0;
+  left: 0;
+
+  width: 9px;
+  height: 9px;
+  margin: 0;
+
+  background: #c4c4c4 !important;
+}
+
+.bids-bargaining__pagination .flex-control-paging li a:hover:before,
+.bids-bargaining__pagination .flex-control-paging li a.flex-active:before {
+  width: 9px;
+  height: 9px;
+
+  background: #555555 !important;
+}
+
+@media (max-width: 540px) {
+  .bids-bargaining__top {
+    margin-bottom: 20px;
+  }
+
+  .bids-bargaining__title {
+    font-size: 20px;
+    line-height: 24px;
+  }
+
+  .bids-bargaining__subitem:not(:last-child) {
+    margin-bottom: 10px;
+  }
+
+  .bids-bargaining__text {
+    font-size: 13px;
+  }
+}
+/* section "Applications for bidding" on the main page END */
+
+/* section "Our partners" on the main page START */
+.our-partners.item-views.front {
+  border: none;
+}
+
+.our-partners__top {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 55px;
+}
+
+.our-partners__title {
+  position: relative;
+
+  margin: 0 !important;
+  padding-bottom: 19px;
+
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 36px;
+  color: #333333;
+}
+
+.our-partners__title::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  left: 50%;
+
+  width: 110px;
+  height: 4px;
+
+  background-color: #f17036;
+  border-radius: 5px 5px 0 0;
+  transform: translateX(-50%);
+}
+
+.our-partners__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.our-partners__item {
+  display: flex;
+  align-items: center;
+  margin: 0 !important;
+}
+
+.our-partners__item::before {
+  content: none;
+}
+
+.our-partners__img-wrap {
+  min-width: 108px;
+  max-width: 108px;
+}
+
+.our-partners__img {
+  width: 100%;
+}
+
+.our-partners__info {
+  margin-left: 40px;
+}
+
+.our-partners__name {
+  display: block;
+
+  font-weight: 700;
+  font-size: 15px;
+  line-height: 18px;
+  color: #555555;
+}
+
+.our-partners__link {
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 16px;
+  color: #555555;
+
+  text-decoration-line: underline;
+}
+
+.our-partners__link:hover {
+  color: #f17036;
+}
+
+@media (max-width: 767px) {
+  .our-partners__top {
+    margin-bottom: 42px;
+  }
+
+  .our-partners__list {
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  .our-partners__item:not(:last-child) {
+    margin-bottom: 25px !important;
+  }
+
+  .our-partners__img-wrap {
+    min-width: 61px;
+    max-width: 61px;
+  }
+
+  .our-partners__name {
+    font-size: 14px;
+    line-height: 17px;
+  }
+}
+/* section "Our partners" on the main page END */
+
+/* section "our-contacts" on the main page START */
+@media (min-width: 768px) {
+  .our-contacts {
+    display: none;
+  }
+}
+
+.drag-block[data-order="99"] {
+  -webkit-box-ordinal-group: 17;
+  -ms-flex-order: 99;
+  order: 99;
+}
+
+.our-contacts.item-views.front {
+  padding: 10px 0 45px;
+
+  border: none;
+}
+
+.our-contacts__top {
+  padding-bottom: 20px;
+
+  border-bottom: 1px solid #eff1f5;
+}
+
+.our-contacts__link {
+  display: block;
+  margin-bottom: 8px;
+
+  font-weight: 600;
+  font-size: 10px;
+  line-height: 20px;
+  color: #b0b0b0;
+}
+
+.our-contacts__address {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color: #333333;
+}
+
+.our-contacts__middle {
+  margin-top: 35px;
+}
+
+.our-contacts__list {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.our-contacts__item {
+  width: calc(100% / 4);
+  margin: 0 0 20px 0 !important;
+}
+
+.our-contacts__item::before {
+  content: none !important;
+}
+
+.our-contacts__name {
+  display: block;
+  margin-bottom: 3px;
+
+  font-weight: 500;
+  font-size: 10px;
+  line-height: 20px;
+  color: #999999;
+}
+
+.our-contacts__info {
+  display: block;
+
+  font-weight: 500;
+  font-size: 13px;
+  line-height: 20px;
+  color: #333333;
+}
+
+.our-contacts__info:not(:last-child) {
+  margin-bottom: 4px;
+}
+
+.our-contacts__btn-cooperation {
+  display: block;
+  width: 100%;
+  max-width: 300px;
+  margin: 0 auto;
+  padding: 14px 21px 12px;
+
+  font-weight: 700;
+  font-size: 10px;
+  line-height: 12px;
+  text-transform: uppercase;
+}
+
+@media (max-width: 767px) {
+  .our-contacts__item {
+    width: calc(100% / 2);
+  }
+}
+/* section "our-contacts" on the main page END */
+
+/* block in the header language selection START */
+.language__item {
+  display: inline-block;
+  margin: 0 !important;
+}
+
+.language__item::before {
+  content: none !important;
+}
+
+.language__link {
+  position: relative;
+
+  padding: 3px 11px;
+
+  font-weight: 700;
+  font-size: 13px;
+  line-height: 16px;
+  color: #ffffff;
+  text-transform: uppercase;
+}
+
+.language__link:hover,
+.language__link:active {
+  color: #ffffff;
+}
+
+.language__link.active {
+  background: rgba(255, 255, 255, 0.2);
+  border-radius: 3px;
+}
+/* block in the header language selection END */

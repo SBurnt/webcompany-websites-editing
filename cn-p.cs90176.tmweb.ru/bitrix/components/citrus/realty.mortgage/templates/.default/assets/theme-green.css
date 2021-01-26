@@ -1,0 +1,10 @@
+.citrus-realty-mortgage .ui-slider-horizontal {
+	border: none !important;
+	background-color: #26ae01;
+}
+.citrus-realty-mortgage .ui-widget-content .ui-state-default {
+	border: 2px solid #26ae01;
+}
+.citrus-realty-mortgage .ui-widget-content .ui-state-hover {
+	background-color: #26ae01;
+}

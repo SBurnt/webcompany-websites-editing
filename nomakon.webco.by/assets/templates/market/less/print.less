@@ -1,0 +1,25 @@
+@media print {
+  header, footer, .breadcrumb, h1, .left-bar, .table-price .title-right, .table-price {
+    display: none;
+  }
+
+  .table-price.printing {
+    display: table;
+  }
+
+  .table-price {
+    width: 100%;
+    border-collapse: collapse;
+  }
+
+  .table-price td {
+    text-align: center;
+    padding: 7px 5px 8px;
+    border: 1px solid black;
+  }
+
+  .table-price tr:first-child td {
+    background-color: #f0f0f0;
+    font: bold 15px 'PT Sans', arial;
+  }
+}

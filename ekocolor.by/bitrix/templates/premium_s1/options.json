@@ -1,0 +1,83 @@
+{
+    "assets": {
+        "css": [
+            "/vendor/normalize/normalize.css",
+            "/vendor/fonts/fonts.css",
+            "/vendor/owlcarousel/owl.carousel.min.css",
+            "/vendor/lightbox/lightbox.min.css",
+            "/vendor/selecter/jquery.fs.selecter.min.css",
+            "/vendor/fonts/material-design/material-design-iconic-font.min.css"
+        ],
+        "js": [
+            "/vendor/jquery/jquery.min.js",
+            "/vendor/jquery/jquery.modal.js",
+            "/vendor/jquery/jquery.validate.min.js",
+            "/vendor/jquery/jquery.inview.js",
+            "/vendor/owlcarousel/owl.carousel.min.js",
+            "/vendor/lightbox/lightbox.min.js",
+            "/vendor/spincrement/jquery.spincrement.min.js",
+            "/vendor/maskedinput/jquery.maskedinput.min.js",
+            "/vendor/selecter/jquery.fs.selecter.min.js",
+            "/script.js"
+        ],
+        "less": [
+            "/less/icons.less",
+            "/less/flex_prefix.less",
+            "/less/elements.less",
+            "/less/template_styles.less",
+            "/less/mediaqueries.less",            
+            "/less/custom.less"
+        ]
+    },
+    "schemes": [
+        {
+            "color1": "#e94250",
+            "color2": "#06294e",
+            "images": {
+                "preview": "/images/themes/scheme1_preview.jpg",
+                "big": "/images/themes/scheme1_full.jpg"
+            }
+        },
+        {
+            "color1": "#18c29c",
+            "color2": "#031727",
+            "images": {
+                "preview": "/images/themes/scheme2_preview.jpg",
+                "big": "/images/themes/scheme2_full.jpg"
+            }
+        },
+        {
+            "color1": "#e76711",
+            "color2": "#263248",
+            "images": {
+                "preview": "/images/themes/scheme3_preview.jpg",
+                "big": "/images/themes/scheme3_full.jpg"
+            }
+        },
+        {
+            "color1": "#00ad5e",
+            "color2": "#173134",
+            "images": {
+                "preview": "/images/themes/scheme4_preview.jpg",
+                "big": "/images/themes/scheme4_full.jpg"
+            }
+        },
+        {
+            "color1": "#faaf00",
+            "color2": "#3b2621",
+            "images": {
+                "preview": "/images/themes/scheme5_preview.jpg",
+                "big": "/images/themes/scheme5_full.jpg"
+            }
+        },
+        {
+            "color1": "#1b9fc6",
+            "color2": "#333e60",
+            "images": {
+                "preview": "/images/themes/scheme6_preview.jpg",
+                "big": "/images/themes/scheme6_full.jpg"
+            }
+        }
+        
+    ]
+}

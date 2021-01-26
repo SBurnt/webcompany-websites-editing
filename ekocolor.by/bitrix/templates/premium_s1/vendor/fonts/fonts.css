@@ -1,0 +1,76 @@
+/* Open Sans */
+@font-face {
+    font-family: "OpenSans";
+    src: url("./opensans/regular/OpenSansRegular.eot");
+    src: url("./opensans/regular/OpenSansRegular.eot?#iefix")format("embedded-opentype"),
+        url("./opensans/regular/OpenSansRegular.woff") format("woff"),
+        url("./opensans/regular/OpenSansRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("./opensans/bold/OpenSansBold.eot");
+    src: url("./opensans/bold/OpenSansBold.eot?#iefix")format("embedded-opentype"),
+        url("./opensans/bold/OpenSansBold.woff") format("woff"),
+        url("./opensans/bold/OpenSansBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 800;
+}
+
+
+@font-face {
+    font-family: "OpenSans";
+    src: url("./opensans/semibold/OpenSansSemiBold.eot");
+    src: url("./opensans/semibold/OpenSansSemiBold.eot?#iefix")format("embedded-opentype"),
+        url("./opensans/semibold/OpenSansSemiBold.woff") format("woff"),
+        url("./opensans/semibold/OpenSansSemiBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 600;
+}
+
+/* Ubuntu */
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url("./ubuntu/regular/UbuntuRegular.eot");
+    src: url("./ubuntu/regular/UbuntuRegular.eot?#iefix")format("embedded-opentype"),
+        url("./ubuntu/regular/UbuntuRegular.woff") format("woff"),
+        url("./ubuntu/regular/UbuntuRegular.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 400;
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url("./ubuntu/medium/UbuntuMedium.eot");
+    src: url("./ubuntu/medium/UbuntuMedium.eot?#iefix")format("embedded-opentype"),
+        url("./ubuntu/medium/UbuntuMedium.woff") format("woff"),
+        url("./ubuntu/medium/UbuntuMedium.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 600;
+}
+
+@font-face {
+    font-family: "Ubuntu";
+    src: url("./ubuntu/bold/UbuntuBold.eot");
+    src: url("./ubuntu/bold/UbuntuBold.eot?#iefix")format("embedded-opentype"),
+        url("./ubuntu/bold/UbuntuBold.woff") format("woff"),
+        url("./ubuntu/bold/UbuntuBold.ttf") format("truetype");
+    font-style: normal;
+    font-weight: 800;
+}
+
+/* Icon font */
+
+@font-face {
+    font-family: 'Icon';
+    src: url('./icon-font/premium-font.eot');
+    src: url('./icon-font/premium-font.eot?#iefix') format('embedded-opentype'),
+         url('./icon-font/premium-font.woff?1.03') format('woff'),
+         url('./icon-font/premium-font.ttf?1.03') format('truetype'),
+         url('./icon-font/premium-font.svg#premium-font') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}

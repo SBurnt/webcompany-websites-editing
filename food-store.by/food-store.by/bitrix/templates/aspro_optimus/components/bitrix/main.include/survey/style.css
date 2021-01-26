@@ -1,0 +1,229 @@
+.feedback-up {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 999;
+  display: none;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.45);
+}
+
+.feedback-up.active {
+  display: block;
+}
+
+.feedback-up__wrap {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  width: 100%;
+  max-width: 487px;
+  padding: 0 8px;
+  -webkit-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
+}
+
+.feedback-up__content {
+  position: relative;
+  margin: 10px auto;
+  padding: 20px 44px;
+  background: #ffffff;
+  border-radius: 3px;
+  -webkit-box-shadow: 0 0 15px rgba(0, 0, 0, 0.35);
+          box-shadow: 0 0 15px rgba(0, 0, 0, 0.35);
+}
+
+@media (max-width: 767.99px) {
+  .feedback-up__content {
+    padding: 20px;
+  }
+}
+
+.feedback-up__close {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  width: 20px;
+  height: 20px;
+  color: #ffffff;
+  background: #f00001;
+  border: none;
+  border-radius: 72px;
+  outline: none;
+  cursor: pointer;
+}
+
+.feedback-up__close:hover {
+  background-color: #d6423e;
+}
+
+.feedback-up__title {
+  margin-bottom: 9px;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #333333;
+}
+
+.feedback-up__question {
+  display: block;
+  margin-bottom: 15px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #333333;
+}
+
+.feedback-up__answer {
+  display: inline-block;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  margin-bottom: 15px;
+  padding: 14px;
+  overflow: auto;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 14px;
+  line-height: 16px;
+  color: #757575;
+  background: #eeeeee;
+  border-radius: 3px;
+  outline: none;
+  -webkit-appearance: none;
+}
+
+.feedback-up .layout-scrollbar {
+  -webkit-overflow-scrolling: touch;
+  -ms-overflow-style: -ms-autohiding-scrollbar;
+  overscroll-behavior: contain;
+  scrollbar-color: #f00001 transparent;
+  scrollbar-width: thin;
+}
+
+.feedback-up .layout-scrollbar::-webkit-scrollbar {
+  width: 2px;
+  height: 2px;
+}
+
+.feedback-up .layout-scrollbar::-webkit-scrollbar-track {
+  background-color: #ffffff;
+}
+
+.feedback-up .layout-scrollbar::-webkit-scrollbar-thumb {
+  background-color: #f00001;
+  border-radius: 3px;
+  cursor: pointer;
+}
+
+.feedback-up .layout-scrollbar::-webkit-scrollbar-button {
+  height: 0;
+  background-color: transparent;
+  border-radius: 3px;
+}
+
+.feedback-up .layout-scrollbar::-webkit-scrollbar-thumb:hover {
+  background-color: #d6423e;
+  cursor: pointer;
+}
+
+.feedback-up .layout-scrollbar::-webkit-scrollbar-thumb:active {
+  background-color: #d6423e;
+  cursor: pointer;
+}
+
+.feedback-up .layout-scrollbar::-webkit-scrollbar-thumb:vertical {
+  min-height: 100px;
+}
+
+.feedback-up .layout-scrollbar::-webkit-scrollbar-thumb:horizontal {
+  min-width: 100px;
+}
+
+.feedback-up__recaptcha {
+  margin-bottom: 11px;
+}
+
+.feedback-up__btn-send {
+  padding: 10px 30px;
+  font-size: 15px;
+  color: #ffffff;
+  background-color: #f00001;
+  border: 0;
+  border-radius: 3px;
+  outline: 0;
+  cursor: pointer;
+}
+
+.feedback-up__btn-send:hover {
+  background-color: #d6423e;
+}
+
+.feedback-turn {
+  position: fixed;
+  top: 215px;
+  right: 0;
+  display: none;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 52px;
+  height: 213px;
+  background: #f00001;
+  border-radius: 28px 0 0 28px;
+  -webkit-transform: translateX(13px);
+          transform: translateX(13px);
+  cursor: pointer;
+  -webkit-transition: all 0.2s ease-out;
+  transition: all 0.2s ease-out;
+}
+
+@media (max-width: 767.99px) {
+  .feedback-turn {
+    top: 275px;
+  }
+}
+
+.feedback-turn.active {
+  display: block;
+  z-index: 1;
+}
+
+.feedback-turn:hover {
+  -webkit-transform: translateX(0);
+          transform: translateX(0);
+  -webkit-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.feedback-turn__wrap {
+  position: relative;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  width: 100%;
+  height: 100%;
+  padding: 29px 25px 24px 9px;
+}
+
+.feedback-turn__ico {
+  position: absolute;
+  top: -15px;
+  left: -15px;
+}
+
+.feedback-turn__text {
+  font-size: 16px;
+  line-height: 18px;
+  color: #ffffff;
+  -webkit-transform: rotate(180deg);
+          transform: rotate(180deg);
+  -webkit-writing-mode: tb-rl;
+      -ms-writing-mode: tb-rl;
+          writing-mode: tb-rl;
+}
+/*# sourceMappingURL=style.css.map */

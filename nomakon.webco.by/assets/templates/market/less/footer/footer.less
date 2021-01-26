@@ -1,0 +1,434 @@
+.footer {
+  background: #6d6d6d;
+
+  .logo-sign {
+    color: #fff;
+    font-weight: bold;
+  }
+
+  #Canvas__logo-new {
+    fill: #fff;
+  }
+
+  #Ellipse4__logo-new {
+    fill: @primary-color;
+  }
+
+  .footer-top {
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -webkit-justify-content: space-between;
+    -ms-flex-pack: justify;
+    -webkit-box-pack: justify;
+    justify-content: space-between;
+    -webkit-flex-wrap: wrap;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+    -webkit-align-items: center;
+    -ms-flex-align: center;
+    -webkit-box-align: center;
+    align-items: center;
+    padding: 18px 0;
+
+    .flex-block {
+      display: -webkit-flex;
+      display: -ms-flexbox;
+      display: -webkit-box;
+      display: flex;
+      -webkit-align-items: center;
+      -ms-flex-align: center;
+      -webkit-box-align: center;
+      align-items: center;
+      -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+
+      .logo {
+        margin-right: 104px;
+      }
+      .phone {
+        display: -webkit-flex;
+        display: -ms-flexbox;
+        display: -webkit-box;
+        display: flex;
+        -webkit-align-items: center;
+        -ms-flex-align: center;
+        -webkit-box-align: center;
+        align-items: center;
+        margin-right: 22px;
+        >svg {
+          //background: url("../img/sprite/phone-footer.png") no-repeat;
+          //width: 35px;
+          //height: 35px;
+          margin-right: 10px;
+          fill: #fff;
+          stroke: #fff;
+
+          #Vector__footer-phone-default {
+            fill: #fff;
+            stroke: none;
+          }
+        }
+        p {
+          font-size: 20px;
+          font-weight: bold;
+          color: #a8aeb1;
+          span {
+            color: #fff;
+          }
+        }
+      }
+      .callback-block {
+        a {
+          border: 2px solid #fff;
+          font-weight: bold;
+          font-size: 14px;
+          color: #fff;
+          text-transform: uppercase;
+          -o-transition: 0.2s all linear;
+          -webkit-transition: 0.2s all linear;
+          transition: 0.1s all linear;
+          border-radius: 3px;
+          padding: 0 12px;
+          height: 37px;
+          line-height: 33px;
+          display: inline-block;
+        }
+        a:hover {
+          text-decoration:none;
+          background-color: #333;
+        }
+      }
+      @media (max-width: 960px) {
+        .phone {
+          p {
+            font-size: 18px;
+          }
+        }
+        .callback-block {
+          font-size: 16px;
+        }
+      }
+    }
+    @media (max-width: 768px) {
+      .flex-block {
+        -webkit-justify-content: center;
+        -ms-flex-pack: center;
+        -webkit-box-pack: center;
+        justify-content: center;
+      }
+    }
+  }
+  .footer-center {
+    background: #606060;
+    padding: 28px 0 16px;
+
+    ul {
+      padding: 0;
+      margin: 0;
+      list-style: none;
+      font-size: 0;
+
+      li {
+        margin-bottom: 6px;
+        width: 25%;
+        display: inline-block;
+
+        a {
+          font-size: 14px;
+          font-weight: bold;
+          color: #fff;
+          
+          &:hover {
+            color: lighten(@primary-color, 15%);
+          }
+        }
+      }
+      @media (max-width: 768px) {
+        li {
+          width: 50%;
+          a {
+            font-size: 13px;
+          }
+        }
+      }
+      @media (max-width: 480px) {
+        li {
+          width: 100%;
+          a {
+            font-size: 12px;
+          }
+        }
+      }
+    }
+  }
+  .webcompany {
+    color: #b8babb;
+    background-color: #515151;
+    display: block;
+
+    .container {
+      display: -webkit-box;
+      display: -ms-flexbox;
+      display: -webkit-flex;
+      display: flex;
+      -webkit-box-pack: justify;
+      -ms-flex-pack: justify;
+      -webkit-justify-content: space-between;
+      justify-content: space-between;
+      -webkit-box-align: center;
+      -ms-flex-align: center;
+      -webkit-align-items: center;
+      align-items: center;
+      padding: 15px 0;
+      color: #fff;
+    }
+
+    .sitemap {
+      a {
+        color: #fff;
+        text-decoration: underline;
+      }
+      a:hover {
+        color: @primary-color;
+      }
+      @media (max-width: 768px) {
+        display: none;
+      }
+    }
+  }
+}
+
+.develop {
+  svg {
+    max-width: 60px;
+    fill: #808080;
+    height: auto;
+    transition: 0.1s;
+
+    &:hover {
+      fill: #335AAD;
+    }
+  }
+
+  a {
+    display: inline-block;
+    margin-left: 17px;
+  }
+}
+
+.footer-container {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+
+  ul {
+    width: 100%;
+
+    @media all and (max-width: 1300px) {
+      display: none;
+    }
+  }
+}
+
+.footer-details {
+  color: #fff;
+  font-size: 10px;
+  letter-spacing: -0.025rem;
+  max-width: 342px;
+  -webkit-box-flex: 0;
+  -ms-flex: none;
+  -webkit-flex: none;
+  flex: none;
+  line-height: 0.89rem;
+  margin-top: -2px;
+}
+
+@media all and (max-width: 1300px) {
+  .footer .footer-top {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+
+  .footer-top .social {
+    display: none;
+  }
+
+  .footer .footer-top .flex-block .logo {
+    margin-right: 30px;
+  }
+
+  .footer-center .footer-container {
+    text-align: center;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+
+  .footer .footer-center {
+    padding-top: 16px;
+  }
+
+  .footer .webcompany .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .footer-container {
+    -ms-flex-wrap: wrap;
+    -webkit-flex-wrap: wrap;
+    flex-wrap: wrap;
+  }
+
+  .footer-details {
+    margin: 0 auto;
+  }
+}
+
+@media all and (max-width: 768px) {
+  .footer-container {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .footer .footer-top .flex-block {
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+  }
+}
+
+@media all and (max-width: 680px) {
+  .footer {
+    .footer-top {
+      flex-direction: column;
+      .flex-block {
+        display: block;
+
+        .phone {
+          margin-right: 0;
+
+          >span, svg {
+            display: none;
+          }
+        }
+
+        .phone, .callback-block {
+          display: block;
+        }
+      }
+    }
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .footer .footer-top {
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -ms-flex-direction: column;
+    -webkit-flex-direction: column;
+    flex-direction: column;
+  }
+
+  .footer .footer-top .flex-block .logo {
+    margin-right: 0;
+  }
+
+  .footer .footer-top .flex-block .phone {
+    margin-bottom: 20px;
+    margin-right: 0;
+  }
+}
+
+#Ellipse__footer-logo {
+  fill: @primary-color;
+}
+
+#title_logo__footer-logo, #under_logo__footer-logo {
+  fill: #fff;
+}
+
+.footer.footer-theme_gray {
+  background: #F7F7F7;
+
+  .logo-sign {
+    color: #333;
+    font-weight: normal;
+  }
+
+  #Rectangle423_3__logo-new {
+    fill: #333;
+  }
+
+  .footer-top .flex-block .phone >svg {
+    fill: #333;
+    stroke: #333;
+
+    #Vector__footer-phone-default {
+      fill: #333;
+      stroke: none;
+    }
+  }
+
+  .footer-center {
+    background: #F2F2F2;
+  }
+
+  .webcompany {
+    background: #E5E5E5;
+  }
+
+  #title_logo__footer-logo, #under_logo__footer-logo {
+    fill: #333;
+  }
+
+  .footer-center ul li a, .footer-top .flex-block .phone p span {
+    color: #333;
+  }
+
+  .footer-center ul li a:hover {
+    color: @primary-color;
+  }
+
+  .webcompany .sitemap, .container {
+    color: #808080;
+  }
+
+  .webcompany .sitemap {
+    display: none;
+  }
+
+  .footer-details {
+    color: #676767;
+  }
+
+  .footer-top .flex-block .callback-block a {
+    color: @primary-color;
+    border-color: @primary-color;
+
+    &:hover {
+      background-color: @primary-color;
+      color: #fff;
+    }
+  }
+}
+
+@media (max-width: 480px) {
+  .footer .webcompany .container {
+    flex-direction: column;
+  }
+
+  .develop {
+    margin-top: 10px;
+  }
+}

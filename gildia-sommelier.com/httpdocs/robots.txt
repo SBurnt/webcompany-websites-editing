@@ -1,0 +1,11 @@
+User-Agent: *
+Disallow: */0
+
+User-agent: GoogleBot
+Disallow: */0
+
+User-agent: Yandex
+Disallow: */0
+
+Sitemap: http://www.gildia-sommelier.com/sitemap.xml
+Host: www.gildia-sommelier.com/

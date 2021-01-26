@@ -1,0 +1,217 @@
+.scroll-floating-basket {
+  width: 421px;
+  background-color: #fff;
+  position: absolute;
+  right: 1px;
+  -webkit-box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  border-bottom-left-radius:3px;
+  border-bottom-right-radius:3px;
+  -webkit-transition: 0.3s;
+  -o-transition: 0.3s;
+  transition: 0.3s;
+
+  .mCSB_inside > .mCSB_container {
+    margin-right: 0;
+  }
+
+  .mCSB_scrollTools .mCSB_draggerRail {
+    background-color: transparent;
+  }
+
+  .mCSB_scrollTools {
+    width: 4px;
+    opacity: 1;
+  }
+
+  .mCSB_outside + .mCSB_scrollTools {
+    right: 5px;
+    top: 8px;
+    bottom: 3px;
+  }
+
+  .mCSB_scrollTools .mCSB_dragger .mCSB_dragger_bar {
+    -webkit-filter: none !important;
+    filter: none !important;
+    background: #c4c4c4;
+    border-radius: 10px;
+  }
+
+  .mCSB_scrollTools .mCSB_dragger.mCSB_dragger_onDrag .mCSB_dragger_bar, .mCSB_scrollTools .mCSB_dragger:active .mCSB_dragger_bar,
+  .mCSB_scrollTools .mCSB_dragger:hover .mCSB_dragger_bar{
+    background: #c4c4c4;
+    filter: "alpha(opacity=100)";
+    -ms-filter: "alpha(opacity=100)"
+  }
+
+}
+
+.scroll-floating-basket-items {
+  padding: 0 13px 0 14px;
+  height: 150px;
+}
+
+.scroll-floating-basket-item {
+  padding: 10px 15px 11px 10px;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  position: relative;
+  border-bottom: 1px solid #e5e5e5;
+}
+
+.scroll-floating-basket__img {
+  -webkit-box-flex: 0;
+  -webkit-flex: none;
+  -ms-flex: none;
+  flex: none;
+  width: 52px;
+  height: 52px;
+  margin-right: 14px;
+
+  img {
+    max-width: 100%;
+    max-height: 100%;
+  }
+}
+
+.scroll-floating-basket-info-wrap {
+  margin-top: -6px;
+}
+
+.scroll-floating-basket-total {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+  padding-left: 36px;
+  padding-right: 27px;
+  padding-top: 12px;
+
+  span {
+
+    &:last-of-type {
+      font-weight: bold;
+    }
+  }
+}
+
+.scroll-floating-basket__title {
+  border-bottom: 1px solid fade(#333, 40%);
+  white-space: nowrap;
+  -o-text-overflow: ellipsis;
+  text-overflow: ellipsis;
+  margin-right: 50px;
+  overflow: hidden;
+  max-width: 268px;
+  margin-bottom: 6px;
+  display: inline-block;
+
+  &:hover {
+    border-color: fade(@primary-color, 40%);
+  }
+
+  a {
+    color: #333;
+
+    &:hover {
+      color: @primary-color;
+    }
+  }
+}
+
+.scroll-floating-basket__price-count {
+  font-size: 12px;
+  color: #666;
+}
+
+.scroll-floating-basket-price-wrap {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: justify;
+  -webkit-justify-content: space-between;
+  -ms-flex-pack: justify;
+  justify-content: space-between;
+}
+
+.scroll-floating-basket__close {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  right: 11px;
+  top: 13px;
+  cursor: pointer;
+
+  &:hover {
+    svg {
+      fill: @primary-color;
+    }
+  }
+
+  svg {
+    fill: #333;
+  }
+}
+
+.scroll-floating-basket-table {
+  border-bottom: 17px solid transparent;
+  -webkit-border-image: url('../img/update/basket-border.png') 17 round round;
+  -o-border-image: url('../img/update/basket-border.png') 17 round round;
+  border-image: url('../img/update/basket-border.png') 17 round round;
+  margin-bottom: 12px;
+  padding-bottom: 12px;
+}
+
+.scroll-floating-basket__lnk {
+  display: inline-block;
+  color: #fff;
+  background-color: @primary-color;
+  height: 40px;
+  line-height: 40px;
+  padding: 0 30px;
+  border-radius: 3px;
+  margin-bottom: 20px;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: bold;
+
+  &:hover {
+    background-color: darken(@primary-color, 15%);
+    color: #fff;
+  }
+}
+
+.basket-under-header {
+  -webkit-transition: .3s;
+  -o-transition: .3s;
+  transition: .3s;
+  z-index: -20;
+  position: relative;
+  opacity: 0;
+
+  &.active {
+    z-index: 400;
+    opacity: 1;
+  }
+
+  .container {
+    position: relative;
+  }
+}
+
+@media all and (max-width: 1024px) {
+  .mCSB_scrollTools.mCSB_scrollTools_horizontal {
+    bottom: 24px;
+  }
+}
