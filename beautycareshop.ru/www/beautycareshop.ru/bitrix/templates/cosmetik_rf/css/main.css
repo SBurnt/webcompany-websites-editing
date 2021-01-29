@@ -2543,6 +2543,11 @@ input.num-product::-webkit-inner-spin-button {
 }
 
 @media (max-width: 767px) {
+  .page-title {
+    margin-top: 40px;
+    font-size: 20px;
+  }
+
   .wrap_header_mobile {
     padding-top: 0;
     padding-bottom: 0;

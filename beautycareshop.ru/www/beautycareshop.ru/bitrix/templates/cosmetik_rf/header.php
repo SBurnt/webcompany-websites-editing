@@ -139,17 +139,6 @@ use Bitrix\Main\Page\Asset;
 					</span>
 				</div>
 			</div>
-			<div style="display: none;width: 100%;background-color: #fff;padding: 10px;padding-left: 55px;">
-				<?$APPLICATION->IncludeComponent(
-					"bitrix:breadcrumb",
-					"universal_webcompany",
-					Array(
-						"PATH" => "",
-						"SITE_ID" => "s1",
-						"START_FROM" => "0"
-					)
-				);?>
-			</div>
 			<div class="wrap_header">
 				<!-- Logo -->
 				<a href="/" class="logo">
@@ -337,7 +326,8 @@ use Bitrix\Main\Page\Asset;
 		),
 		false
 	); ?>
-	<?global $USER;
+	<?
+/*global $USER;
 if ($USER->IsAdmin()){
      if ($APPLICATION->GetCurPage(false) !== '/'):?>
 	<h1>
@@ -352,4 +342,19 @@ if ($USER->IsAdmin()){
             false
         );?>
 	<?endif;
-} ?>
+}*/?>
+	<? if ($APPLICATION->GetCurPage(false) !== '/'){?>
+<div class="container" style="padding-top: 20px;">
+<?$APPLICATION->IncludeComponent("bitrix:breadcrumb", "universal_webcompany", Array(
+            "PATH" => "",	// Путь, для которого будет построена навигационная цепочка (по умолчанию, текущий путь)
+                "SITE_ID" => "s1",	// Cайт (устанавливается в случае многосайтовой версии, когда DOCUMENT_ROOT у сайтов разный)
+                "START_FROM" => "0",	// Номер пункта, начиная с которого будет построена навигационная цепочка
+                "COMPONENT_TEMPLATE" => "universal"
+            ),
+            false
+        );?>
+</div>
+<div class="container">
+	<h2 class="page-title"><?$APPLICATION->ShowTitle()?></h2>
+</div>
+	<?}?>
