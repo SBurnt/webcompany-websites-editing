@@ -35,6 +35,7 @@ use Bitrix\Main\Page\Asset;
 	<?Asset::getInstance()->addCss(SITE_TEMPLATE_PATH.'/css/util.css');?>
 	<?Asset::getInstance()->addCss(SITE_TEMPLATE_PATH.'/css/main.css');?>
 	<?Asset::getInstance()->addCss(SITE_TEMPLATE_PATH.'/css/bootstrap.css');?>
+	<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css">
 
 	<!--    <link rel="stylesheet" type="text/css" href="-->
 	<?//= SITE_TEMPLATE_PATH ?>

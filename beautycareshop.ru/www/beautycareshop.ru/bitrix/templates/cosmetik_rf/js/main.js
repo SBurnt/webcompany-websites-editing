@@ -89,12 +89,12 @@
 
         if($(this).scrollTop() >= posWrapHeader) {
             $('.header1').addClass('fixed-header');
-            $(header).css('top',-posWrapHeader); 
+            // $(header).css('top',-posWrapHeader); 
 
         }  
         else {
             var x = - $(this).scrollTop(); 
-            $(header).css('top',x); 
+            // $(header).css('top',x); 
             $('.header1').removeClass('fixed-header');
         } 
 

@@ -877,20 +877,20 @@ $(document).ready(function () {
 
     //копирование телефонов в мобильную версию из шапки
 
-    mobilePhone();
+    // mobilePhone();
 
-    function mobilePhone() {
-        var $phonesSource = $('.center-bar .header-phone-wrap a'),
-            $ul = $('<ul class="mobile-menu__phones-list"></ul>');
+    // function mobilePhone() {
+    //     var $phonesSource = $('.center-bar .header-phone-wrap a'),
+    //         $ul = $('<ul class="mobile-menu__phones-list"></ul>');
 
-        $phonesSource.each(function () {
-            $ul.append($('<li>' + $(this).get(0).outerHTML + '</li>'));
-        });
+    //     $phonesSource.each(function () {
+    //         $ul.append($('<li>' + $(this).get(0).outerHTML + '</li>'));
+    //     });
 
-        $('.mobile-menu__callback-hidden').prepend($ul);
+    //     $('.mobile-menu__callback-hidden').prepend($ul);
 
-        $('.mobile-menu__phones-list').find('a').removeClass().addClass('mobile-menu__phones');
-    }
+    //     $('.mobile-menu__phones-list').find('a').removeClass().addClass('mobile-menu__phones');
+    // }
 
     hasBasket();
 
